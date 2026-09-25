@@ -59,136 +59,156 @@ The same capabilities that can weaken accountability can also be used to strengt
 
 ## Work Packages
 
-![@fig-loop, unchanged, with the work packages added as a grey background layer, each linked by an arrow to the component or output it operationalizes.](figures/fig2_wp_derivation.png){#fig-wp width=6.5in}
+![Our conceptual framework with the work packages added as a grey background layer.](figures/fig2_wp_derivation.png){#fig-wp width=6.5in}
 
-Rules for WP development: every lead is also a task leader on a different work package, so expertise is not in silos. Second, duality: every work package diagnoses both how AI disrupts its topic as a risk factor and how that same disruption can be redirected as a benefit for citizens and democracy, rather than defaulting to the negative reading alone. Third, outreach: every work package delivers a policy-relevant product built for actual use, typically a public-facing digital tool, dashboard, or toolkit, alongside its academic output. Fourth, equity: WP9 is dedicated to the cross-group equity the call highlights, but every work package's own risk/benefit split is read across social groups, not just in aggregate.
+Rules for WP development: every lead is also a task leader on a different work package, so expertise is not in silos. Second, duality: every work package diagnoses both how AI disrupts its topic as a risk factor and how that same disruption can be redirected as a benefit for citizens and democracy, rather than defaulting to the negative reading alone. Third, outreach: every work package delivers a policy-relevant product built for actual use, typically a public-facing digital tool, dashboard, or toolkit, alongside its academic output. Fourth, equity: WP9 is dedicated to the cross-group equity the call highlights, but every work package's own risk/benefit split is read across social groups, not just in aggregate. Fifth, budget is preliminary for now but will be fairly distributed across WPs/tasks.
 
-```{=latex}
-\scriptsize
-```
+### WP1: Framework
 
-+-----+---------------------+----------------------------------------------+-------------------+
-|WP   |Name                 |Tasks & Deliverables                          |Lead               |
-+=====+=====================+==============================================+===================+
-|WP1  |Framework            | - Risk/Benefit: conceptualization of a       |Maerz, Sanhueza    |
-|     |                     |   framework which accounts for both AI's     |Petrarca, Groemping|
-|     |                     |   risks to democratic resilience and its     |                   |
-|     |                     |   potential to strengthen it, replacing      |                   |
-|     |                     |   fragmented, ad hoc diagnoses               |                   |
-|     |                     | - Tasks: synthesize literature across        |                   |
-|     |                     |   political science and AI research, and     |                   |
-|     |                     |   build a shared coding scheme and           |                   |
-|     |                     |   comparative cases in the EU, Australia, and|                   |
-|     |                     |   Southeast Asia/Pacific                     |                   |
-|     |                     | - Output: framework paper, policy briefs, and|                   |
-|     |                     |   the Resilience Diagnostic (a web tool      |                   |
-|     |                     |   scoring AI's risk to a country's           |                   |
-|     |                     |   institutions)                              |                   |
-+-----+---------------------+----------------------------------------------+-------------------+
-|WP2  |Citizen Trust        | - Risk/Benefit: AI erodes political trust vs.|Sanhueza Petrarca, |
-|     |                     |   AI-assisted tools rebuild it once          |Jackman, Kolczynska|
-|     |                     |   calibrated                                 |                   |
-|     |                     | - Tasks: field panel surveys and survey      |                   |
-|     |                     |   experiments testing how AI-generated       |                   |
-|     |                     |   content and AI transparency labels shift   |                   |
-|     |                     |   institutional trust                        |                   |
-|     |                     | - Output: public-trust index,                |                   |
-|     |                     |   electoral-commission brief, and            |                   |
-|     |                     |   trust-tracker dashboard                    |                   |
-+-----+---------------------+----------------------------------------------+-------------------+
-|WP3  |Deliberative         | - Risk/Benefit: AI can fake consensus vs.    |Kolczynska, Webb,  |
-|     |Democracy Pilot      |   structured AI helps find genuine common    |Hovy, Kashima,     |
-|     |                     |   ground                                     |Notely             |
-|     |                     | - Tasks: design and field-test an            |                   |
-|     |                     |   AI-moderated deliberation platform in live |                   |
-|     |                     |   citizen assemblies, comparing it against   |                   |
-|     |                     |   human-facilitated sessions                 |                   |
-|     |                     | - Output: participation toolkit, paper, and  |                   |
-|     |                     |   the AI-moderated deliberation platform     |                   |
-+-----+---------------------+----------------------------------------------+-------------------+
-|WP4  |Disinformation       | - Risk/Benefit: AI floods the public sphere  |Carson, Glazunova, |
-|     |Monitoring           |   vs. same detection powers real-time        |de Kock, Wilson,   |
-|     |                     |   integrity signals                          |fact-checking      |
-|     |                     | - Tasks: build a cross-country detection     |civil-society      |
-|     |                     |   pipeline for AI-generated disinformation,  |organisation       |
-|     |                     |   validated against partner fact-checkers'   |                   |
-|     |                     |   assessments                                |                   |
-|     |                     | - Output: FAIR dataset, regulator brief, and |                   |
-|     |                     |   fact-check toolkit for newsrooms           |                   |
-+-----+---------------------+----------------------------------------------+-------------------+
-|WP5  |Evidence Integrity   | - Risk/Benefit: AI fabricates evidence vs.   |Groemping, O'Brien,|
-|     |                     |   same certification logic verifies it       |Koenig             |
-|     |                     | - Tasks: develop a provenance-tagging and    |                   |
-|     |                     |   certification protocol for AI-generated    |                   |
-|     |                     |   versus human-verified evidence, tested with|                   |
-|     |                     |   newsroom partners                          |                   |
-|     |                     | - Output: paper, certification toolkit, and  |                   |
-|     |                     |   public verification API                    |                   |
-+-----+---------------------+----------------------------------------------+-------------------+
-|WP6  |Repression Monitoring| - Risk/Benefit: AI hits weakest-oversight    |Wilson, Knutsen,   |
-|     |                     |   states hardest vs. same tools become early |Croissant,         |
-|     |                     |   warning                                    |Sombatpoonsiri,    |
-|     |                     | - Tasks: track AI-enabled surveillance and   |Maerz              |
-|     |                     |   censorship deployed by backsliding states, |                   |
-|     |                     |   combining expert coding with automated     |                   |
-|     |                     |   media monitoring                           |                   |
-|     |                     | - Output: paper and early-warning dashboard  |                   |
-|     |                     |   for human-rights monitors                  |                   |
-+-----+---------------------+----------------------------------------------+-------------------+
-|WP7  |AI Governance        | - Risk/Benefit: opaque or unenforced AI      |Koenig             |
-|     |                     |   governance regimes let institutions evade  |                   |
-|     |                     |   scrutiny vs. transparency and audit        |                   |
-|     |                     |   mandates make AI-mediated decisions        |                   |
-|     |                     |   checkable                                  |                   |
-|     |                     | - Tasks: compare how AI governance regimes   |                   |
-|     |                     |   across the EU, Australia, and Southeast    |                   |
-|     |                     |   Asia/Pacific mandate, or fail to mandate,  |                   |
-|     |                     |   transparency, audit, and redress for       |                   |
-|     |                     |   AI-mediated institutional decisions        |                   |
-|     |                     | - Output: policy recommendations, paper, and |                   |
-|     |                     |   regulatory-comparison tracker              |                   |
-+-----+---------------------+----------------------------------------------+-------------------+
-|WP8  |Resilience Radar     | - Risk/Benefit: no common metrics let AI's   |Sebok, Croissant,  |
-|     |                     |   cross-country effects go unchecked vs. a   |Maerz              |
-|     |                     |   shared LLM-powered radar flags erosion and |                   |
-|     |                     |   improvement as it happens                  |                   |
-|     |                     | - Tasks: integrate WP2-WP7 indicators into   |                   |
-|     |                     |   one cross-country panel and train an LLM   |                   |
-|     |                     |   classifier to flag resilience shifts in    |                   |
-|     |                     |   near-real time                             |                   |
-|     |                     | - Output: methods paper, FAIR toolkit, and   |                   |
-|     |                     |   the Resilience Radar (an LLM-powered       |                   |
-|     |                     |   dashboard scanning political AI outputs    |                   |
-|     |                     |   across countries)                          |                   |
-+-----+---------------------+----------------------------------------------+-------------------+
-|WP9  |Equitable AI Literacy| - Risk/Benefit: AI literacy and accessible   |Tactical Tech,     |
-|     |                     |   tooling are unevenly available across      |Notely, Williams   |
-|     |                     |   social groups vs. targeted AI-literacy     |                   |
-|     |                     |   programmes close that gap directly         |                   |
-|     |                     | - Tasks: co-design and pilot AI-literacy     |                   |
-|     |                     |   training with underserved communities,     |                   |
-|     |                     |   testing which formats close the observed   |                   |
-|     |                     |   gap fastest                                |                   |
-|     |                     | - Output: an accessible AI-literacy          |                   |
-|     |                     |   curriculum and training toolkit, plus a    |                   |
-|     |                     |   paper on the equity gap in AI-mediated     |                   |
-|     |                     |   participation                              |                   |
-+-----+---------------------+----------------------------------------------+-------------------+
-|WP10 |Public Engagement &  | - Risk/Benefit: diagnoses miss exposed       |Maerz, UniMelb     |
-|     |Dissemination        |   citizens vs. field-tested tools building   |Research Office,   |
-|     |                     |   practiced resilience                       |Tactical Tech      |
-|     |                     | - Tasks: translate WP1-WP9 findings into the |                   |
-|     |                     |   public companion app, run policymaker and  |                   |
-|     |                     |   civil-society workshops, and coordinate    |                   |
-|     |                     |   final reporting                            |                   |
-|     |                     | - Output: Resilience Companion app launch,   |                   |
-|     |                     |   brief compendium, and final report         |                   |
-+-----+---------------------+----------------------------------------------+-------------------+
+**Research question:** How can AI's risks to democratic resilience and its potential to strengthen it be captured in one shared framework, replacing fragmented, ad hoc assessments?
 
-```{=latex}
-\normalsize
-```
+**Lead:** Maerz, Sanhueza Petrarca, Groemping · **Impact:** gives every other WP a common vocabulary and a public-facing tool to score a country's exposure to AI-driven democratic erosion.
 
-Table: Conceptual framework and proposed work packages for the Horizon Europe bid.
+- **Task 1.1: Synthesizing the literature** — Which concepts from political science and AI research does a shared framework need to reconcile? Output: a literature synthesis spanning both fields.
+
+- **Task 1.2: Building a shared coding scheme** — How should "risk" and "benefit" be operationalized consistently across all other WPs? Output: a shared coding scheme used project-wide.
+
+- **Task 1.3: Selecting comparative cases** — Which cases in the EU, Australia, and Southeast Asia/Pacific give the fullest range of AI's disruptive power? Output: the project's comparative case selection.
+
+- **Task 1.4: Building the diagnostic tool** — How can the framework be made usable outside academia? Output: the framework paper, policy briefs, and the Resilience Diagnostic web tool.
+
+**Preliminary budget:** €300,000 (preliminary — total project budget ÷ 10 WPs).
+
+### WP2: Citizen Trust
+
+**Research question:** Does exposure to AI-generated political content erode citizens' trust in democratic institutions, and can calibrated AI transparency tools rebuild it?
+
+**Lead:** Sanhueza Petrarca, Jackman, Kolczynska · **Impact:** gives electoral commissions and civic educators an evidence-based, field-tested way to counter AI-driven trust erosion rather than guessing at it.
+
+- **Task 2.1: Measuring the erosion** — How much does exposure to AI-generated political content shift citizens' trust in specific institutions? Output: a panel survey measuring trust before and after exposure, feeding the public-trust index.
+
+- **Task 2.2: Testing what rebuilds it** — Which AI transparency labels actually restore trust rather than just adding noise? Output: a survey experiment comparing labelling designs.
+
+- **Task 2.3: Making it usable for institutions** — What should an electoral commission actually do with these findings? Output: an electoral-commission brief translating the evidence into practice.
+
+- **Task 2.4: Tracking it over time** — How does trust move as AI content and countermeasures evolve? Output: a public trust-tracker dashboard.
+
+**Preliminary budget:** €300,000 (preliminary — total project budget ÷ 10 WPs).
+
+### WP3: Deliberative Democracy Pilot
+
+**Research question:** Can a structured AI moderator help citizen assemblies find genuine common ground, or does it just manufacture the appearance of consensus?
+
+**Lead:** Kolczynska, Webb, Hovy, Kashima, Notely · **Impact:** gives practitioners a tested, field-ready alternative to purely human-facilitated deliberation, with evidence on where AI moderation helps and where it fails.
+
+- **Task 3.1: Designing the platform** — What does an AI moderator need to do differently from a recommendation algorithm to support rather than distort deliberation? Output: the AI-moderated deliberation platform design.
+
+- **Task 3.2: Running the live pilot** — Does AI moderation change what citizen assemblies actually discuss and agree on? Output: live citizen-assembly pilots run in parallel with human-facilitated sessions.
+
+- **Task 3.3: Comparing outcomes** — Where does AI-moderated consensus hold up under scrutiny, and where does it just look like agreement? Output: the comparative paper and a participation-design toolkit for practitioners.
+
+**Preliminary budget:** €300,000 (preliminary — total project budget ÷ 10 WPs).
+
+### WP4: Disinformation Monitoring
+
+**Research question:** Can the same generative capability that floods the public sphere with AI-made disinformation be turned into a real-time detection signal for the institutions meant to correct it?
+
+**Lead:** Carson, Glazunova, de Kock, Wilson, fact-checking civil-society organisation · **Impact:** gives regulators and newsrooms a validated, shared detection layer instead of each acting on its own unverified judgment calls.
+
+- **Task 4.1: Building the pipeline** — What signals reliably distinguish AI-generated disinformation from ordinary misleading content, across countries? Output: the cross-country detection pipeline.
+
+- **Task 4.2: Validating against real judgments** — Does the pipeline's flagging match what professional fact-checkers actually conclude? Output: validation against partner fact-checkers' assessments, producing the FAIR dataset.
+
+- **Task 4.3: Getting it into institutional hands** — What do regulators need from a detection signal to act on it? Output: the regulator brief.
+
+- **Task 4.4: Getting it into newsroom hands** — What do time-pressed newsrooms need from a detection signal to use it daily? Output: the fact-check toolkit for newsrooms.
+
+**Preliminary budget:** €300,000 (preliminary — total project budget ÷ 10 WPs).
+
+### WP5: Evidence Integrity
+
+**Research question:** Can a certification protocol distinguish AI-fabricated evidence from human-verified evidence reliably enough for newsrooms and the public to trust it?
+
+**Lead:** Groemping, O'Brien, Koenig · **Impact:** gives citizens and journalists a shared, checkable standard for what counts as verified evidence in an environment where fabrication is cheap.
+
+- **Task 5.1: Designing the protocol** — What provenance markers can reliably separate AI-generated from human-verified evidence? Output: the provenance-tagging and certification protocol.
+
+- **Task 5.2: Testing it with real users** — Does the protocol hold up when newsroom partners actually try to use it under deadline pressure? Output: field-testing with newsroom partners, feeding the paper.
+
+- **Task 5.3: Making it publicly checkable** — How can anyone, not just partner newsrooms, verify a piece of evidence's certification status? Output: the certification toolkit and public verification API.
+
+**Preliminary budget:** €300,000 (preliminary — total project budget ÷ 10 WPs).
+
+### WP6: Repression Monitoring
+
+**Research question:** Does AI-enabled surveillance and censorship concentrate hardest in states with the weakest oversight, and can tracking that pattern itself become an early-warning signal?
+
+**Lead:** Wilson, Knutsen, Croissant, Sombatpoonsiri, Maerz · **Impact:** gives human-rights monitors a standing, updated signal instead of relying on episodic, after-the-fact reporting.
+
+- **Task 6.1: Tracking deployment** — Which AI-enabled surveillance and censorship tools are backsliding states actually deploying, and where? Output: expert-coded tracking across cases.
+
+- **Task 6.2: Automating the signal** — Can automated media monitoring catch deployment as it happens, rather than months later? Output: the automated media-monitoring component.
+
+- **Task 6.3: Turning tracking into warning** — What pattern in this tracking data actually predicts further backsliding, early enough to act on? Output: the paper and the early-warning dashboard for human-rights monitors.
+
+**Preliminary budget:** €300,000 (preliminary — total project budget ÷ 10 WPs).
+
+### WP7: AI Governance
+
+**Research question:** Do existing AI governance regimes actually require the transparency, audit, and redress that informational accountability depends on, or do they leave institutions free to evade scrutiny?
+
+**Lead:** Koenig · **Impact:** gives policymakers a concrete, comparative basis for closing the gap between what AI governance promises and what it actually enforces.
+
+- **Task 7.1: Mapping what's on the books** — What do AI governance regimes in the EU, Australia, and Southeast Asia/Pacific formally require of AI-mediated institutional decisions? Output: the regulatory-comparison tracker.
+
+- **Task 7.2: Testing enforcement** — Which of these formal requirements are actually enforced, and which are checkbox compliance? Output: the comparative paper.
+
+- **Task 7.3: Identifying what travels** — Which accountability provisions transfer across very different regulatory contexts, and which don't? Output: policy recommendations.
+
+**Preliminary budget:** €300,000 (preliminary — total project budget ÷ 10 WPs).
+
+### WP8: Resilience Radar
+
+**Research question:** Can the separate indicators produced across WP2–WP7 be integrated into one shared panel sensitive enough to flag democratic-resilience shifts as they happen, rather than after the fact?
+
+**Lead:** Sebok, Croissant, Maerz · **Impact:** turns findings that would otherwise sit in separate WP silos into one standing, cross-country monitoring instrument.
+
+- **Task 8.1: Integrating the indicators** — How compatible are the indicators coming out of WP2–WP7, and what does it take to put them on one common panel? Output: the integrated cross-country panel.
+
+- **Task 8.2: Building the classifier** — Can an LLM classifier trained on this panel reliably distinguish real resilience shifts from noise? Output: the trained LLM classifier and methods paper.
+
+- **Task 8.3: Making it public** — How should this signal be presented so outside users can actually act on it? Output: the FAIR toolkit and the Resilience Radar dashboard.
+
+**Preliminary budget:** €300,000 (preliminary — total project budget ÷ 10 WPs).
+
+### WP9: Equitable AI Literacy
+
+**Research question:** Which AI-literacy training formats actually close the gap in underserved communities' capacity to identify and contest AI-mediated content, rather than just reaching those already equipped to cope?
+
+**Lead:** Tactical Tech, Notely, Williams · **Impact:** turns equity from an aggregate afterthought into WP9's direct object, giving underserved communities the same practical capacity to contest AI-mediated decisions that better-resourced groups already have.
+
+- **Task 9.1: Co-designing with the communities affected** — What do underserved communities themselves identify as the gap in their ability to engage with AI-mediated content? Output: co-designed curriculum content.
+
+- **Task 9.2: Piloting formats head-to-head** — Which training formats and delivery modes, tested against each other, close the gap fastest? Output: the pilot comparing formats.
+
+- **Task 9.3: Packaging what works** — How can the format that works best be packaged for reuse beyond the pilot communities? Output: the accessible AI-literacy curriculum and training toolkit.
+
+- **Task 9.4: Documenting the gap** — How large is the equity gap in AI-mediated participation, and how much does it close? Output: the paper on the equity gap.
+
+**Preliminary budget:** €300,000 (preliminary — total project budget ÷ 10 WPs).
+
+### WP10: Public Engagement & Dissemination
+
+**Research question:** How can the diagnoses and tools produced across WP1–WP9 reach the citizens, policymakers, and civil-society actors who are actually exposed to AI's disruption of democratic resilience?
+
+**Lead:** Maerz, UniMelb Research Office, Tactical Tech · **Impact:** closes the loop between diagnosis and use, so the project's findings change practice rather than sitting in academic outputs alone.
+
+- **Task 10.1: Building the public-facing tool** — How can nine WPs' worth of technical findings become one usable app for ordinary citizens? Output: the Resilience Companion app launch.
+
+- **Task 10.2: Reaching policymakers and civil society** — What do policymakers and civil-society partners need from this project to actually act on it? Output: policymaker and civil-society workshops, and the brief compendium.
+
+- **Task 10.3: Closing out the project** — How is the full body of findings synthesized and reported to funders and partners? Output: the final report.
+
+**Preliminary budget:** €300,000 (preliminary — total project budget ÷ 10 WPs).
 
 ## References
