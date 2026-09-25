@@ -1,0 +1,194 @@
+---
+title: "Democratic resilience in the age of AI (DEMRESAI)"
+subtitle: "Conceptual framework and proposed WPs for the Horizon Europe bid"
+author:
+  - Max Groemping
+  - Seraphine Maerz
+  - Constanza Sanhueza Petrarca
+date: 2026-09-25
+format:
+  pdf:
+    documentclass: article
+    fontsize: 11pt
+    geometry: margin=1in
+    linestretch: 1.1
+    number-sections: true
+    colorlinks: true
+    toc: false
+    keep-tex: false
+  docx:
+    reference-doc: templates/word-reference-wide.docx
+    number-sections: true
+    toc: false
+bibliography: literature/references.bib
+csl: templates/apa.csl
+---
+
+We define democratic resilience as a political system's capacity to sustain or restore its core democratic qualities under pressure [@biddleetal2025; @boeseetal2021; @merkel2026; @croissantlott2025; @luhrmann2021]. We study it as a citizen–information–institution loop [@easton1965]: citizen demands are the input, institutions convert them into decisions through a throughput process, and the resulting output feeds back to citizens as the next round of input. Following the classical distinction between what citizens do, what carries information between citizens and institutions, and what institutions do [@almondpowell1966], we split the loop into three components: informational autonomy, informational integrity, and informational accountability.
+
+Informational autonomy is citizens' capacity to form and act on their own judgments [@dahl1989democracy; @andersonpro2026]. Informational integrity is the accuracy and plurality of the shared evidence base and information ecosystems citizens and institutions draw on [@habermas1962strukturwandel; @dahl1989democracy]. Informational accountability is institutions' exposure to being checked and corrected [@schedler1999conceptualizing; @bovens2007analysing]. Resilience requires all three to work equitably: when only the best-resourced can claim autonomy, integrity, or accountability, that inequality makes democratic backsliding more likely [@lührmannlindberg2019; @merkellührmann2021].
+
+Artificial intelligence disrupts this loop directly, reshaping how citizens form judgments and how institutions are scrutinised [@jungherr2023; @Kreps2023; @Farrell2026; @wiewiuraetal2026]. Three forms carry this disruption: generative AI, which fabricates content; ranking and recommendation systems, which shape what is seen; and agentic AI, which increasingly executes rather than just informs decisions [@Schmid2026]. Each is dual-use: the same capability that erodes a component by default can strengthen it by design [@Noveck2026; @Ovadya2023; @Cavaliere2022; @koenigwenz2022].
+
+Our goal is to diagnose this erosion and build the tools that reverse it. We pilot these tools in the EU and Australia — two consolidated democracies with different regulatory starting points — and extend the diagnosis to Southeast Asia and the Pacific's hybrid and backsliding cases, capturing the fuller range of AI's disruptive power.
+
+![Easton's (1965) feedback loop, regrouped into the three informational components this project focuses on, with different forms of AI as disruption.](figures/fig_combined_loop.png){#fig-loop width=7in}
+
+@fig-loop illustrates how we conceptualize democratic resilience through the lens of informational autonomy, integrity, and accountability, and how different forms of AI disrupt the loop.
+
+## Informational Autonomy — Citizens
+
+*[Constanza to add]*
+
+Relevant literature Seraphine identified and tagged in Mendeley: @andersonpro2026; @Croce2025; @konig2023; @Ohren2026; @Ovadya2023.
+
+## Informational Integrity — The Shared Environment
+
+*[Max to add]*
+
+Relevant literature Seraphine identified and tagged in Mendeley: @Lundberg2025; @Dan2019; @Bhandari2025; @Kay2024.
+
+## Informational Accountability — Institutions
+
+Democratic accountability is institutions' exposure to being checked and corrected: the separation of legislative, executive, and judicial power, alongside the press and other actors that monitor them [@schultz1998]. Accountability has two parts — an obligation to explain and justify conduct, and the capacity of others to sanction or correct it when that justification fails [@schedler1999conceptualizing; @bovens2007analysing; @Luhrmann2020]. An institution that explains itself without ever facing consequences is not accountable, and neither is one that can be sanctioned but is never required to answer. Both depend on information. Institutions must make their actions and the reasons for them sufficiently visible and well explained for others to critically assess them. These critical assessors must then be able to use that information to question, contest, and, where necessary, correct or sanction the institution. We therefore refer to this as informational accountability: the informational conditions through which institutions become answerable to those with the authority or capacity to check them. 
+
+Artificial intelligence can weaken informational accountability by making responsibility for public decisions harder to trace. As public administrations increasingly rely on AI-mediated information and decisions, it can become more difficult to determine who is responsible for a decision, on what information it was based, and how it can be challenged or corrected [@margettsdorobantu2019]. Hence, AI can negatively affect the public sphere and widen power asymmetries between citizens and institutions [@Nasi2025], reshape elections and the institutional mechanisms through which accountability operates [@jungherr2023; @summerfieldetal2025], and more broadly undermine democratic processes [@Kreps2023; @jackson2025realdangers; @altman2026], while also being deployed directly as a tool of authoritarian control [@feldstein2021; @garbemaerz2025]. Apart from that, the capacity to demand accountability is itself unevenly distributed: well-resourced and organised interests can compel institutions to provide information, justify decisions, or correct wrongdoing far more effectively than small civil-society groups. This makes the transparency and contestability of AI-mediated decisions particularly consequential for citizens who have the fewest resources with which to scrutinise them [@jungherr2023].
+
+The same capabilities that can weaken accountability can also be used to strengthen it. This requires designing AI as *democratic AI*: systems developed around democratic requirements such as transparency, traceability, explanation, critical assessmnet, and opportunities for correction, rather than treating these as safeguards to be added after deployment [@Noveck2026; @busuioc2021]. Audit and transparency tools can make AI-mediated decisions traceable, while institutional arrangements can ensure that those decisions and their underlying reasons remain open for critical investigations [@Cavaliere2022; @beckmanetal2024; @wieringa2020]. AI can thus become not only an object of accountability but also an instrument for strengthening it, by reducing some of the informational and analytical costs of oversight and enabling citizens and civil-society organisations to evaluate and challenge public decisions [@Noveck2026; @Cavaliere2022; @koenigwenz2022]. Designed in this way, AI has the potential to narrow rather than widen existing asymmetries in the capacity to hold institutions to account.
+
+
+## Work Packages
+
+![@fig-loop, unchanged, with the work packages added as a grey background layer, each linked by an arrow to the component or output it operationalizes.](figures/fig2_wp_derivation.png){#fig-wp width=6.5in}
+
+Rules for WP development: every lead is also a task leader on a different work package, so expertise is not in silos. Second, duality: every work package diagnoses both how AI disrupts its topic as a risk factor and how that same disruption can be redirected as a benefit for citizens and democracy, rather than defaulting to the negative reading alone. Third, outreach: every work package delivers a policy-relevant product built for actual use, typically a public-facing digital tool, dashboard, or toolkit, alongside its academic output. Fourth, equity: WP9 is dedicated to the cross-group equity the call highlights, but every work package's own risk/benefit split is read across social groups, not just in aggregate.
+
+```{=latex}
+\scriptsize
+```
+
++-----+---------------------+----------------------------------------------+-------------------+
+|WP   |Name                 |Tasks & Deliverables                          |Lead               |
++=====+=====================+==============================================+===================+
+|WP1  |Framework            | - Risk/Benefit: conceptualization of a       |Maerz, Sanhueza    |
+|     |                     |   framework which accounts for both AI's     |Petrarca, Groemping|
+|     |                     |   risks to democratic resilience and its     |                   |
+|     |                     |   potential to strengthen it, replacing      |                   |
+|     |                     |   fragmented, ad hoc diagnoses               |                   |
+|     |                     | - Tasks: synthesize literature across        |                   |
+|     |                     |   political science and AI research, and     |                   |
+|     |                     |   build a shared coding scheme and           |                   |
+|     |                     |   comparative cases in the EU, Australia, and|                   |
+|     |                     |   Southeast Asia/Pacific                     |                   |
+|     |                     | - Output: framework paper, policy briefs, and|                   |
+|     |                     |   the Resilience Diagnostic (a web tool      |                   |
+|     |                     |   scoring AI's risk to a country's           |                   |
+|     |                     |   institutions)                              |                   |
++-----+---------------------+----------------------------------------------+-------------------+
+|WP2  |Citizen Trust        | - Risk/Benefit: AI erodes political trust vs.|Sanhueza Petrarca, |
+|     |                     |   AI-assisted tools rebuild it once          |Jackman, Kolczynska|
+|     |                     |   calibrated                                 |                   |
+|     |                     | - Tasks: field panel surveys and survey      |                   |
+|     |                     |   experiments testing how AI-generated       |                   |
+|     |                     |   content and AI transparency labels shift   |                   |
+|     |                     |   institutional trust                        |                   |
+|     |                     | - Output: public-trust index,                |                   |
+|     |                     |   electoral-commission brief, and            |                   |
+|     |                     |   trust-tracker dashboard                    |                   |
++-----+---------------------+----------------------------------------------+-------------------+
+|WP3  |Deliberative         | - Risk/Benefit: AI can fake consensus vs.    |Kolczynska, Webb,  |
+|     |Democracy Pilot      |   structured AI helps find genuine common    |Hovy, Kashima,     |
+|     |                     |   ground                                     |Notely             |
+|     |                     | - Tasks: design and field-test an            |                   |
+|     |                     |   AI-moderated deliberation platform in live |                   |
+|     |                     |   citizen assemblies, comparing it against   |                   |
+|     |                     |   human-facilitated sessions                 |                   |
+|     |                     | - Output: participation toolkit, paper, and  |                   |
+|     |                     |   the AI-moderated deliberation platform     |                   |
++-----+---------------------+----------------------------------------------+-------------------+
+|WP4  |Disinformation       | - Risk/Benefit: AI floods the public sphere  |Carson, Glazunova, |
+|     |Monitoring           |   vs. same detection powers real-time        |de Kock, Wilson,   |
+|     |                     |   integrity signals                          |fact-checking      |
+|     |                     | - Tasks: build a cross-country detection     |civil-society      |
+|     |                     |   pipeline for AI-generated disinformation,  |organisation       |
+|     |                     |   validated against partner fact-checkers'   |                   |
+|     |                     |   assessments                                |                   |
+|     |                     | - Output: FAIR dataset, regulator brief, and |                   |
+|     |                     |   fact-check toolkit for newsrooms           |                   |
++-----+---------------------+----------------------------------------------+-------------------+
+|WP5  |Evidence Integrity   | - Risk/Benefit: AI fabricates evidence vs.   |Groemping, O'Brien,|
+|     |                     |   same certification logic verifies it       |Koenig             |
+|     |                     | - Tasks: develop a provenance-tagging and    |                   |
+|     |                     |   certification protocol for AI-generated    |                   |
+|     |                     |   versus human-verified evidence, tested with|                   |
+|     |                     |   newsroom partners                          |                   |
+|     |                     | - Output: paper, certification toolkit, and  |                   |
+|     |                     |   public verification API                    |                   |
++-----+---------------------+----------------------------------------------+-------------------+
+|WP6  |Repression Monitoring| - Risk/Benefit: AI hits weakest-oversight    |Wilson, Knutsen,   |
+|     |                     |   states hardest vs. same tools become early |Croissant,         |
+|     |                     |   warning                                    |Sombatpoonsiri,    |
+|     |                     | - Tasks: track AI-enabled surveillance and   |Maerz              |
+|     |                     |   censorship deployed by backsliding states, |                   |
+|     |                     |   combining expert coding with automated     |                   |
+|     |                     |   media monitoring                           |                   |
+|     |                     | - Output: paper and early-warning dashboard  |                   |
+|     |                     |   for human-rights monitors                  |                   |
++-----+---------------------+----------------------------------------------+-------------------+
+|WP7  |AI Governance        | - Risk/Benefit: opaque or unenforced AI      |Koenig             |
+|     |                     |   governance regimes let institutions evade  |                   |
+|     |                     |   scrutiny vs. transparency and audit        |                   |
+|     |                     |   mandates make AI-mediated decisions        |                   |
+|     |                     |   checkable                                  |                   |
+|     |                     | - Tasks: compare how AI governance regimes   |                   |
+|     |                     |   across the EU, Australia, and Southeast    |                   |
+|     |                     |   Asia/Pacific mandate, or fail to mandate,  |                   |
+|     |                     |   transparency, audit, and redress for       |                   |
+|     |                     |   AI-mediated institutional decisions        |                   |
+|     |                     | - Output: policy recommendations, paper, and |                   |
+|     |                     |   regulatory-comparison tracker              |                   |
++-----+---------------------+----------------------------------------------+-------------------+
+|WP8  |Resilience Radar     | - Risk/Benefit: no common metrics let AI's   |Sebok, Croissant,  |
+|     |                     |   cross-country effects go unchecked vs. a   |Maerz              |
+|     |                     |   shared LLM-powered radar flags erosion and |                   |
+|     |                     |   improvement as it happens                  |                   |
+|     |                     | - Tasks: integrate WP2-WP7 indicators into   |                   |
+|     |                     |   one cross-country panel and train an LLM   |                   |
+|     |                     |   classifier to flag resilience shifts in    |                   |
+|     |                     |   near-real time                             |                   |
+|     |                     | - Output: methods paper, FAIR toolkit, and   |                   |
+|     |                     |   the Resilience Radar (an LLM-powered       |                   |
+|     |                     |   dashboard scanning political AI outputs    |                   |
+|     |                     |   across countries)                          |                   |
++-----+---------------------+----------------------------------------------+-------------------+
+|WP9  |Equitable AI Literacy| - Risk/Benefit: AI literacy and accessible   |Tactical Tech,     |
+|     |                     |   tooling are unevenly available across      |Notely, Williams   |
+|     |                     |   social groups vs. targeted AI-literacy     |                   |
+|     |                     |   programmes close that gap directly         |                   |
+|     |                     | - Tasks: co-design and pilot AI-literacy     |                   |
+|     |                     |   training with underserved communities,     |                   |
+|     |                     |   testing which formats close the observed   |                   |
+|     |                     |   gap fastest                                |                   |
+|     |                     | - Output: an accessible AI-literacy          |                   |
+|     |                     |   curriculum and training toolkit, plus a    |                   |
+|     |                     |   paper on the equity gap in AI-mediated     |                   |
+|     |                     |   participation                              |                   |
++-----+---------------------+----------------------------------------------+-------------------+
+|WP10 |Public Engagement &  | - Risk/Benefit: diagnoses miss exposed       |Maerz, UniMelb     |
+|     |Dissemination        |   citizens vs. field-tested tools building   |Research Office,   |
+|     |                     |   practiced resilience                       |Tactical Tech      |
+|     |                     | - Tasks: translate WP1-WP9 findings into the |                   |
+|     |                     |   public companion app, run policymaker and  |                   |
+|     |                     |   civil-society workshops, and coordinate    |                   |
+|     |                     |   final reporting                            |                   |
+|     |                     | - Output: Resilience Companion app launch,   |                   |
+|     |                     |   brief compendium, and final report         |                   |
++-----+---------------------+----------------------------------------------+-------------------+
+
+```{=latex}
+\normalsize
+```
+
+Table: Conceptual framework and proposed work packages for the Horizon Europe bid.
+
+## References

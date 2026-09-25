@@ -21,18 +21,26 @@
   \draw[-{Latex[length=2mm]}] (ai) -- (opp);
 
   \node[leaf, draw=red!60!black, fill=red!3] (r1) at (-4.6,0.55) {Disinformation \& synthetic media\\\pillar{information environments}};
-  \node[leaf, draw=red!60!black, fill=red!3] (r2) at (-4.6,-0.85) {Algorithmic repression \& surveillance\\\pillar{power}};
-  \node[leaf, draw=red!60!black, fill=red!3] (r3) at (-4.6,-2.25) {Micro-targeted manipulation of voters\\\pillar{attitudes \& behaviour}};
+  \node[leaf, draw=red!60!black, fill=red!3] (r2) at (-4.6,-0.85) {Micro-targeted manipulation of voters\\\pillar{attitudes \& behaviour}};
+  \node[leaf, draw=red!60!black, fill=red!3] (r3) at (-4.6,-2.25) {Referenda and direct-democracy tools destabilised\\\pillar{participation}};
+  \node[leaf, draw=red!60!black, fill=red!3] (r4) at (-4.6,-3.65) {Algorithmic repression \& surveillance\\\pillar{power}};
+  \node[leaf, draw=red!60!black, fill=red!3] (r5) at (-4.6,-5.05) {Opaque, hard-to-contest automated decisions\\\pillar{governance}};
 
   \node[leaf, draw=green!40!black, fill=green!3] (o1) at (4.6,0.55) {Automated fact-checking \& claim verification\\\pillar{information environments}};
   \node[leaf, draw=green!40!black, fill=green!3] (o2) at (4.6,-0.85) {AI-assisted media literacy at scale\\\pillar{attitudes \& behaviour}};
-  \node[leaf, draw=green!40!black, fill=green!3] (o3) at (4.6,-2.25) {Early-warning monitoring, e.g.\ \emph{Words of Warning}\\\pillar{power}};
+  \node[leaf, draw=green!40!black, fill=green!3] (o3) at (4.6,-2.25) {AI-run deliberation protecting minority voices\\\pillar{participation}};
+  \node[leaf, draw=green!40!black, fill=green!3] (o4) at (4.6,-3.65) {Early-warning monitoring, e.g.\ \emph{Words of Warning}\\\pillar{power}};
+  \node[leaf, draw=green!40!black, fill=green!3] (o5) at (4.6,-5.05) {Faster, more responsive public services\\\pillar{governance}};
 
   \draw[-{Latex[length=1.6mm]}] (risk.south) -- (r1.north);
   \draw[-{Latex[length=1.6mm]}] (risk.west) -- ++(-0.5,0) |- (r2.west);
-  \draw[-{Latex[length=1.6mm]}] (risk.west) -- ++(-0.7,0) |- (r3.west);
+  \draw[-{Latex[length=1.6mm]}] (risk.west) -- ++(-0.6,0) |- (r3.west);
+  \draw[-{Latex[length=1.6mm]}] (risk.west) -- ++(-0.7,0) |- (r4.west);
+  \draw[-{Latex[length=1.6mm]}] (risk.west) -- ++(-0.8,0) |- (r5.west);
   \draw[-{Latex[length=1.6mm]}] (opp.south) -- (o1.north);
   \draw[-{Latex[length=1.6mm]}] (opp.east) -- ++(0.5,0) |- (o2.east);
-  \draw[-{Latex[length=1.6mm]}] (opp.east) -- ++(0.7,0) |- (o3.east);
+  \draw[-{Latex[length=1.6mm]}] (opp.east) -- ++(0.6,0) |- (o3.east);
+  \draw[-{Latex[length=1.6mm]}] (opp.east) -- ++(0.7,0) |- (o4.east);
+  \draw[-{Latex[length=1.6mm]}] (opp.east) -- ++(0.8,0) |- (o5.east);
 \end{tikzpicture}
 \end{document}

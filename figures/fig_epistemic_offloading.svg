@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250" font-family="Georgia, 'Times New Roman', serif">
+  <rect x="0" y="0" width="600" height="250" fill="white"/>
+
+  <!-- ================= title ================= -->
+  <text x="300" y="24" text-anchor="middle" font-size="17" font-weight="bold" fill="#3d2566">Epistemic Offloading</text>
+  <text x="300" y="44" text-anchor="middle" font-size="12.5">ceding sovereignty over information to generative AI</text>
+
+  <!-- ================= the tilted balance: same scale as Figure 1's, apex resting exactly on the beam ================= -->
+  <polygon points="288,128 312,128 300,110" fill="#666"/>
+
+  <line x1="213.5" y1="85.2" x2="386.5" y2="134.8" stroke="#333" stroke-width="2.2" stroke-linecap="round"/>
+
+  <line x1="213.5" y1="85.2" x2="213.5" y2="109.2" stroke="#2e7d32" stroke-width="1.4"/>
+  <line x1="386.5" y1="134.8" x2="386.5" y2="158.8" stroke="#a52a2a" stroke-width="1.4"/>
+
+  <path d="M 200.5,109.2 Q 213.5,122 226.5,109.2" fill="#e7f3e9" stroke="#2e7d32" stroke-width="1.6"/>
+  <path d="M 364.5,158.8 Q 386.5,180 408.5,158.8" fill="#fbe9e7" stroke="#a52a2a" stroke-width="1.8"/>
+
+  <text x="213.5" y="140" text-anchor="middle" font-size="14" font-weight="bold" fill="#2e7d32">correction</text>
+  <text x="213.5" y="156" text-anchor="middle" font-size="10.5" font-style="italic">only by design and validation</text>
+
+  <text x="386.5" y="203" text-anchor="middle" font-size="15" font-weight="bold" fill="#a52a2a">dilution</text>
+  <text x="386.5" y="220" text-anchor="middle" font-size="10.5" font-style="italic">by default, compounding through the loop</text>
+</svg>

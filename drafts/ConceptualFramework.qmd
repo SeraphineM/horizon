@@ -1,0 +1,433 @@
+---
+title: "Concept note for the Horizon Europe consortium"
+subtitle: "Working title: AI-DEMRES — AI and Democratic Resilience in Europe and Asia-Pacific"
+author:
+  - "Max Groemping (Griffith University)"
+  - "Seraphine F. Maerz (University of Melbourne)"
+  - "Constanza Sanhueza Petrarca (Australian National University)"
+date: 2026-09-04
+abstract: |
+  This document sets out the concept and strategy behind AI-DEMRES, a proposed Horizon Europe Cluster 2 consortium on AI and democratic resilience. Chapter 1 defines democratic resilience as a feedback loop, defines AI as both risk to democracy and opportunity for democratic adaptation across five work-package areas, and connects the two through two mechanisms: AI-mediated informationalism and AI-accelerated administrative capacity. Chapter 2 sets out the work packages. Chapter 3 highlights the project's relevance by summarizing its two-region design, why it matters to the EU, why now, why Australia, and why the University of Melbourne. Chapter 4 covers who is on the team and the gaps.
+format:
+  pdf:
+    documentclass: article
+    fontsize: 11pt
+    geometry: margin=1in
+    linestretch: 1.15
+    number-sections: true
+    colorlinks: true
+    toc: false
+    keep-tex: false
+    include-in-header:
+      text: |
+        \usepackage{tikz}
+        \usetikzlibrary{arrows.meta, positioning}
+        \newcommand{\pillar}[1]{\textcolor{blue!55!black}{\footnotesize\itshape #1}}
+        \usepackage{etoolbox}
+        \AtBeginEnvironment{longtable}{\footnotesize}
+  docx:
+    reference-doc: word-reference.docx
+    number-sections: true
+    toc: false
+bibliography: literature/references.bib
+csl: apa.csl
+---
+
+## AI and Democratic Resilience: Risk and Opportunity
+
+### Democratic Resilience
+
+Boese et al.'s two-stage model — onset resilience (avoiding autocratization) and breakdown resilience (reversing it once started) — is tested on V-Dem's global data and comes from our own team [@boeseetal2021]. Hungary lost onset resilience in 2019, the first EU state ever reclassified from democracy [@vdemdr2025]; Poland lost it in 2015 but kept breakdown resilience, reversing course at the 2023 election [@lührmannlindberg2019; @vdemdr2025].
+
+Resilience is not a stock of features but a functioning feedback loop. Easton [-@easton1965]: demands and support convert into outputs, fed back into the next round of inputs. Input carries citizen demands and external shocks; throughput is the political system; output is policy; feedback returns information to citizens and institutions. We take this loop, not a fixed threshold, as the organising structure, and keep democracy broad rather than only its liberal variant [@vdemdr2025]. AI can strengthen this loop or weaken it at any point (Figure 1).
+
+Three recent frameworks group resilience differently: institutions, actors, civil society, community [@croissantlott2025]; epistemic, material, foundational impacts [@summerfieldetal2025]; trusted institutions, credible information, social inclusion [@biddleetal2025; @homeaffairs2024]. None treats public administration as its own arena — we do, in WP7. Inspired by Gerschewski's [-@gerschewski2013] three pillars of autocratic stability, reversed for democracies, we organise five work packages around one question each: how does AI-mediated informationalism change this part of the loop?
+
+1. Information environments — input side; the communication function.
+2. Attitudes and behaviour — input side.
+3. Participation — the participation and aggregation functions.
+4. Power and surveillance — the power and adjudication functions.
+5. Governance — policymaking and output.
+
+Two environmental conditions bound all five: material conditions (inequality, digital divides, concentrated economic power) and external shocks (climate, economic crises, pandemics, technological change) the system must absorb without losing its democratic form.
+
+Throughput cycles through six functions — participation, aggregation, communication, policymaking, power, adjudication — each carried by institutions (elections and civil society; parties and media; legislature and bureaucracy; executive; judiciary). Communication and adjudication extend the classical account: information flow, and the check on the others, cannot be left out.
+
+At the loop's centre sits one contest: who holds authority over information. Before generative AI this was a fight over access and distribution, fought with neutral tools — the internet, algorithms, platforms. Open, accountable authority reinforces resilience; closed, captured authority erodes it. Figure 1 sets out the loop and this contest.
+
+::: {.content-visible unless-format="docx"}
+```{=latex}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.95\linewidth]{figures/fig_throughput_loop.pdf}
+\caption{Democratic resilience as Easton's (1965) feedback loop. Throughput is shaped by six functions, sized to their content. At its centre, the contest over authority over information.}
+\label{fig:loop}
+\end{figure}
+```
+:::
+
+::: {.content-visible when-format="docx"}
+![Figure 1: Democratic resilience as Easton's (1965) feedback loop. Throughput is shaped by six functions, sized to their content. At its centre, the contest over authority over information.](figures/fig_throughput_loop.png)
+:::
+
+### AI as Risk and Opportunity
+
+Information is central to democratic resilience.
+
+AI here means machine-learning systems, generative models, and recommender systems [@hleg2019; @oecd2019].
+
+Risk:
+
+- Zuboff [-@zuboff2019]: platforms extract data and predict behaviour, reshaping public life.
+- Woolley and Howard [-@woolleyhoward2018]: the standard cross-country study of AI-enabled political manipulation.
+- Feldstein [-@feldstein2021]: how states use AI for authoritarian control.
+- Chesney and Citron [-@chesneycitron2019]: deepfakes as a distinct threat to democracy.
+- Bak-Coleman et al. [-@bakcoleman2021]: algorithms shape collective political behaviour.
+- Yang, Durotoye and Gil de Zúñiga [-@yangetal2025]: a recent survey of AI's effects on democracy, covering harm and benefit.
+- Altman [-@altman2026]: generative AI can turn direct-democracy tools, like referenda, into instability engines.
+
+Opportunity:
+
+- Margetts and Dorobantu [-@margettsdorobantu2019]: AI can make government more responsive and fair, if governed well.
+- Noveck [-@noveck2021]: AI-assisted civic participation and public problem-solving.
+- OECD [-@oecd2025civic]: AI-run deliberation platforms can process large citizen input while protecting minority views.
+
+The same technology drives both (Figure 2); WP2 recruits from both sides of this dual use.
+
+::: {.content-visible unless-format="docx"}
+```{=latex}
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+  every node/.style = {font=\small},
+  root/.style = {draw, rounded corners, fill=gray!12, align=center, minimum width=4.6cm, minimum height=1cm},
+  branch/.style = {draw, rounded corners, align=center, minimum width=4.6cm, minimum height=0.9cm, font=\bfseries\small},
+  leaf/.style = {draw, rounded corners, align=left, minimum width=4.6cm, text width=4.3cm, minimum height=1.05cm, font=\footnotesize},
+  pillar/.style = {font=\scriptsize\itshape},
+  >=Latex, thick
+]
+  \node[root] (ai) at (0,4.1) {AI: machine learning, generative models, recommender systems};
+
+  \node[branch, draw=red!60!black, fill=red!6] (risk) at (-4.6,2.3) {Risk to democratic resilience};
+  \node[branch, draw=green!40!black, fill=green!6] (opp) at (4.6,2.3) {Opportunity for democratic resilience};
+
+  \draw[-{Latex[length=2mm]}] (ai) -- (risk);
+  \draw[-{Latex[length=2mm]}] (ai) -- (opp);
+
+  \node[leaf, draw=red!60!black, fill=red!3] (r1) at (-4.6,0.55) {Disinformation \& synthetic media\\\pillar{information environments}};
+  \node[leaf, draw=red!60!black, fill=red!3] (r2) at (-4.6,-0.85) {Micro-targeted manipulation of voters\\\pillar{attitudes \& behaviour}};
+  \node[leaf, draw=red!60!black, fill=red!3] (r3) at (-4.6,-2.25) {Referenda and direct-democracy tools destabilised\\\pillar{participation}};
+  \node[leaf, draw=red!60!black, fill=red!3] (r4) at (-4.6,-3.65) {Algorithmic repression \& surveillance\\\pillar{power}};
+  \node[leaf, draw=red!60!black, fill=red!3] (r5) at (-4.6,-5.05) {Opaque, hard-to-contest automated decisions\\\pillar{governance}};
+
+  \node[leaf, draw=green!40!black, fill=green!3] (o1) at (4.6,0.55) {Automated fact-checking \& claim verification\\\pillar{information environments}};
+  \node[leaf, draw=green!40!black, fill=green!3] (o2) at (4.6,-0.85) {AI-assisted media literacy at scale\\\pillar{attitudes \& behaviour}};
+  \node[leaf, draw=green!40!black, fill=green!3] (o3) at (4.6,-2.25) {AI-run deliberation protecting minority voices\\\pillar{participation}};
+  \node[leaf, draw=green!40!black, fill=green!3] (o4) at (4.6,-3.65) {Early-warning monitoring, e.g.\ \emph{Words of Warning}\\\pillar{power}};
+  \node[leaf, draw=green!40!black, fill=green!3] (o5) at (4.6,-5.05) {Faster, more responsive public services\\\pillar{governance}};
+
+  \draw[-{Latex[length=1.6mm]}] (risk.south) -- (r1.north);
+  \draw[-{Latex[length=1.6mm]}] (risk.west) -- ++(-0.5,0) |- (r2.west);
+  \draw[-{Latex[length=1.6mm]}] (risk.west) -- ++(-0.6,0) |- (r3.west);
+  \draw[-{Latex[length=1.6mm]}] (risk.west) -- ++(-0.7,0) |- (r4.west);
+  \draw[-{Latex[length=1.6mm]}] (risk.west) -- ++(-0.8,0) |- (r5.west);
+  \draw[-{Latex[length=1.6mm]}] (opp.south) -- (o1.north);
+  \draw[-{Latex[length=1.6mm]}] (opp.east) -- ++(0.5,0) |- (o2.east);
+  \draw[-{Latex[length=1.6mm]}] (opp.east) -- ++(0.6,0) |- (o3.east);
+  \draw[-{Latex[length=1.6mm]}] (opp.east) -- ++(0.7,0) |- (o4.east);
+  \draw[-{Latex[length=1.6mm]}] (opp.east) -- ++(0.8,0) |- (o5.east);
+\end{tikzpicture}
+\caption{AI as risk and opportunity for democratic resilience, by pillar. Same technology, opposite uses.}
+\label{fig:ai-dual}
+\end{figure}
+```
+:::
+
+::: {.content-visible when-format="docx"}
+![Figure 2: AI as risk and opportunity for democratic resilience, by pillar. Same technology, opposite uses.](figures/fig2_aidual.png)
+:::
+
+### The Bridge: Two Mechanisms
+
+Jungherr [-@jungherr2023] frames AI's effects on self-rule, equality, elections; Wiewiura, Jørgensen and Ploug [-@wiewiuraetal2026] review the debate but stop short of a resilience framework. We connect AI directly to onset/breakdown resilience — as far as we know, a first (further checks needed).
+
+AI connects to resilience through two dual-use mechanisms, together spanning all five pillars:
+
+1. AI-mediated informationalism (input and feedback side): Garbe and Maerz [-@garbemaerz2025; @maerz2026] define authoritarian informationalism as manipulation, surveillance, control. AI adds a fourth axis — agency over information itself — that crystallises into epistemic offloading: agency accrues to AI's output the moment it is trusted rather than checked. Closed, captured authority becomes diluted authority once AI mediates it unchecked, and information stops functioning as a public good [@maerz2026techautokratie]. Formally, dilution shifts the mean and widens the spread of perception around a given reality; citizen- and official-facing models can diverge rather than share one distribution — a matter of degree, not two fixed camps (Sanhueza Petrarca).
+2. AI-accelerated administrative capacity (output side): not manipulation or control, but the speed and accuracy of decisions and services [@margettsdorobantu2019; @georgeklaus2026] — the same automation that speeds decisions can make them opaque and hard to contest (Table 2).
+
+Figure 3 puts informationalism on the resilience diagram: onset and breakdown are regime-level transitions it acts on directly. Administrative capacity changes how the system functions within a regime, not the transition itself — Figure 4 carries it instead, by pillar.
+
+::: {.content-visible unless-format="docx"}
+```{=latex}
+\begin{figure}[H]
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{%
+\begin{tikzpicture}[
+  every node/.style = {font=\small},
+  state/.style = {draw, rounded corners, align=center, minimum width=3.2cm, minimum height=1.1cm, fill=gray!8},
+  lbl/.style = {font=\footnotesize\itshape, align=left, text width=3.8cm},
+  tag/.style = {font=\footnotesize, align=center},
+  conn/.style = {gray, dashed, -},
+  >=Latex
+]
+  \node[state] (dem) at (0,5) {Stable democracy};
+  \node[state] (epi) at (6,5) {Episode of\\autocratization};
+  \node[state] (aut) at (11,2) {Breakdown\\(autocracy)};
+
+  \draw[->, very thick, red!55!black] (dem) -- (epi);
+  \node[tag, align=center, text width=3.2cm, red!55!black] at (3,5.85) {\textcolor{red!55!black}{\textbf{AI RISK}}\\onset resilience fails\\\pillar{disinformation}};
+
+  \draw[->, very thick, red!55!black] (epi) -- (aut);
+  \node[tag, align=left, text width=2.8cm] at (10.1,4.5) {\textcolor{red!55!black}{\textbf{AI RISK}}\\breakdown resilience fails\\\pillar{deepfakes, surveillance}};
+
+  \draw[->, very thick, green!35!black, dashed] (epi) to[bend left=30] (dem);
+  \node[tag, align=center, text width=4.6cm] at (3.3,7.4) {\textcolor{green!35!black}{\textbf{AI OPPORTUNITY}}\\breakdown resilience holds\\\pillar{monitoring, fact-checking}};
+
+  \draw[->, very thick, green!35!black, dashed] (dem) to[out=110,in=160,looseness=4] (dem);
+  \node[tag, align=right, text width=3.4cm] at (-4.1,6.6) {\textcolor{green!35!black}{\textbf{AI OPPORTUNITY}}\\onset resilience holds\\\pillar{media literacy}};
+
+  \node[lbl] (lp) at (-1.7,-0.3) {EU, reversal: Poland, 2015--2023 episode};
+  \node[lbl] (ls) at (4.2,-0.3) {Asia-Pacific, onset comparator: e.g.\ Indonesia, the Philippines, Thailand};
+  \node[lbl] (lh) at (11.5,-0.3) {EU, breakdown: Hungary, coded an electoral autocracy since 2019};
+
+  \draw[conn] (lp.north) -- (dem.south);
+  \draw[conn] (ls.north) -- (3,4.45);
+  \draw[conn] (lh.north) -- (aut.south);
+
+  \node[draw=red!55!black, fill=red!4, minimum width=0.4cm, minimum height=0.3cm] (legr) at (-7.2,3.4) {};
+  \node[right=0.1cm of legr, font=\footnotesize] {AI risk};
+  \node[draw=green!35!black, fill=green!4, minimum width=0.4cm, minimum height=0.3cm] (lego) at (-7.2,2.8) {};
+  \node[right=0.1cm of lego, font=\footnotesize] {AI opportunity};
+\end{tikzpicture}}
+\caption{Onset and breakdown resilience (adapted from Boese et al., 2021). Regional cases mapped onto AI-DEMRES's two-region design (3.2).}
+\label{fig:resilience}
+\end{figure}
+```
+:::
+
+::: {.content-visible when-format="docx"}
+![Figure 3: Onset and breakdown resilience (adapted from Boese et al., 2021). Regional cases mapped onto AI-DEMRES's two-region design (3.2).](figures/fig3_resilience.png)
+:::
+
+::: {.content-visible unless-format="docx"}
+```{=latex}
+\begin{figure}[H]
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{%
+\begin{tikzpicture}[
+  every node/.style = {font=\small},
+  axislabel/.style = {font=\bfseries\small, align=center},
+  celltext/.style = {font=\footnotesize, align=left, text width=5.6cm},
+  pillar/.style = {font=\scriptsize\itshape},
+  rowlabel/.style = {font=\bfseries\small, align=center, rotate=90},
+  >=Latex
+]
+  \fill[red!8]  (0,0) rectangle (6,4.2);
+  \fill[red!14] (6,0) rectangle (12,4.2);
+  \fill[green!8] (0,-4.6) rectangle (6,-0.4);
+  \fill[green!14] (6,-4.6) rectangle (12,-0.4);
+  \draw[gray] (0,0) rectangle (12,4.2);
+  \draw[gray] (0,-4.6) rectangle (12,-0.4);
+  \draw[gray] (6,0) -- (6,4.2);
+  \draw[gray] (6,-4.6) -- (6,-0.4);
+
+  \node[axislabel] at (3,4.7) {Onset stage};
+  \node[axislabel] at (9,4.7) {Breakdown stage};
+  \node[font=\scriptsize, align=center, text width=5.6cm] at (3,-5.1) {};
+  \node[font=\scriptsize, align=center, text width=5.6cm] at (9,-5.1) {};
+
+  \node[rowlabel, red!55!black] at (-0.9,2.1) {AI as risk};
+  \node[rowlabel, green!35!black] at (-0.9,-2.5) {AI as opportunity};
+
+  \node[celltext] at (3,2.1) {Curated disinformation erodes baseline trust \pillar{(information environments)}; micro-targeted manipulation weakens support for democratic norms \pillar{(attitudes \& behaviour)}};
+
+  \node[celltext] at (9,2.1) {Deepfakes and coordinated disinformation suppress mobilisation \pillar{(information environments, participation)}; surveillance and platform power entrench control \pillar{(power)}; opaque automated decisions entrench unaccountable authority \pillar{(governance)}};
+
+  \node[celltext] at (3,-2.5) {Automated fact-checking and media literacy build baseline resistance \pillar{(information environments)}; AI-assisted deliberation broadens participation \pillar{(participation)}};
+
+  \node[celltext] at (9,-2.5) {Early-warning monitoring (e.g.\ \emph{Words of Warning}) detects and helps reverse an episode \pillar{(power)}; institutional listening rebuilds trust \pillar{(governance, attitudes \& behaviour)}};
+\end{tikzpicture}}
+\caption{Risk/opportunity by onset/breakdown.}
+\label{fig:combined}
+\end{figure}
+```
+:::
+
+::: {.content-visible when-format="docx"}
+![Figure 4: Risk/opportunity by onset/breakdown.](figures/fig4_combined.png)
+:::
+
+
+## Overview of Potential Work Packages
+
+Table 1 sets out the work packages. WP2–WP7 each ask one question — how does AI-mediated informationalism reshape this part of the loop? — of a different component. Leads and co-leads only; Chapter 4 covers remaining gaps.
+
+::: {.content-visible unless-format="docx"}
+```{=latex}
+\begin{longtable}{p{0.05\linewidth} p{0.26\linewidth} p{0.14\linewidth} p{0.32\linewidth} r}
+\caption{Draft AI-DEMRES work packages.}\label{tbl:wp}\\
+\toprule
+\scriptsize\textbf{WP} & \scriptsize\textbf{Work package} & \scriptsize\textbf{Lead / co-lead} & \scriptsize\textbf{Tasks \& Deliverables} & \scriptsize\textbf{Budget} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\scriptsize
+WP1 & {\scriptsize \textit{The Loop Model} --- framework} & {\scriptsize Maerz (UoM)} & {\scriptsize Loop framework; framework paper; policy briefs for EU and Australian officials.} & {\scriptsize €150{,}000} \\
+\addlinespace
+WP2 & {\scriptsize \textit{Contesting the Signal} --- information environments} & {\scriptsize Carson (UoM)} & {\scriptsize Fact-checking and platform-monitoring toolkit for newsrooms and regulators; disinformation dataset; paper.} & {\scriptsize €700{,}000} \\
+\addlinespace
+WP3 & {\scriptsize \textit{Shifting Realities} --- attitudes \& behaviour} & {\scriptsize Groemping (Griffith); Sanhueza Petrarca (ANU)} & {\scriptsize Survey experiment on AI and political trust; public-trust index; policy brief for electoral commissions; paper.} & {\scriptsize €550{,}000} \\
+\addlinespace
+WP4 & {\scriptsize \textit{Delegated Voice} --- participation} & {\scriptsize Kołczyńska (Poland)} & {\scriptsize AI-assisted deliberation pilot with a partner government body; participation-design toolkit; paper.} & {\scriptsize €350{,}000} \\
+\addlinespace
+WP5 & {\scriptsize \textit{Automated Authority} --- power \& surveillance} & {\scriptsize Wilson (Gothenburg)} & {\scriptsize Monitor AI-enabled digital repression; early-warning briefing for human-rights and civil-society monitors; paper.} & {\scriptsize €320{,}000} \\
+\addlinespace
+WP6 & {\scriptsize \textit{Governing the Mediator} --- platform political economy} & {\scriptsize Postnikov (UoM); Helberger (Univ.\ Amsterdam, {\bfseries proposed co-lead, not yet contacted})} & {\scriptsize Comparative analysis of platform-accountability and AI regulatory models; policy recommendations for DFAT and the European Commission; paper.} & {\scriptsize €220{,}000} \\
+\addlinespace
+WP7 & {\scriptsize \textit{Outsourced Judgment} --- governance} & {\scriptsize Williams (UoM)} & {\scriptsize AI-literacy training for public servants; governance guidelines for universities; paper.} & {\scriptsize €320{,}000} \\
+\addlinespace
+WP8 & {\scriptsize Methods and Tools} & {\scriptsize Sebők (ELTE / CEU Democracy Institute)} & {\scriptsize Open-source text-analysis toolkit; training workshops for partners; methods paper.} & {\scriptsize €380{,}000} \\
+\addlinespace
+WP9 & {\scriptsize Two-Region Synthesis} & {\scriptsize Croissant (Heidelberg); ISEAS -- Yusof Ishak Institute (Singapore, {\bfseries proposed co-lead, not yet contacted})} & {\scriptsize Joint policy report for DFAT and the European Commission; comparative synthesis paper.} & {\scriptsize €360{,}000} \\
+\addlinespace
+WP10 & {\scriptsize Communication and Dissemination} & {\scriptsize TBC} & {\scriptsize Dissemination strategy; conference reports; panel discussions; policy-brief compendium; final report.} & {\scriptsize TBC} \\
+\addlinespace
+WP11 & {\scriptsize Project Management, Coordination and Ethics} & {\scriptsize Maerz (UoM); Project Manager (TBA)} & {\scriptsize Consortium agreement; periodic reporting; ethics approvals; data management plan.} & {\scriptsize €350{,}000} \\
+\midrule
+\multicolumn{4}{r}{\scriptsize\textbf{Total (estimated, excl.\ WP10 pending budget)}} & {\scriptsize \textbf{€3{,}700{,}000}} \\
+\end{longtable}
+```
+:::
+
+::: {.content-visible when-format="docx"}
+**Table 1: Draft AI-DEMRES work packages.**
+
+| WP | Guiding question | Lead / co-lead | Tasks & Deliverables | Budget |
+ |:--|:-------------|:------------------------|:--------------------|------------:|
+| WP1 | Developing the AI-DEMRES loop framework on AI-mediated informationalism and democratic resilience | Maerz (UoM) | Develop and validate the loop framework; draft peer-reviewed framework paper and policy brief series for EU and Australian officials. | €150,000 |
+| WP2 | How does AI-mediated informationalism reshape information environments? | Carson (UoM) | Build and pilot a deployable fact-checking and platform-monitoring toolkit for newsrooms and regulators; compile a disinformation dataset and draft peer-reviewed paper. | €700,000 |
+| WP3 | How does AI-mediated informationalism reshape civic attitudes and behaviour? | Groemping (Griffith); Sanhueza Petrarca (ANU) | Design and field a survey experiment on AI and political trust; construct a public-trust index and policy brief for electoral commissions, and draft the survey-experimental paper. | €550,000 |
+| WP4 | How does AI-mediated informationalism reshape political participation? | Kołczyńska (Poland) | Design and run an AI-assisted deliberation pilot with a partner government body; develop a participation-design toolkit; evaluate the pilot and draft peer-reviewed paper. | €350,000 |
+| WP5 | How does AI-mediated informationalism reshape surveillance and digital repression? | Wilson (Gothenburg) | Monitor and analyse AI-enabled digital repression; produce an early-warning briefing for human-rights and civil-society monitors, and draft peer-reviewed paper. | €320,000 |
+| WP6 | How does AI-mediated informationalism reshape platform political economy and regulation? | Postnikov (UoM); Helberger (Univ. Amsterdam, **proposed co-lead, not yet contacted**) | Comparative analysis of platform-accountability and AI regulatory models; draft policy recommendations for DFAT and the European Commission, and a comparative regulatory-diffusion paper. | €220,000 |
+| WP7 | How does AI-mediated informationalism reshape governance and public policy? | Williams (UoM) | Develop an AI-literacy training module for public servants and governance guidelines for universities; draft peer-reviewed paper on AI in research governance. | €320,000 |
+| WP8 | Methods and tools: quantitative and text infrastructure for the project | Sebők (ELTE / CEU Democracy Institute) | Build an open-source text-analysis toolkit; run training workshops for partner institutions; draft methods paper documenting the toolkit. | €380,000 |
+| WP9 | Two-region synthesis (EU / Asia-Pacific) | Croissant (Heidelberg); ISEAS – Yusof Ishak Institute (Singapore, **proposed co-lead, not yet contacted**) | Synthesise findings across EU and Asia-Pacific cases into a joint policy report briefed to DFAT and the European Commission; draft peer-reviewed comparative synthesis paper. | €360,000 |
+| WP10 | Communication and Dissemination | TBC | Dissemination and media strategy; project conference reports; coordinate panel discussions; multi-media deliverables; compendium of policy briefs; final project report. | TBC |
+| WP11 | Project management, coordination and ethics | Maerz (UoM); Project Manager (TBA) | Draft and maintain the consortium agreement; coordinate periodic reporting; manage ethics approvals and data management plan deliverables. | €350,000 |
+| | | | **Total (estimated, excl. WP10 pending budget)** | **€3,700,000** |
+:::
+
+## Relevance of the Project
+
+AI-DEMRES targets two Horizon Europe Cluster 2 calls, in this order:
+
+1. Main target: [HORIZON-CL2-2027-02-DEMOCRACY-09](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-02-DEMOCRACY-09), an open, two-stage call on reinvigorating and shielding European democracy. Total indicative budget €22m, expected EU contribution €2.0–3.7m per project — roughly six to nine projects funded [@ecworkprogramme2027]. Eligibility requires at least one beneficiary with a policy-making role and one civil-society organisation; AI-DEMRES does not yet have either (4.1). Opens 2 March 2027, first-stage deadline 4 May 2027.
+2. Fallback: [HORIZON-CL2-2027-01-DEMOCRACY-04](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-democracy-04), a narrower, single-stage call on AI, cyberviolence, and deepfakes. Budget about €3.5–4m per project. Opens 13 May 2027, deadline 23 September 2027.
+
+AI-DEMRES is written for the general call. If it does not fit, the same consortium and framework adapt to the narrower one with less rework than starting fresh.
+
+### The Two-Region Design
+
+The two-region design is AI-DEMRES's defining feature, and the best answer to: why should an Australian institution lead this, not a European one? A real comparative study of the Asia-Pacific and Europe needs people already working in the Asia-Pacific, existing ties to regional think tanks and survey infrastructure, and closeness to the region's media and policy world. This consortium has all three (3.4).
+
+The two regions test different parts of Figure 4:
+
+- EU cases, mostly breakdown resilience: Several EU states are already inside, or have recently come out of, autocratization episodes: Hungary's long decline; Poland's 2015–2023 episode and its reversal (Figure 3). Risk side: documented AI-generated disinformation and deepfakes in EU states. Opportunity side: EU-based fact-checking and platform-accountability work.
+- Asia-Pacific cases (Southeast Asia, Australia, New Zealand), mostly onset resilience: Hybrid and competitive-authoritarian regimes in Southeast Asia [@schedler2013] are the sharper test of whether AI-accelerated informationalism changes the odds that a new episode starts. Opportunity side: Australian fact-checking work, the Centre for Deliberative Democracy's AI-assisted deliberation (Webb, WP4), and Andrea Carson's *Asia-Pacific News Pulse* — a planned annual report on news use, information resilience, and public trust across Indonesia, Thailand, the Philippines, and South Korea, built to close the Asia-Pacific gap in the Reuters Institute Digital News Report. No EU-based team can build this kind of survey infrastructure on this timeline.
+
+::: {.content-visible unless-format="docx"}
+```{=latex}
+\begin{longtable}{p{0.16\linewidth} p{0.40\linewidth} p{0.40\linewidth}}
+\caption{Two-region comparisons, sorted by pillar.}\label{tbl:regional}\\
+\toprule
+\textbf{Pillar} & \textbf{Risk-side comparison} & \textbf{Opportunity-side comparison} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Information environments & AI-generated disinformation and deepfakes: Southeast Asia vs.\ EU states & Fact-checking and platform-accountability tools: Australia vs.\ EU newsrooms \\
+\addlinespace
+Attitudes and behaviour & Micro-targeted manipulation eroding trust and support for democratic norms: Southeast Asian social-media use vs.\ EU electoral campaigns & Media and AI literacy building resistance to manipulation: Australian and EU public-education initiatives \\
+\addlinespace
+Participation & AI-curated feeds narrowing political attention and civic voice: Southeast Asian platforms vs.\ EU-regulated feeds & AI-assisted deliberation and citizen listening: Australia (Centre for Deliberative Democracy; \emph{Asia-Pacific News Pulse}) vs.\ EU civic-tech pilots \\
+\addlinespace
+Power (regulation) & Two regulatory frontiers, not one: Australia's platform-accountability model (the world-first 2021 News Media Bargaining Code (Bossio et al., 2022) and the world-first 2025 under-16 social media ban (Weeramanthri, 2026)) vs.\ the EU's AI-specific model (the AI Act, AI Office, and content-moderation rules under the Digital Services Act (2022)) & Evidence on which approach works better: platform accountability or AI-specific rules. Feeds WP6 \\
+\addlinespace
+Governance & Opaque automated decision-making in migration, welfare, and election administration: Southeast Asian e-government rollouts vs.\ EU public-sector AI deployments & AI-assisted policy design and public-service delivery, tested for fairness and transparency: comparative Australia--EU pilots. Feeds WP7 \\
+\end{longtable}
+```
+:::
+
+::: {.content-visible when-format="docx"}
+**Table 2: Two-region comparisons, sorted by pillar.**
+
+| Pillar | Risk-side comparison | Opportunity-side comparison |
+ |:---------|:-------------------------------------|:-------------------------------------|
+| Information environments | AI-generated disinformation and deepfakes: Southeast Asia vs. EU states | Fact-checking and platform-accountability tools: Australia vs. EU newsrooms |
+| Attitudes and behaviour | Micro-targeted manipulation eroding trust and support for democratic norms: Southeast Asian social-media use vs. EU electoral campaigns | Media and AI literacy building resistance to manipulation: Australian and EU public-education initiatives |
+| Participation | AI-curated feeds narrowing political attention and civic voice: Southeast Asian platforms vs. EU-regulated feeds | AI-assisted deliberation and citizen listening: Australia (Centre for Deliberative Democracy; *Asia-Pacific News Pulse*) vs. EU civic-tech pilots |
+| Power (regulation) | Two regulatory frontiers, not one: Australia's platform-accountability model (the world-first 2021 News Media Bargaining Code (Bossio et al., 2022) and the world-first 2025 under-16 social media ban (Weeramanthri, 2026)) vs. the EU's AI-specific model (the AI Act, AI Office, and content-moderation rules under the Digital Services Act (2022)) | Evidence on which approach works better: platform accountability or AI-specific rules. Feeds WP6 |
+| Governance | Opaque automated decision-making in migration, welfare, and election administration: Southeast Asian e-government rollouts vs. EU public-sector AI deployments | AI-assisted policy design and public-service delivery, tested for fairness and transparency: comparative Australia–EU pilots. Feeds WP7 |
+:::
+
+DEMOCRACY-09 asks proposals to build on prior Horizon-funded work without duplicating it [@ecworkprogramme2027]. Most competing teams are EU-only or EU-plus-one (this needs more research). They can only account for one column of Figure 4 - AI-DEMRES accounts for both.
+
+### Why It Matters to the EU
+
+Why should the EU fund Asia-Pacific research instead of more EU-only work?
+
+1. It is already an EU priority. The EU Strategy for Cooperation in the Indo-Pacific names digital governance and partnerships as a priority [@euindopacific2021].
+2. It tests the EU's own reach. The Brussels Effect [@bradford2020] — the EU's ability to set global standards through its own rules (the AI Act, the Digital Services Act [-@dsa2022]) — only shows up if it travels beyond the EU. AI-DEMRES tests that directly.
+3. It matters for EU digital diplomacy. Other digital-governance models compete for influence in Southeast Asia. Evidence on how AI pressures and responses play out there feeds directly into the EU's own position.
+4. It gives the sharpest test. Onset resilience is easier to test where regime paths actually differ, as they do across Southeast Asia, than by re-running EU cases. Australia and New Zealand add a further comparison inside the same region.
+
+### Why Now
+
+The EU's Democracy Shield and the AI Act timeline make 2026–27 the moment EU funders want this research: the call names AI's impact on democracy, and democratic resilience and civic preparedness, as priorities [@ecworkprogramme2027]. In 2024, about two billion voters across fifty countries went to the polls. V-Dem's latest report finds autocracies now outnumber democracies worldwide for the first time in two decades; the average world citizen's level of democracy is back to 1985 [@vdemdr2025]. Guardrails once thought stable in established democracies are more fragile than assumed [@levitskyziblatt2018]. Whether AI-accelerated informationalism and administrative capacity affect onset or breakdown resilience is squarely inside the call's scope.
+
+### Why Led from Australia
+
+Section 3.2 makes the main case. Five more reasons:
+
+1. First-mover eligibility. Australia joins Horizon Europe Pillar II from January 2027. Australian institutions can lead Cluster 2 consortia on equal terms with EU states for the first time.
+2. Real seniority, not borrowed credibility. The Australian lead was Deputy Director of the V-Dem Institute (2020–21) and remains a V-Dem Research Associate. The team includes a V-Dem project PI (Knutsen, Oslo) and the WZB co-authors of both frameworks this proposal builds on [@boeseetal2021; @garbemaerz2025]. The lead's EU policy record is real, not aspirational: a 2025 report for the Robert Schuman Centre and the European Commission on AI-powered threats to democracy [-@maerzetal2025policy], co-authored with team member Chernykh (ANU, WP3) and Sanhueza Petrarca.
+3. Genuine independence. The call wants international cooperation and no duplication. An EU-only team cannot show independence. An Australian hub with real Asia-Pacific content can.
+4. Access an EU team cannot claim. Bec Strating (La Trobe, WP9) directs La Trobe Asia and leads the DFAT-funded Blue Security network on Indo-Pacific maritime security; that access, plus existing regional research links and the *Asia-Pacific News Pulse* (3.2), give this team a starting point a Berlin- or Gothenburg-led bid would have to build from zero.
+5. Value for money. An Australian hub delivers EU-grade science at a different cost base than the EU capitals hosting most competing teams.
+6. Two regulatory frontiers, not one. Australia's News Media Bargaining Code (2021) was the world's first platform-payment law for news, later copied by Canada [@bossioetal2022]. Its under-16 social media ban (2025) was the world's first of its kind [@weeramanthri2026]. The EU leads on AI-specific rules instead, through the AI Act and the AI Office. A team based in only one place can draw on only one of these. AI-DEMRES draws on both (Table 2).
+
+### Why the University of Melbourne
+
+UoM has what this needs in one place: the Centre for Advancing Journalism (Carson) for disinformation and media-industry ties, plus Carson's *Asia-Pacific News Pulse* (3.2); Melbourne Connect and the School of Computing and Information Systems (Hovy, Leckie, de Kock, Baes) for computational and NLP infrastructure; and Maerz's ARC DECRA project *Words of Warning*, which already uses LLMs to monitor democratic discourse — a working example of the opportunity side of Figure 2. Maerz's V-Dem history and EU policy record mean the Australian lead already has working ties to V-Dem Gothenburg, WZB Berlin, and the European Commission. 
+
+## Filling Gaps in the Consortium
+
+### Gaps
+
+Six gaps stand out.
+
+1. Eligibility. DEMOCRACY-09 requires a public-body beneficiary and a civil-society beneficiary [@ecworkprogramme2027]; the consortium (Table 1) has neither confirmed. Without both, the proposal is inadmissible, not just weaker.
+2. Public body. Fastest fix: an Australian electoral commission, via Tom Daly's standing ERRN partnership — also becomes WP3's own audience.
+3. Civil society / Southeast Asia institution. Only individual contacts so far, not an institution. ISEAS -- Yusof Ishak Institute (Singapore) could fill both roles, leading a work package.
+4. WP6. Thin and entirely UoM: no international team member, and no EU AI Act, Digital Services Act, or platform-law expertise, a DEMOCRACY-04 priority [@ecworkprogramme2027]. Helberger, Goldenfein, and Paterson fix this.
+5. General AI governance. No one works on AI in public administration. Wagner is the fit.
+6. Southeast Asia expertise. No confirmed survey partner matches ANU's ANUpoll (Biddle, WP3), ahead of the *Asia-Pacific News Pulse* going live.
+
+Two smaller gaps: AI-enabled gendered harm and computer-vision detection for fake video and audio, both DEMOCRACY-04 priorities [@ecworkprogramme2027; @chesneycitron2019].
+
+## Draft Conference Paper Abstract
+
+Working title: *AI and the Five Pillars of Democratic Resilience: A Risk-and-Opportunity Framework*. Target venue: TBC.
+
+This paper develops a five-pillars framework for analysing how artificial intelligence affects democratic resilience, extending Boese et al.'s [-@boeseetal2021] two-stage model of onset and breakdown resilience and Gerschewski's [-@gerschewski2013] three pillars of autocratic stability, inverted for the study of democracies. We argue that AI is best understood not as a uniform threat but as a force that can weaken or strengthen five interacting pillars: information environments, civic attitudes and support, political participation, political power, and governance. Drawing on Easton's [-@easton1965] systems model, we position these pillars along the demand–conversion–output–feedback loop that sustains democratic legitimacy, and show how AI's effects propagate across the loop rather than remaining confined to a single arena. We differentiate our framework from three recent alternatives [@croissantlott2025; @summerfieldetal2025; @biddleetal2025] by treating public administration and the policy process as a distinct arena, and by evaluating each pillar separately rather than aggregating into a single index. An empirical analysis applying the framework to [cases/countries — TBC] will illustrate the framework's diagnostic value for identifying where a democracy's resilience is under the greatest AI-driven pressure. The paper contributes a portable, five-pillar diagnostic model for scholars and policymakers assessing AI's uneven effects on democratic systems.
+
+*Status: theoretical framework drafted (Chapter 1); empirical analysis and case selection still to be added (TBC).*
+
+## AI Use Statement {.unnumbered}
+
+Claude Code (Sonnet 5), an AI assistant developed by Anthropic, was used as an assistance tool for figure production as well as structuring and editing the text for consistency and language refinement. It was also used to identify and research potential collaborators and gap-filling contacts, summarising their publicly available research profiles from institutional and academic sources online; every such profile was checked against those sources before inclusion, but the choice of whom to approach remained with the authors. All substantive decisions as well as all conceptual, methodological, and interpretive aspects of the manuscript remained with the authors. All AI-generated outputs were carefully reviewed and verified by the authors, who take full responsibility for the final content.
+
+## References {.unnumbered}

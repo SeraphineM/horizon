@@ -1,0 +1,138 @@
+---
+title: "Democratic resilience, AI-mediated informationalism, and the work packages"
+author:
+  - "Max Groemping (Griffith University)"
+  - "Seraphine F. Maerz (University of Melbourne)"
+  - "Constanza Sanhueza Petrarca (Australian National University)"
+date: 2026-09-17
+format:
+  pdf:
+    documentclass: article
+    fontsize: 11pt
+    geometry: margin=1in
+    linestretch: 1.15
+    number-sections: true
+    colorlinks: true
+    toc: false
+    keep-tex: false
+    include-in-header:
+      text: |
+        \usepackage{etoolbox}
+        \AtBeginEnvironment{longtable}{\footnotesize}
+  docx:
+    reference-doc: word-reference.docx
+    number-sections: true
+    toc: false
+bibliography: literature/references.bib
+csl: apa.csl
+---
+
+## A Framework for Democratic Resilience
+
+Democratic resilience is not a stock of features but a functioning feedback loop [@easton1965]: demands and support convert into outputs, fed back into the next round of inputs. Input carries citizen demands and external shocks. Throughput is the political system. Output is policy. Feedback returns information to citizens and institutions.
+
+Throughput cycles through six functions — participation, aggregation, communication, policymaking, power, adjudication — each carried by its own institutions (elections and civil society, parties and media, legislature and bureaucracy, executive, judiciary). Communication and adjudication extend the classical structural-functional account: information flow, and the check on the others, cannot be left out.
+
+At the loop's centre sits one contest: who holds authority over information. Open, accountable authority reinforces resilience. Closed, captured authority erodes it (Figure 1).
+
+**Open questions**: How to better connect informationalism with democratic resilience. Literature to support the open/public good vs closed/captured info claim. Are the identified functions really the core components or are we missing some?
+
+::: {.content-visible unless-format="docx"}
+```{=latex}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.95\linewidth]{figures/fig_throughput_loop.pdf}
+\caption{Democratic resilience as Easton's (1965) feedback loop. Throughput is shaped by six functions, sized to their content. At its centre, the contest over authority over information.}
+\label{fig:loop}
+\end{figure}
+```
+:::
+
+::: {.content-visible when-format="docx"}
+![Figure 1: Democratic resilience as Easton's (1965) feedback loop. Throughput is shaped by six functions, sized to their content. At its centre, the contest over authority over information.](figures/fig_throughput_loop.png)
+:::
+
+## How AI Enters the Loop
+
+Before generative AI, the tools that fought over authority over information — the internet, algorithms, platforms — stayed neutral in how they interpreted what they carried. Generative AI does not: it acts on information, not just carries it.
+
+This crystallises into epistemic offloading: ceding sovereignty over information to generative AI. Generative AI is inert until tasked, but its output is commonly accepted without independent verification. Its sheer volume is part of the reason: thorough verification is close to impossible for output at this scale, though how close depends on the task and the domain. That acceptance, not the tasking, is what transfers authority over information to the system, repeated at every stage of the loop. This is AI-mediated informationalism.
+
+The effect is not symmetric. Closed, captured authority becomes diluted authority once generative AI mediates it unchecked: content controlled by whoever tasks the model without checking it, and information stops functioning as a public good [@garbemaerz2025; @maerz2026techautokratie]. Correction is possible — the same capability that dilutes can clarify [@noveck2021] — but only by design and validation, not by default (Figure 2).
+
+**Open questions**: Do we only cover generative AI? Is our theory only valid for generative AI? Does anyone in the team cover other forms of AI? And the above needs much more support from the literature...epistemic offloading might also be to jargony.
+
+::: {.content-visible unless-format="docx"}
+```{=latex}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{figures/fig_epistemic_offloading.pdf}
+\caption{Epistemic offloading, drawn on Figure 1's balance: sovereignty over information passes to generative AI the moment its output goes unchecked, tilting the contest toward dilution by default. Correction takes deliberate design and validation to tip it back.}
+\label{fig:offloading}
+\end{figure}
+```
+:::
+
+::: {.content-visible when-format="docx"}
+![Figure 2: Epistemic offloading, drawn on Figure 1's balance: sovereignty over information passes to generative AI the moment its output goes unchecked, tilting the contest toward dilution by default. Correction takes deliberate design and validation to tip it back.](figures/fig_epistemic_offloading.png)
+:::
+
+## Work Packages
+
+Each work package below asks one question of one part of the loop: how does AI-mediated informationalism reshape it? 
+
+::: {.content-visible unless-format="docx"}
+```{=latex}
+\begin{longtable}{p{0.04\linewidth} p{0.22\linewidth} p{0.54\linewidth} p{0.13\linewidth}}
+\caption{Draft work packages.}\label{tbl:wp}\\
+\toprule
+\scriptsize\textbf{WP} & \scriptsize\textbf{Work package} & \scriptsize\textbf{Tasks \& Deliverables} & \scriptsize\textbf{Lead / co-lead} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\scriptsize
+WP1 & {\scriptsize The Loop Model --- framework} & {\scriptsize Loop framework, formalising the six-function throughput model and the informationalism contest; framework paper; policy briefs for EU and Australian officials.} & {} \\
+\addlinespace
+WP2 & {\scriptsize Contesting the Signal --- information environments} & {\scriptsize Fact-checking and platform-monitoring toolkit tracking generative AI's dilution of the information commons; disinformation dataset; paper on generative AI and the communication function.} & {} \\
+\addlinespace
+WP3 & {\scriptsize Shifting Realities --- attitudes \& behaviour} & {\scriptsize Survey experiment on AI-mediated informationalism and political trust; public-trust index measuring epistemic offloading; policy brief for electoral commissions; paper.} & {} \\
+\addlinespace
+WP4 & {\scriptsize Delegated Voice --- participation} & {\scriptsize AI-assisted deliberation pilot with a partner government body, testing correction against default dilution; participation-design toolkit; paper on civic preparedness.} & {} \\
+\addlinespace
+WP5 & {\scriptsize Automated Authority --- power \& surveillance} & {\scriptsize Monitor AI-enabled digital repression as closed, captured authority over information; early-warning briefing for human-rights and civil-society monitors; paper.} & {} \\
+\addlinespace
+WP6 & {\scriptsize Governing the Mediator --- platform political economy} & {\scriptsize Comparative analysis of platform-accountability and AI regulatory models, building on prior Horizon-funded work without duplicating it; policy recommendations for DFAT and the European Commission; paper.} & {} \\
+\addlinespace
+WP7 & {\scriptsize Institutionalising Correction --- governance} & {\scriptsize AI-literacy training for public servants to counter unchecked epistemic offloading; governance guidelines for universities; paper.} & {} \\
+\addlinespace
+WP8 & {\scriptsize Scaling the Analysis --- cross-country comparison} & {\scriptsize Cross-country comparative analysis of AI-mediated informationalism across the loop's six throughput functions; open-source toolkit; training workshops for partners; methods paper.} & {} \\
+\addlinespace
+WP9 & {\scriptsize Two-Region Synthesis} & {\scriptsize Joint policy report for DFAT and the European Commission comparing EU and Asia-Pacific responses to AI-mediated informationalism, evidencing the two-region design the call asks for; comparative synthesis paper.} & {} \\
+\addlinespace
+WP10 & {\scriptsize Outreach and Dissemination} & {\scriptsize Dissemination strategy; conference reports; panel discussions; policy-brief compendium; final report.} & {} \\
+\addlinespace
+WP11 & {\scriptsize Project Management, Coordination and Ethics} & {\scriptsize Consortium agreement, including onboarding the policy-making and civil-society partners the call requires; periodic reporting; ethics approvals; data management plan.} & {} \\
+\end{longtable}
+```
+:::
+
+::: {.content-visible when-format="docx"}
+Table 1: Draft work packages.
+
+| WP | Work package | Tasks & Deliverables | Lead / co-lead |
+ |:--|:-------------|:----------------------|:---------------|
+| WP1 | The Loop Model — framework | Loop framework, formalising the six-function throughput model and the informationalism contest; framework paper; policy briefs for EU and Australian officials. | |
+| WP2 | Contesting the Signal — information environments | Fact-checking and platform-monitoring toolkit tracking generative AI's dilution of the information commons; disinformation dataset; paper on generative AI and the communication function. | |
+| WP3 | Shifting Realities — attitudes & behaviour | Survey experiment on AI-mediated informationalism and political trust; public-trust index measuring epistemic offloading; policy brief for electoral commissions; paper. | |
+| WP4 | Delegated Voice — participation | AI-assisted deliberation pilot with a partner government body, testing correction against default dilution; participation-design toolkit; paper on civic preparedness. | |
+| WP5 | Automated Authority — power & surveillance | Monitor AI-enabled digital repression as closed, captured authority over information; early-warning briefing for human-rights and civil-society monitors; paper. | |
+| WP6 | Governing the Mediator — platform political economy | Comparative analysis of platform-accountability and AI regulatory models, building on prior Horizon-funded work without duplicating it; policy recommendations for DFAT and the European Commission; paper. | |
+| WP7 | Institutionalising Correction — governance | AI-literacy training for public servants to counter unchecked epistemic offloading; governance guidelines for universities; paper. | |
+| WP8 | Scaling the Analysis — cross-country comparison | Cross-country comparative analysis of AI-mediated informationalism across the loop's six throughput functions; open-source toolkit; training workshops for partners; methods paper. | |
+| WP9 | Two-Region Synthesis | Joint policy report for DFAT and the European Commission comparing EU and Asia-Pacific responses to AI-mediated informationalism, evidencing the two-region design the call asks for; comparative synthesis paper. | |
+| WP10 | Outreach and Dissemination | Dissemination strategy; conference reports; panel discussions; policy-brief compendium; final report. | |
+| WP11 | Project Management, Coordination and Ethics | Consortium agreement, including onboarding the policy-making and civil-society partners the call requires; periodic reporting; ethics approvals; data management plan. | |
+:::
+
+## References

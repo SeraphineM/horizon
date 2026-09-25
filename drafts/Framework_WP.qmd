@@ -1,0 +1,225 @@
+---
+title: "Democratic resilience in the age of AI (DEMRESAI)"
+author: "Concept Note"
+date: 2026-09-23
+format:
+  pdf:
+    documentclass: article
+    fontsize: 11pt
+    geometry: margin=1in
+    linestretch: 1.1
+    number-sections: true
+    colorlinks: true
+    toc: false
+    keep-tex: false
+    include-in-header:
+      text: |
+        \usepackage{etoolbox}
+        \AtBeginEnvironment{longtable}{\footnotesize}
+  docx:
+    reference-doc: word-reference-wide.docx
+    number-sections: true
+    toc: false
+bibliography: literature/references.bib
+csl: apa.csl
+---
+
+In brief
+
+- Democratic resilience is a political system's capacity to keep the citizen–information–institution loop closing under stress: citizens retain the autonomy to form and act on authentic judgments, the information they draw on retains its integrity, and the institutions that act on it remain accountable — and all three hold equitably, so resilience is not concentrated among those already best equipped to claim it [@easton1965; @andersonpro2026; @biddleetal2025].
+- Three components carry that capacity: informational autonomy (citizens), informational integrity (shared environment), informational accountability (institutions).
+- Three forms of AI disrupt democratic resilience, but the same three forms that erode autonomy, integrity, and accountability by default can strengthen them by design [@maerzetal2025policy].
+- Studying the EU alone would show only a narrow slice of this: mature regulation, largely consolidated democracy. Australia and the EU are where this project pilots interventions — two consolidated democracies with genuinely different regulatory starting points. Adding Southeast Asia and the Pacific's hybrid and backsliding cases is what lets the project see the real scope of the problem, not just its EU-shaped corner.
+- The goal of this project is to diagnose where AI is eroding each of these three components and deliver the measurement tools, governance guidance, and citizen-facing products that let the EU, Australia, and Southeast Asia/Pacific strengthen them by design instead.
+
+## The Lens: Three Components
+
+- Informational autonomy — can citizens form authentic judgments and act on them [@andersonpro2026]?
+- Informational integrity — does the shared evidence base stay plural, accurate, and trustworthy?
+- Informational accountability — can institutions using AI-mediated information be checked and corrected?
+- This democratic resilience framework builds on classical structural-functionalism [@almondpowell1966].
+
+Three forms of AI cut across all three components at once:
+
+- Generative AI — interpretation, drafting, summarising, and synthetic media generation (text, image, audio, video, including deepfakes) [@andersonpro2026; @Kreps2023].
+- Ranking and recommendation — exposure, amplification, reach [@andersonpro2026].
+- Agentic AI — autonomous, multi-step action and execution: personal agents acting for citizens, platform agents moderating or posting at scale, institutional agents executing rather than just advising on decisions [@georgeklaus2026; @margettsdorobantu2019].
+
+::: {.content-visible unless-format="docx"}
+```{=latex}
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{figures/fig_combined_loop.pdf}
+\caption{Easton's (1965) feedback loop, regrouped into our three components in focus, with the three forms of AI that cut across all of them.}
+\label{fig:loop}
+\end{figure}
+```
+:::
+
+::: {.content-visible when-format="docx"}
+![Easton's (1965) feedback loop, regrouped into our three components in focus, with the three forms of AI that cut across all of them.](figures/fig_combined_loop.png){width=7in}
+:::
+
+Each component, and each form of AI, has a negative and a positive reading. The EU and Australia are where interventions are piloted and tested — two consolidated democracies, one with the EU's regulatory apparatus and one without it. Southeast Asia and the Pacific's hybrid and backsliding cases extend that picture to contexts the other two cannot supply, so the project's diagnosis is not scoped to the EU alone — it speaks to democratic resilience more broadly. Every work package below therefore delivers two things: what is eroding resilience, and what citizens or decision-makers can do about it.
+
+### Informational Autonomy — Citizens
+
+- Authenticity — beliefs genuinely one's own, formed through reflection.
+- Agency — capacity to act effectively on those beliefs.
+- AI strengthens one while weakening the other: the autonomy paradox [@andersonpro2026].
+- Reflective inaction (authentic, cannot act) and conditioned agency (act, but on AI-shaped beliefs) are the two failure modes. Informational breakdown is neither — the citizen-level analogue of onset/breakdown resilience [@boeseetal2021].
+- Socialisation and recruitment [@almondpowell1966] set the baseline this all plays out on: how citizens acquire civic knowledge and enter political life in the first place. If that baseline is itself increasingly AI-mediated (civic content, recommender-curated education, AI tutoring), the paradox may begin earlier than participation does.
+- Unevenly distributed: digital literacy and access to validated tools shift the odds [@homeaffairs2024; @biddleetal2025]. Eroded autonomy erodes trust directly — participation feels futile, or citizens cannot tell whose judgment is doing the work.
+
+Figure 2 also shows how equity enters the framework concretely, directly answering the call's emphasis on inclusive digital transformation.
+
+::: {.content-visible unless-format="docx"}
+```{=latex}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.65\linewidth]{figures/fig1_autonomy_paradox.pdf}
+\caption{The autonomy paradox.}
+\label{fig:paradox}
+\end{figure}
+```
+:::
+
+::: {.content-visible when-format="docx"}
+![Figure 2: The autonomy paradox.](figures/fig1_autonomy_paradox.png){width=6.5in}
+:::
+
+### Informational Integrity — The Shared Environment
+
+- The media environment (Figure 1): the independent, interpretive channel that carries information between citizens and institutions — political communication in the classical sense [@almondpowell1966], not information the state produces about itself.
+- A second element belongs here too, though structurally it sits closer to Power: the evidentiary infrastructure democracies run on — official statistics, science, expert testimony, government reporting. Integrity and accountability overlap here: the information must be trustworthy, and because it is state-produced, whether it can be checked is an accountability question too (Section 1.3).
+- Ranking and recommendation systems reward synthetic, homogenised content at scale [@zuboff2019; @bossioetal2022], i.e., the same generative tools that draft a citizen's letter can fabricate a citation, a study, or a statistic that then enters the public record as authoritative [@summerfieldetal2025].
+- Unevenly distributed: fact-checking coverage and evidentiary infrastructure are weaker in some languages and regions than others. Eroded integrity erodes trust because the shared evidence base itself becomes unreliable.
+- Restorable: provenance and certification tooling is exactly the civic-tech opportunity the call names [@noveck2021; @oecd2025civic].
+
+### Informational Accountability — Institutions
+
+- Draws on a different literature than the loop's process functions: the separation of powers, plus the press as the informal fourth estate — legislature, executive, judiciary, and media watching the other three [@schultz1998]. Accountability, not conversion, is the point, which is why it anchors this component rather than the loop as a whole.
+- Dutton [-@dutton2009] extends this to a fifth estate: networked individuals holding power accountable through the internet, alongside the institutional press. Whether AI and platforms now constitute a further, sixth estate — a new site of accountability, or a new power that itself escapes the other estates' checks — is an open question this component investigates directly.
+- Concretely: platforms, public administration, security services, and the organisations that produce policy advice. The question is not whether an institution uses AI-mediated information, but whether anyone outside it can make it account for what it does with that information [@dsa2022; @bradford2020].
+- Unchecked, this is where AI most directly serves authoritarian control [@feldstein2021; @garbemaerz2025].
+- Unevenly distributed: well-resourced organised interests can demand accountability far more effectively than small civil-society groups. Eroded accountability erodes trust because institutions that cannot be checked cannot be believed.
+- Restorable: audit and transparency tooling, plus training that builds correction into institutions by design rather than after the fact, are what convert accountability from an ideal into a habit.
+
+The call's second Expected Outcome — strengthened citizen engagement, increased institutional trust [@ecworkprogramme2027] — is how democratic resilience is observed empirically. All three components feed into it, so protecting them together is how resilience is built, not a separate goal pursued alongside it.
+
+## From Framework to Work Packages
+
+Each WP pairs a risk diagnosis with a strengthening response and names a deliverable that answers directly to the call's own goals — new data/methods for decision-makers and civil society, or strengthened citizen engagement and trust. The EU and Australia anchor the project's two pilot sites — consolidated democracies with different regulatory starting points. Southeast Asia and the Pacific extend the diagnostic scope to the hybrid and backsliding cases neither pilot site can supply. Staffing rule: every lead also collaborates on one other WP.
+
+::: {.content-visible unless-format="docx"}
+```{=latex}
+\begin{longtable}{p{0.05\linewidth} p{0.16\linewidth} p{0.58\linewidth} p{0.14\linewidth}}
+\caption{Draft DEMRESAI work packages, ordered to follow Figure 1.}\label{tbl:wp}\\
+\toprule
+\scriptsize\textbf{WP} & \scriptsize\textbf{Name} & \scriptsize\textbf{Tasks \& Deliverables} & \scriptsize\textbf{Lead / co-lead} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\scriptsize
+WP1 & {\scriptsize Framework} & {\scriptsize Refine the three-component framework --- informational autonomy, integrity, accountability --- into a conceptual model that distinguishes where AI shields democratic resilience from where it must be reinvigorated; framework paper; policy briefs equipping EU and Australian decision-makers to tell the two apart.} & {\scriptsize Seraphine Maerz} \\
+\addlinespace
+\multicolumn{4}{l}{\scriptsize\textit{Loop, part 1: informational autonomy}} \\
+WP2 & {\scriptsize Citizen Trust} & {\scriptsize Survey experiment measuring how AI shifts the overall \emph{level} of citizens' political trust --- in parties, media, and institutions --- and testing whether AI-assisted civic tools can rebuild that level where it erodes, evidencing the call's institutional-trust outcome directly; longitudinal public-trust index; policy brief for electoral commissions.} & {\scriptsize Constanza Sanhueza Petrarca, Simon Jackman} \\
+\addlinespace
+WP3 & {\scriptsize Deliberative Democracy Pilot} & {\scriptsize AI-assisted citizen deliberation pilot, co-designed with the JRC Competence Centre and piloted with an Australian government body, testing whether structured AI assistance can strengthen inclusive participation and citizen engagement; participation toolkit; paper on civic preparedness.} & {\scriptsize Marta Kołczyńska, Adele Webb} \\
+\addlinespace
+WP4 & {\scriptsize Epistemic Calibration} & {\scriptsize LLM-assisted interviews at scale (following Wuttke's method for AI-moderated interviewing) asking a simple question: do citizens trust AI-generated information the right amount --- more when it is actually reliable, less when it isn't --- or is their trust systematically off? We also test whether AI-generated reflective prompts --- brief, automatically generated nudges that ask citizens to pause and check a claim before accepting or sharing it --- can help citizens correct that mismatch; large-N interview dataset; paper on the psychological microfoundations of Anderson \& Pro's (2026) autonomy paradox; policy brief on practical interventions to help citizens calibrate their trust.} & {\scriptsize Ed Hovy, Piers Howe} \\
+\addlinespace
+\multicolumn{4}{l}{\scriptsize\textit{Loop, part 2: informational integrity}} \\
+WP5 & {\scriptsize Disinformation Monitoring} & {\scriptsize Real-time fact-checking and platform-monitoring toolkit for newsrooms, regulators, and civil society, piloted in the EU and Australia and then extended to Southeast Asian and Pacific cases where disinformation risk is most acute, testing the toolkit against the sharper end of the problem; FAIR disinformation dataset; policy brief for regulators; paper.} & {\scriptsize Andrea Carson, Ed Hovy} \\
+\addlinespace
+WP6 & {\scriptsize Evidence Integrity} & {\scriptsize Cross-national index of media plurality and scientific/statistical evidentiary integrity, certified to a recognised EU and Australian fact-checking standard (candidates below) and extended to Southeast Asia/Pacific via regional IFCN-verified signatories; provenance and certification toolkit for newsrooms, platforms, and public institutions --- the civic-tech deliverable the call names; paper on AI and the evidentiary basis of democratic discourse.} & {\scriptsize See Candidate Partner Organisations, below} \\
+\addlinespace
+\multicolumn{4}{l}{\scriptsize\textit{Loop, part 3: informational accountability}} \\
+WP7 & {\scriptsize Repression Monitoring} & {\scriptsize Monitor AI-enabled digital repression and surveillance threatening civil society, benchmarked against EU and Australian baselines and extended to Southeast Asian and Pacific cases where the threat is most acute; early-warning briefings and protective-countermeasure guidance for human-rights and civil-society monitors; paper.} & {\scriptsize Steven Wilson, Carl Henrik Knutsen} \\
+\addlinespace
+WP8 & {\scriptsize AI Governance} & {\scriptsize Comparative analysis of AI regulatory and governance models --- the EU's Digital Services Act and Australia's emerging AI governance approach as two different pilot pathways --- tested against Southeast Asian and Pacific governance contexts to see which elements travel and which don't; building on prior Horizon-funded work without duplicating it, per the call's own condition; policy recommendations for the European Commission and DFAT; paper.} & {\scriptsize Pascal Koenig} \\
+\addlinespace
+WP9 & {\scriptsize AI Literacy} & {\scriptsize AI-literacy training and governance guidelines for public servants and universities, plus a citizen-facing AI-literacy programme and companion app (working name: the Resilience Companion) that helps citizens spot AI-generated content, prompts reflective judgment before sharing, and routes accountability complaints to the right body; civic-preparedness curriculum; paper.} & {\scriptsize See Candidate Partner Organisations, below} \\
+\addlinespace
+WP10 & {\scriptsize Policy-Advice Audit} & {\scriptsize Audit AI-mediated lobbying, proxy advisory, and evidence-laundering in legislative and regulatory records; verification guidance and a lightweight public-service fact-checking tool that strengthens institutional trust directly; paper.} & {\scriptsize Max Groemping, Erin O'Brien} \\
+\addlinespace
+\multicolumn{4}{l}{\scriptsize\textit{Scaling, synthesis, engagement, coordination}} \\
+WP11 & {\scriptsize Cross-Country Measurement} & {\scriptsize Build and validate survey and computational indicators for informational autonomy, integrity, and accountability that flag both erosion and improvement; FAIR instrument and dataset; apply across countries; computational analysis of generative AI outputs on political topics as one input; open-source, FAIR-compliant toolkit; training workshops for partners; methods paper.} & {\scriptsize Miklos Sebok, Ken Benoit, Seraphine Maerz} \\
+\addlinespace
+WP12 & {\scriptsize Three-Region Synthesis} & {\scriptsize Comparative synthesis testing the EU and Australia's pilot findings against Southeast Asia and the Pacific's hybrid and backsliding cases, identifying which interventions travel beyond consolidated democracies and which don't; joint policy report; comparative synthesis paper for the European Commission and DFAT.} & {\scriptsize Aurel Croissant, Max Groemping, Janjira Sombatpoonsiri} \\
+\addlinespace
+WP13 & {\scriptsize Public Engagement \& Impact} & {\scriptsize Direct citizen engagement events and panels enabling broader public debate, including the public launch and field-testing of the Resilience Companion; dissemination and impact strategy; policy-brief compendium; final report.} & {\scriptsize Ika Trijsburg, Kate Williams} \\
+\addlinespace
+WP14 & {\scriptsize Coordination \& Ethics} & {\scriptsize Consortium agreement, including onboarding the policy-making and civil-society partners the call requires; mid-term assessment by external democracy practitioners and policymakers; ethics approvals; FAIR data management plan.} & {\scriptsize Seraphine Maerz} \\
+\end{longtable}
+```
+:::
+
+::: {.content-visible when-format="docx"}
+Table 1: Draft DEMRESAI work packages, ordered to follow Figure 1.
+
+| WP | Name | Tasks & Deliverables | Lead / co-lead |
+ |:--|:-------------|:----------------------|:---------------|
+| WP1 | Framework | Refine the three-component framework — informational autonomy, integrity, accountability — into a conceptual model that distinguishes where AI shields democratic resilience from where it must be reinvigorated; framework paper; policy briefs equipping EU and Australian decision-makers to tell the two apart. | Seraphine Maerz |
+| *Loop, part 1: informational autonomy* | | | |
+| WP2 | Citizen Trust | Survey experiment measuring how AI shifts the overall *level* of citizens' political trust — in parties, media, and institutions — and testing whether AI-assisted civic tools can rebuild that level where it erodes, evidencing the call's institutional-trust outcome directly; longitudinal public-trust index; policy brief for electoral commissions. | Constanza Sanhueza Petrarca, Simon Jackman |
+| WP3 | Deliberative Democracy Pilot | AI-assisted citizen deliberation pilot, co-designed with the JRC Competence Centre and piloted with an Australian government body, testing whether structured AI assistance can strengthen inclusive participation and citizen engagement; participation toolkit; paper on civic preparedness. | Marta Kołczyńska, Adele Webb |
+| WP4 | Epistemic Calibration | LLM-assisted interviews at scale (following Wuttke's method for AI-moderated interviewing) asking a simple question: do citizens trust AI-generated information the right amount — more when it is actually reliable, less when it isn't — or is their trust systematically off? We also test whether AI-generated reflective prompts — brief, automatically generated nudges that ask citizens to pause and check a claim before accepting or sharing it — can help citizens correct that mismatch; large-N interview dataset; paper on the psychological microfoundations of Anderson & Pro's [-@andersonpro2026] autonomy paradox; policy brief on practical interventions to help citizens calibrate their trust. | Ed Hovy, Piers Howe |
+| *Loop, part 2: informational integrity* | | | |
+| WP5 | Disinformation Monitoring | Real-time fact-checking and platform-monitoring toolkit for newsrooms, regulators, and civil society, piloted in the EU and Australia and then extended to Southeast Asian and Pacific cases where disinformation risk is most acute, testing the toolkit against the sharper end of the problem; FAIR disinformation dataset; policy brief for regulators; paper. | Andrea Carson, Ed Hovy |
+| WP6 | Evidence Integrity | Cross-national index of media plurality and scientific/statistical evidentiary integrity, certified to a recognised EU and Australian fact-checking standard (candidates below) and extended to Southeast Asia/Pacific via regional IFCN-verified signatories; provenance and certification toolkit for newsrooms, platforms, and public institutions — the civic-tech deliverable the call names; paper on AI and the evidentiary basis of democratic discourse. | See Candidate Partner Organisations, below |
+| *Loop, part 3: informational accountability* | | | |
+| WP7 | Repression Monitoring | Monitor AI-enabled digital repression and surveillance threatening civil society, benchmarked against EU and Australian baselines and extended to Southeast Asian and Pacific cases where the threat is most acute; early-warning briefings and protective-countermeasure guidance for human-rights and civil-society monitors; paper. | Steven Wilson, Carl Henrik Knutsen |
+| WP8 | AI Governance | Comparative analysis of AI regulatory and governance models — the EU's Digital Services Act and Australia's emerging AI governance approach as two different pilot pathways — tested against Southeast Asian and Pacific governance contexts to see which elements travel and which don't; building on prior Horizon-funded work without duplicating it, per the call's own condition; policy recommendations for the European Commission and DFAT; paper. | Pascal Koenig |
+| WP9 | AI Literacy | AI-literacy training and governance guidelines for public servants and universities, plus a citizen-facing AI-literacy programme and companion app (working name: the Resilience Companion) that helps citizens spot AI-generated content, prompts reflective judgment before sharing, and routes accountability complaints to the right body; civic-preparedness curriculum; paper. | See Candidate Partner Organisations, below |
+| WP10 | Policy-Advice Audit | Audit AI-mediated lobbying, proxy advisory, and evidence-laundering in legislative and regulatory records; verification guidance and a lightweight public-service fact-checking tool that strengthens institutional trust directly; paper. | Max Groemping, Erin O'Brien |
+| *Scaling, synthesis, engagement, coordination* | | | |
+| WP11 | Cross-Country Measurement | Build and validate survey and computational indicators for informational autonomy, integrity, and accountability that flag both erosion and improvement; FAIR instrument and dataset; apply across countries; computational analysis of generative AI outputs on political topics as one input; open-source, FAIR-compliant toolkit; training workshops for partners; methods paper. | Miklos Sebok, Ken Benoit, Seraphine Maerz |
+| WP12 | Three-Region Synthesis | Comparative synthesis testing the EU and Australia's pilot findings against Southeast Asia and the Pacific's hybrid and backsliding cases, identifying which interventions travel beyond consolidated democracies and which don't; joint policy report; comparative synthesis paper for the European Commission and DFAT. | Aurel Croissant, Max Groemping, Janjira Sombatpoonsiri |
+| WP13 | Public Engagement & Impact | Direct citizen engagement events and panels enabling broader public debate, including the public launch and field-testing of the Resilience Companion; dissemination and impact strategy; policy-brief compendium; final report. | Ika Trijsburg, Kate Williams |
+| WP14 | Coordination & Ethics | Consortium agreement, including onboarding the policy-making and civil-society partners the call requires; mid-term assessment by external democracy practitioners and policymakers; ethics approvals; FAIR data management plan. | Seraphine Maerz |
+:::
+
+## Open Items
+
+- WP9 should be led by a civic-tech partner, covering both public-sector and citizen-facing AI literacy — not yet confirmed. Current secondary contacts (International IDEA, a Brussels practitioner) are communications roles, not tool-builders.
+- WP6 (Evidence Integrity) should be led by a relevant civil-society organization (see list below).
+- Approach Anderson (LSE) as advisory board / co-investigator.
+- Involvement of a policy-making body...?
+- Mid-term assessment (required for civic-tech proposals under this call) must be performed by external practitioners/policymakers. Candidates: JRC Competence Centre, DFAT, International IDEA, Alex Reid (Inter-Parliamentary Union). WP14 names this deliverable.
+- The Resilience Companion (WP9/WP13) is a new product commitment - it needs its own design/build resourcing plan beyond Tactical Tech's own capacity. The UniMelb computer scientists (Leckie, de Kock) are candidates to extend into this if the budget allows.
+
+
+## Candidate Partner Organisations
+
+Not yet contacted; listed here to track against WP fit and the call's eligibility requirements.
+
+**EU and Australian civil-society / policy organisations (in the mold of EFCSN)**
+
+- **European Digital Media Observatory (EDMO)**, Florence (EUI) — EU-funded hub coordinating fact-checkers and disinformation researchers across member states; possible WP6 co-lead alongside EFCSN.
+- **Democracy Reporting International (DRI)**, Berlin — works on AI and information integrity in democracy support, with real EU policy engagement; a candidate for the still-open policy-making-body eligibility gap.
+- **AlgorithmWatch**, Berlin — algorithmic accountability research and advocacy; fits WP8 (AI Governance) or WP10 (Policy-Advice Audit).
+- **Access Now**, Brussels office — digital rights and surveillance monitoring; fits WP7 (Repression Monitoring).
+- **European Federation of Journalists (EFJ)**, Brussels — journalists' professional body across Europe; fits the media-plurality side of WP6.
+- **Civil Liberties Union for Europe (Liberties)**, Berlin — cross-EU fundamental-rights network; could help satisfy the general civil-society eligibility requirement independent of any single WP.
+- **RMIT FactLab**, Melbourne — fact-checking research and verification training, the Australian complement to EDMO/EFCSN for WP6.
+- **Reset.Tech Australia**, Sydney — platform-accountability and AI-governance research, the Australian arm of the international Reset network; fits WP8 (AI Governance) or WP10 (Policy-Advice Audit), complementing AlgorithmWatch/DRI.
+- **Digital Rights Watch**, Melbourne — Australian digital-rights NGO campaigning on surveillance and government tech use; fits WP7 (Repression Monitoring), complementing Access Now.
+- **Media, Entertainment & Arts Alliance (MEAA)** — Australia's journalists' union; fits the media-plurality side of WP6, complementing EFJ.
+- **Human Rights Law Centre**, Melbourne — Australian fundamental-rights legal advocacy; could help satisfy the general civil-society eligibility requirement, complementing Liberties.
+
+**EU and Australian civic-tech / AI-literacy organisations (in the mold of Tactical Tech)**
+
+- **AlgorithmWatch**, Berlin — also runs public-education work alongside its accountability research; overlaps with the list above.
+- **European Digital Rights (EDRi)**, Brussels — network of digital-rights NGOs running public-awareness campaigns; a natural WP9 co-lead alongside Tactical Tech.
+- **Mozilla Foundation**, Brussels policy office — AI-literacy and internet-health programmes at scale; could extend the Resilience Companion's reach.
+- **Bits of Freedom**, Amsterdam — digital-rights NGO building citizen-facing toolkits, the Dutch analogue to Tactical Tech's Data Detox Kit.
+- **Access Now**, Brussels — runs a Digital Security Helpline and citizen-facing digital-safety trainings.
+- **Digital Rights Watch**, Melbourne — also runs public digital-literacy campaigns; the Australian complement to EDRi, and overlaps with the list above.
+- **Reset.Tech Australia**, Sydney — also publishes public-facing platform-literacy resources; overlaps with the list above.
+- **RMIT FactLab**, Melbourne — offers fact-checking and media-literacy training for the public; Australian complement to Mozilla's AI-literacy programmes.
+- **CHOICE**, Sydney — Australia's consumer-advocacy organisation, publishes citizen-facing digital-safety and AI-scam guides; a lighter-touch Australian analogue to Bits of Freedom's toolkits.
+
+## References

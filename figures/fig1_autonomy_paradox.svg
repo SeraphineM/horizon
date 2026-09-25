@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 630" font-family="Georgia, 'Times New Roman', serif">
+  <rect x="0" y="0" width="720" height="630" fill="white"/>
+
+  <text x="360" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#3d2566">The Autonomy Paradox</text>
+  <text x="360" y="47" text-anchor="middle" font-size="12" fill="#444">adapted from Anderson &amp; Pro (2026)</text>
+
+  <!-- axes -->
+  <line x1="170" y1="470" x2="170" y2="82" stroke="#333" stroke-width="1.6"/>
+  <polygon points="170,82 165,92 175,92" fill="#333"/>
+  <line x1="170" y1="470" x2="558" y2="470" stroke="#333" stroke-width="1.6"/>
+  <polygon points="558,470 548,465 548,475" fill="#333"/>
+
+  <!-- quadrant dividers -->
+  <line x1="364" y1="90" x2="364" y2="470" stroke="#999" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="170" y1="280" x2="558" y2="280" stroke="#999" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- axis end labels -->
+  <text x="170" y="486" text-anchor="middle" font-size="11">low</text>
+  <text x="558" y="486" text-anchor="middle" font-size="11">high</text>
+  <text x="155" y="474" text-anchor="end" font-size="11">low</text>
+  <text x="155" y="90" text-anchor="end" font-size="11">high</text>
+
+  <!-- axis titles -->
+  <text x="364" y="508" text-anchor="middle" font-size="13" font-weight="bold">Agency</text>
+  <text x="364" y="524" text-anchor="middle" font-size="11">capacity to act effectively on beliefs</text>
+
+  <text x="0" y="0" font-size="13" font-weight="bold" transform="translate(122,280) rotate(-90)" text-anchor="middle">Authenticity</text>
+  <text x="0" y="0" font-size="11" transform="translate(106,280) rotate(-90)" text-anchor="middle">beliefs formed through reflection</text>
+
+  <!-- quadrant labels -->
+  <text x="462" y="150" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#2e7d32">Autonomous Citizenship</text>
+  <text x="462" y="167" text-anchor="middle" font-size="10.5">reason freely, act effectively</text>
+
+  <text x="267" y="150" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#b8860b">Reflective Inaction</text>
+  <text x="267" y="167" text-anchor="middle" font-size="10.5">authentic views,</text>
+  <text x="267" y="181" text-anchor="middle" font-size="10.5">no effective means to act</text>
+
+  <text x="462" y="410" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#b8860b">Conditioned Agency</text>
+  <text x="462" y="427" text-anchor="middle" font-size="10.5">act often, on preferences</text>
+  <text x="462" y="441" text-anchor="middle" font-size="10.5">formed through AI interaction</text>
+
+  <text x="267" y="410" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#a52a2a">Informational Breakdown</text>
+  <text x="267" y="427" text-anchor="middle" font-size="10.5">neither self-formed</text>
+  <text x="267" y="441" text-anchor="middle" font-size="10.5">nor self-directed</text>
+
+  <!-- equity overlay: two illustrative citizen clusters -->
+  <g fill="#2e7d32" fill-opacity="0.55">
+    <circle cx="430" cy="118" r="4"/>
+    <circle cx="448" cy="132" r="4"/>
+    <circle cx="418" cy="140" r="4"/>
+    <circle cx="462" cy="112" r="4"/>
+    <circle cx="440" cy="105" r="4"/>
+    <circle cx="475" cy="128" r="4"/>
+    <circle cx="405" cy="122" r="4"/>
+  </g>
+  <g fill="#a52a2a" fill-opacity="0.55">
+    <circle cx="300" cy="345" r="4"/>
+    <circle cx="325" cy="365" r="4"/>
+    <circle cx="280" cy="360" r="4"/>
+    <circle cx="345" cy="330" r="4"/>
+    <circle cx="260" cy="335" r="4"/>
+    <circle cx="360" cy="350" r="4"/>
+    <circle cx="290" cy="320" r="4"/>
+  </g>
+
+  <!-- legend -->
+  <circle cx="220" cy="562" r="5" fill="#2e7d32" fill-opacity="0.6"/>
+  <text x="233" y="566" font-size="11.5">well-resourced, AI-literate citizens</text>
+  <circle cx="220" cy="583" r="5" fill="#a52a2a" fill-opacity="0.6"/>
+  <text x="233" y="587" font-size="11.5">under-resourced citizens — the equity gap</text>
+
+  <text x="360" y="614" text-anchor="middle" font-size="10" fill="#555">Adapted from Anderson, C.J. &amp; Pro, E. (2026). The Autonomy Paradox. Perspectives on Politics.</text>
+</svg>

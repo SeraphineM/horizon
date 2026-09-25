@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 470" font-family="Georgia, 'Times New Roman', serif">
+  <rect x="0" y="0" width="980" height="470" fill="white"/>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
+    </marker>
+    <marker id="arrowGrey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#999"/>
+    </marker>
+  </defs>
+
+  <text x="490" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#3d2566">Three Forms of AI in the Information Cycle</text>
+
+  <!-- component band -->
+  <rect x="10" y="172" width="960" height="116" rx="8" fill="#f7f5fb" stroke="#e2ddee" stroke-width="1"/>
+  <text x="120" y="186" text-anchor="middle" font-size="11" font-weight="bold" fill="#33509b">Informational Autonomy</text>
+  <text x="490" y="186" text-anchor="middle" font-size="11" font-weight="bold" fill="#7a4fb5">Informational Integrity</text>
+  <text x="852" y="186" text-anchor="middle" font-size="11" font-weight="bold" fill="#3d7a44">Informational Accountability</text>
+
+  <!-- feedback arc -->
+  <path d="M 700,164 V 62 H 120 V 190" fill="none" stroke="#999" stroke-width="1.4" stroke-dasharray="4,3" marker-end="url(#arrowGrey)"/>
+  <text x="485" y="56" text-anchor="middle" font-size="11.5" fill="#666">feedback — the loop that democratic resilience depends on closing</text>
+
+  <!-- boxes -->
+  <rect x="30" y="190" width="180" height="80" rx="10" fill="#e8ecfa" stroke="#33509b" stroke-width="1.3"/>
+  <text x="120" y="222" text-anchor="middle" font-size="14.5" font-weight="bold">Citizens</text>
+  <text x="120" y="240" text-anchor="middle" font-size="10.5">demands, beliefs,</text>
+  <text x="120" y="253" text-anchor="middle" font-size="10.5">participation</text>
+
+  <rect x="272" y="190" width="176" height="80" rx="10" fill="#f2ecfa" stroke="#7a4fb5" stroke-width="1.3"/>
+  <text x="360" y="222" text-anchor="middle" font-size="13.5" font-weight="bold">Beliefs &amp;</text>
+  <text x="360" y="238" text-anchor="middle" font-size="13.5" font-weight="bold">Judgments</text>
+  <text x="360" y="254" text-anchor="middle" font-size="10">authenticity</text>
+
+  <rect x="512" y="190" width="176" height="80" rx="10" fill="#f2ecfa" stroke="#7a4fb5" stroke-width="1.3"/>
+  <text x="600" y="222" text-anchor="middle" font-size="13.5" font-weight="bold">Voice &amp;</text>
+  <text x="600" y="238" text-anchor="middle" font-size="13.5" font-weight="bold">Participation</text>
+  <text x="600" y="254" text-anchor="middle" font-size="10">agency</text>
+
+  <rect x="754" y="190" width="196" height="80" rx="10" fill="#e7f3e9" stroke="#3d7a44" stroke-width="1.3"/>
+  <text x="852" y="218" text-anchor="middle" font-size="14.5" font-weight="bold">Institutions</text>
+  <text x="852" y="236" text-anchor="middle" font-size="10.5">policy advice,</text>
+  <text x="852" y="249" text-anchor="middle" font-size="10.5">administration, decisions</text>
+
+  <!-- arrow 1: citizens -> beliefs (generative AI) -->
+  <line x1="210" y1="230" x2="270" y2="230" stroke="#333" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text x="240" y="298" text-anchor="middle" font-size="12" font-weight="bold" fill="#7a4fb5">1. Generative AI</text>
+  <text x="240" y="313" text-anchor="middle" font-size="10">interpretation, drafting,</text>
+  <text x="240" y="326" text-anchor="middle" font-size="10">summarising</text>
+  <path d="M 240,290 Q 240,270 240,272" fill="none"/>
+  <line x1="240" y1="286" x2="240" y2="271" stroke="#7a4fb5" stroke-width="1.4" marker-end="url(#arrow)"/>
+
+  <!-- arrow 2: beliefs -> voice (plain, citizen's own agency) -->
+  <line x1="450" y1="230" x2="510" y2="230" stroke="#333" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <!-- arrow 3: voice -> institutions (ranking & recommendation) -->
+  <line x1="690" y1="230" x2="752" y2="230" stroke="#333" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text x="723" y="298" text-anchor="middle" font-size="12" font-weight="bold" fill="#b8860b">2. Ranking &amp;</text>
+  <text x="723" y="313" text-anchor="middle" font-size="12" font-weight="bold" fill="#b8860b">Recommendation</text>
+  <text x="723" y="328" text-anchor="middle" font-size="10">exposure, amplification, reach</text>
+  <line x1="723" y1="286" x2="723" y2="271" stroke="#b8860b" stroke-width="1.4" marker-end="url(#arrow)"/>
+
+  <!-- touchpoint 3: administrative & advisory AI, annotated above institutions -->
+  <path d="M 900,150 Q 920,170 900,190" fill="none" stroke="#666" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="852" y="140" text-anchor="middle" font-size="12" font-weight="bold" fill="#555">3. Administrative &amp; Advisory AI</text>
+  <text x="852" y="155" text-anchor="middle" font-size="10" fill="#555">policy advice, lobbying &amp; consultation,</text>
+  <text x="852" y="168" text-anchor="middle" font-size="10" fill="#555">automated decisions</text>
+
+  <text x="490" y="440" text-anchor="middle" font-size="11" fill="#444">Generative and ranking systems shape citizens' own information use;</text>
+  <text x="490" y="456" text-anchor="middle" font-size="11" fill="#444">administrative and advisory AI shapes how institutions act on what they receive.</text>
+</svg>
