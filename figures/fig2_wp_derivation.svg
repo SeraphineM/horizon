@@ -30,7 +30,7 @@
   <!-- connector arrows: each WP's home, drawn before Figure 1 so it appears to originate from its component -->
   <g stroke="#999" stroke-width="1.4" fill="none">
     <path d="M 370,-20 L 440,10" marker-end="url(#arrowWP)"/>
-    <path d="M 630,-20 L 630,0 L 945,0 L 945,289" marker-end="url(#arrowWP)"/>
+    <path d="M 630,-20 L 560,10" marker-end="url(#arrowWP)"/>
     <path d="M 230,205 L 5,205" marker-end="url(#arrowWP)"/>
     <path d="M 770,205 L 995,205" marker-end="url(#arrowWP)"/>
     <path d="M 230,335 L 230,285 L -65,285 L -65,335" marker-end="url(#arrowWP)"/>
@@ -61,7 +61,7 @@
     <text x="1200" y="355" text-anchor="middle" font-size="24">Evidence Integrity</text>
 
     <text x="-150" y="451" text-anchor="middle" font-weight="bold">WP6</text>
-    <text x="-150" y="485" text-anchor="middle" font-size="24">Repression Monitoring</text>
+    <text x="-150" y="485" text-anchor="middle" font-size="24">Executive Traceability</text>
 
     <text x="1150" y="451" text-anchor="middle" font-weight="bold">WP7</text>
     <text x="1150" y="485" text-anchor="middle" font-size="24">AI Governance</text>
