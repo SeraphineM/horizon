@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-420 -150 1840 1070" font-family="Georgia, 'Times New Roman', serif">
+  <rect x="-420" y="-150" width="1840" height="1070" fill="white"/>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
+    </marker>
+    <marker id="arrowGray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#999"/>
+    </marker>
+    <marker id="arrowWP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#999"/>
+    </marker>
+  </defs>
+
+  <!-- background layer: work packages as grey ellipses -->
+  <g fill="#e2e2e2" stroke="#aaaaaa" stroke-width="1.2">
+    <!-- information environment (integrity): WP2, WP3, WP4 across the top -->
+    <ellipse cx="150" cy="-58" rx="135" ry="40"/>
+    <ellipse cx="500" cy="-58" rx="135" ry="40"/>
+    <ellipse cx="850" cy="-58" rx="135" ry="40"/>
+    <!-- citizens (autonomy), left: WP5, WP6 -->
+    <ellipse cx="-140" cy="190" rx="140" ry="52"/>
+    <ellipse cx="-190" cy="470" rx="140" ry="52"/>
+    <!-- institutions (accountability), right: WP7, WP8 -->
+    <ellipse cx="1140" cy="190" rx="140" ry="52"/>
+    <ellipse cx="1190" cy="470" rx="140" ry="52"/>
+    <!-- whole-project WPs: WP1 left, WP10 right -->
+    <ellipse cx="30" cy="660" rx="128" ry="38"/>
+    <ellipse cx="970" cy="660" rx="128" ry="38"/>
+    <!-- cross-cutting WP9, centre bottom -->
+    <ellipse cx="500" cy="728" rx="170" ry="36"/>
+  </g>
+
+  <!-- connector arrows: each WP feeds into its home component -->
+  <g stroke="#999" stroke-width="1.4" fill="none">
+    <path d="M 230,180 L 150,-20" marker-start="url(#arrowWP)"/>
+    <path d="M 500,80 L 500,-20" marker-start="url(#arrowWP)"/>
+    <path d="M 770,180 L 850,-20" marker-start="url(#arrowWP)"/>
+    <path d="M 150,310 L 0,190" marker-start="url(#arrowWP)"/>
+    <path d="M 150,410 L -55,466" marker-start="url(#arrowWP)"/>
+    <path d="M 850,310 L 1000,190" marker-start="url(#arrowWP)"/>
+    <path d="M 850,410 L 1055,466" marker-start="url(#arrowWP)"/>
+    <path d="M 152,555 L 90,622" marker-start="url(#arrowWP)"/>
+    <path d="M 846,555 L 908,622" marker-start="url(#arrowWP)"/>
+    <path d="M 500,650 L 500,692" marker-start="url(#arrowWP)"/>
+  </g>
+
+  <g fill="#444" font-size="27">
+    <text x="150" y="-66" text-anchor="middle" font-weight="bold">WP2</text>
+    <text x="150" y="-36" text-anchor="middle" font-size="20">Content &amp; Cyberviolence</text>
+
+    <text x="500" y="-66" text-anchor="middle" font-weight="bold">WP3</text>
+    <text x="500" y="-36" text-anchor="middle" font-size="21">Tools Against Harms</text>
+
+    <text x="850" y="-66" text-anchor="middle" font-weight="bold">WP4</text>
+    <text x="850" y="-36" text-anchor="middle" font-size="20">Power &amp; Data Control</text>
+
+    <text x="-140" y="174" text-anchor="middle" font-weight="bold">WP5</text>
+    <text x="-140" y="207" text-anchor="middle" font-size="21">How Citizens Use AI</text>
+
+    <text x="-190" y="454" text-anchor="middle" font-weight="bold">WP6</text>
+    <text x="-190" y="487" text-anchor="middle" font-size="20">Awareness &amp; Literacy</text>
+
+    <text x="1140" y="174" text-anchor="middle" font-weight="bold">WP7</text>
+    <text x="1140" y="207" text-anchor="middle" font-size="21">Deliberation Pilots</text>
+
+    <text x="1190" y="454" text-anchor="middle" font-weight="bold">WP8</text>
+    <text x="1190" y="487" text-anchor="middle" font-size="21">Policy Frameworks</text>
+
+    <text x="30" y="652" text-anchor="middle" font-weight="bold">WP1</text>
+    <text x="30" y="682" text-anchor="middle" font-size="22">Framework</text>
+
+    <text x="970" y="652" text-anchor="middle" font-weight="bold">WP10</text>
+    <text x="970" y="682" text-anchor="middle" font-size="21">Resilience Radar</text>
+
+    <text x="500" y="724" text-anchor="middle" font-weight="bold" font-size="22">WP9  Academic Capacity</text>
+    <text x="500" y="746" text-anchor="middle" font-size="14">cross-cutting: higher education, industry, compute</text>
+  </g>
+
+  <!-- Figure 1 (alt), enlarged -->
+  <text x="500" y="25" text-anchor="middle" font-size="22" font-weight="bold" fill="#3d2566">How AI Transforms Democratic Resilience</text>
+
+  <path d="M 945,335 V 85 H 55 V 335" fill="none" stroke="#999" stroke-width="1.4" stroke-dasharray="4,3" marker-end="url(#arrowGray)"/>
+  <text x="500" y="62" text-anchor="middle" font-size="15" fill="#666">feedback --- the loop informational resilience of democracy depends on closing</text>
+
+  <path d="M 150,290 C 280,130 460,95 500,95 C 540,95 720,130 850,290"
+        fill="#7a4fb5" fill-opacity="0.08" stroke="#7a4fb5" stroke-width="3"/>
+  <text x="500" y="145" text-anchor="middle" font-size="19" font-weight="bold" fill="#7a4fb5">Informational Integrity</text>
+  <text x="500" y="168" text-anchor="middle" font-size="15" fill="#555">Communication (media)</text>
+  <text x="500" y="185" text-anchor="middle" font-size="13" fill="#777">the shared environment between autonomy and accountability</text>
+
+  <rect x="150" y="290" width="340" height="130" fill="#e8ecfa" stroke="#33509b" stroke-width="1.4"/>
+  <text x="320" y="318" text-anchor="middle" font-size="19" font-weight="bold" fill="#33509b">Informational Autonomy</text>
+  <text x="320" y="342" text-anchor="middle" font-size="15">Participation (elections)</text>
+  <text x="320" y="361" text-anchor="middle" font-size="15">Socialisation (civic education)</text>
+  <text x="320" y="380" text-anchor="middle" font-size="15">Aggregation (parties)</text>
+
+  <rect x="510" y="290" width="340" height="130" fill="#e7f3e9" stroke="#3d7a44" stroke-width="1.4"/>
+  <text x="680" y="318" text-anchor="middle" font-size="19" font-weight="bold" fill="#3d7a44">Informational Accountability</text>
+  <text x="680" y="342" text-anchor="middle" font-size="15">Policymaking (legislature)</text>
+  <text x="680" y="361" text-anchor="middle" font-size="15">Power (executive)</text>
+  <text x="680" y="380" text-anchor="middle" font-size="15">Adjudication (judiciary)</text>
+
+  <rect x="-30" y="320" width="170" height="70" rx="10" fill="#f2f2f2" stroke="#666" stroke-width="1.3"/>
+  <text x="55" y="350" text-anchor="middle" font-size="18" font-weight="bold">Input</text>
+  <text x="55" y="369" text-anchor="middle" font-size="14">demands, support</text>
+  <line x1="140" y1="355" x2="146" y2="355" stroke="#333" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <rect x="860" y="320" width="170" height="70" rx="10" fill="#f2f2f2" stroke="#666" stroke-width="1.3"/>
+  <text x="945" y="350" text-anchor="middle" font-size="18" font-weight="bold">Output</text>
+  <text x="945" y="369" text-anchor="middle" font-size="14">regulation, distribution</text>
+  <line x1="854" y1="355" x2="860" y2="355" stroke="#333" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <line x1="320" y1="535" x2="320" y2="422" stroke="#333" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrow)"/>
+  <line x1="500" y1="535" x2="500" y2="235" stroke="#333" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrow)"/>
+  <line x1="680" y1="535" x2="680" y2="422" stroke="#333" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrow)"/>
+
+  <rect x="240" y="535" width="520" height="115" rx="8" fill="#fafafa" stroke="#999" stroke-width="1"/>
+  <text x="500" y="565" text-anchor="middle" font-size="18" font-weight="bold" fill="#444">AI forms as disruption</text>
+  <text x="266" y="592" font-size="17"><tspan font-weight="bold" fill="#7a4fb5">1 Generative</tspan><tspan> — interpretation, drafting, synthetic media</tspan></text>
+  <text x="266" y="615" font-size="17"><tspan font-weight="bold" fill="#b8860b">2 Ranking &amp; Recommendation</tspan><tspan> — exposure, amplification</tspan></text>
+  <text x="266" y="638" font-size="17"><tspan font-weight="bold" fill="#555">3 Agentic</tspan><tspan> — autonomous action, executing decisions</tspan></text>
+
+  <!-- WP11: Project Management, spanning the whole project, at the very bottom -->
+  <line x1="500" y1="812" x2="500" y2="766" stroke="#888" stroke-width="1.4" stroke-dasharray="3,3" marker-end="url(#arrowWP)"/>
+  <rect x="190" y="812" width="620" height="68" rx="10" fill="#e2e2e2" stroke="#aaaaaa" stroke-width="1.4"/>
+  <text x="500" y="838" text-anchor="middle" font-size="19" font-weight="bold" fill="#444">WP11: Project Management, Synthesis &amp; Dissemination</text>
+  <text x="500" y="862" text-anchor="middle" font-size="13" fill="#555">coordinates and supports all WPs throughout the project</text>
+</svg>

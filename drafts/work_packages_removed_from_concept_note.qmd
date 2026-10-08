@@ -1,0 +1,278 @@
+# Work packages
+
+![Work packages](figures/fig2_wp_derivation.png){#fig-wp width=7in}
+
+Rules for WP development:
+
+1. Symmetry: every work package diagnoses both how AI disrupts its topic as a risk factor and how that same disruption can be redirected as a benefit for citizens and democracy (impact!).
+2. Outreach: every work package delivers a policy-relevant product built for actual use, typically a public-facing digital tool, dashboard, or toolkit, alongside its academic output.
+3. Equity: WP9 is dedicated to the cross-group equity the call highlights, but every work package's own risk/benefit split is read across social groups, not just in aggregate. Gender is a particular priority.
+4. Public engagement: every work package includes a clear public engagement component — a way it reaches and involves citizens directly, not just policymakers, practitioners, or academic audiences.
+
+The overall budget for the project sits in the €2-3.7m range. Budget estimates below assume average fully-loaded EU/Australian institutional rates per FTE-year: Lead €120,000, postdoc €75,000. WP1 runs for the first six months only; WP2–WP7 and WP9 run for two years starting once WP1 concludes; WP8 runs for 1.5 years, starting six months after WP2-WP7 and WP9; WP10 runs for three years, starting alongside WP1 and continuing six months beyond WP2–WP9's conclusion to complete dissemination and overall project management. 
+
+## WP1: Framework
+
+**Objectives:** To encompass AI's risks to democratic resilience and its potential to strengthen it in one shared framework, overcoming fragmented, ad hoc assessments.
+
+**Lead:** Maerz · **Co-lead(s):** Sanhueza Petrarca, Groemping, Croissant
+
+**Impact:** gives every other WP a common framework, vocabulary and a public-facing tool to score a country's exposure to AI-driven democratic erosion.
+
+**Tasks:**
+
+- **Synthesizing the literature** — *Guiding question:* Which concepts from political science and AI research does an encompassing framework need to reconcile? *Output(s):* a literature synthesis spanning both fields.
+- **Building a shared coding scheme** — *Guiding question:* How should "risk" and "benefit" be operationalised consistently across all other WPs? *Output(s):* a shared coding scheme used project-wide.
+- **Selecting comparative cases** — *Guiding question:* Which cases in the EU, Australia, and Southeast Asia/Pacific give the fullest range of AI's disruptive power? *Output(s):* the project's comparative case selection.
+- **Building the diagnostic tool** — *Guiding question:* How can the framework be made usable outside academia? *Output(s):* the framework paper, policy briefs, and the Resilience Diagnostic web tool.
+
+**Budget (preliminary estimates):**
+
+| Item | FTE | Estimated cost (€) |
+|---|---|---|
+| Lead (0.2 FTE, 6 months) | 0.2 | 12,000 |
+| Resilience Diagnostic web tool (design & hosting) | — | 10,000 |
+| Overhead (25%) | — | 5,500 |
+| **Total (estimated, incl. overhead)** |  | **€27,500** |
+
+## WP2: Autonomy Paradox
+
+**Objectives:** To uncover the psychological mechanisms — such as source-trust heuristics, cognitive load, and persuasion susceptibility — through which exposure to AI-generated political content reshapes citizens' judgment and sense of agency, and to test whether AI-based tools can restore genuine autonomy rather than merely surface-level trust.
+
+**Lead:** Sanhueza Petrarca · **Co-lead(s):** Kolczynska, Jackman
+
+**Civil-society/policy-making organization to be involved:**
+
+**Impact:** delivers comparative evidence on how AI-generated content affects trust and which countermeasures work, measured across social groups so electoral commissions, parliaments and civic educators get interventions that reach the citizens who need them most.
+
+**Tasks:**
+
+- **Measuring trust erosion** — *Guiding question:* How much does exposure to AI-generated political content affect trust in institutions and democracy? *Output(s):* cross-national and panel survey data; the AI-Political Trust Index.
+- **Testing what restores trust** — *Guiding question:* Which transparency interventions restore trust and discernment, and which backfire? *Output(s):* a survey experiment comparing AI transparency labelling designs.
+- **Translating into institutional practice** — *Guiding question:* What can electoral commissions and civic educators do with these findings? *Output(s):* a decision-oriented brief and a practitioner workshop.
+- **Tracking trust over time** — *Guiding question:* How does trust move as AI content and countermeasures evolve? *Output(s):* a public trust-tracker dashboard.
+
+**Budget (preliminary estimates):**
+
+| Item | FTE | Estimated cost (€) |
+|---|---|---|
+| Lead (0.2 FTE, 2 years) | 0.2 | 48,000 |
+| Postdoctoral researcher (1.0 FTE, 2 years) | 1.0 | 150,000 |
+| Survey fieldwork | — | 60,000 |
+| Trust-tracker dashboard | — | 8,000 |
+| Practitioner workshop | — | 6,000 |
+| Overhead (25%) | — | 68,000 |
+| **Total (estimated, incl. overhead)** |  | **€340,000** |
+
+## WP3: Deliberative Democracy Pilot
+
+**Objectives:** To determine whether a structured AI moderator can help citizen assemblies find genuine common ground, or whether it merely manufactures the appearance of consensus.
+
+**Lead:** Curato · **Co-lead(s):** Webb
+
+**Civil-society/policy-making organization to be involved:**
+
+**Impact:**
+
+**Tasks:**
+
+-
+
+**Budget (preliminary estimates):**
+
+| Item | FTE | Estimated cost (€) |
+|---|---|---|
+| Lead (0.2 FTE, 2 years) | 0.2 | 48,000 |
+| Postdoctoral researcher (1.0 FTE, 2 years) | 1.0 | 150,000 |
+| ... | ... | ... |
+| ... | ... | ... |
+| Overhead (25%) | — | *tbc* |
+| **Total (estimated)** |  | **€198,000** |
+
+
+## WP4: Disinformation Monitoring
+
+**Objectives:** To turn the same generative capability that floods the public sphere with AI-made disinformation into a real-time detection signal for the institutions meant to correct it.
+
+**Lead:** Carson · **Co-lead(s):** Hovy, de Kock, fact-checking civil-society organisation (which?)
+
+**Civil-society/policy-making organization to be involved:**
+
+**Impact:**
+
+**Tasks:**
+
+-
+
+**Budget (preliminary estimates):**
+
+| Item | FTE | Estimated cost (€) |
+|---|---|---|
+| Lead (0.2 FTE, 2 years) | 0.2 | 48,000 |
+| Postdoctoral researcher (1.0 FTE, 2 years) | 1.0 | 150,000 |
+| ... | ... | ... |
+| ... | ... | ... |
+| Overhead (25%) | — | *tbc* |
+| **Total (estimated)** |  | **€198,000** |
+
+## WP5: Evidence integrity in policy advice
+
+**Objectives:** To safeguard the integrity of evidence entering public decision-making through policy advisory systems in the age of AI.
+
+**Lead:** Groemping · **Co-lead(s):** O'Brien
+
+**Civil-society/policy-making organization to be involved (tbc):** Australian Parliamentary Library; Australian Professional Government Relations Association (APGRA); Society of European Affairs Professionals (SEAP); European Public Affairs Consultancies' Association (EPACA)
+
+**Impact:** gives policymakers, policy professionals and citizens a shared, checkable standard for assessing the provenance, verifiability and authenticity of evidence used in policy advice.
+
+**Tasks:**
+
+- **Advisory integrity** — *Guiding question:* What constitutes information integrity in policy advisory systems in the age of generative AI? *Output(s):* a conceptual framework and operational standard for advisory integrity, covering provenance, evidentiary verifiability, representational authenticity and accountability.
+- **Measuring advisory integrity** — *Guiding question:* How can advisory integrity be measured systematically at scale? *Output(s):* a validated LLM-assisted tool for identifying and tagging provenance, evidentiary claims, citations, unsupported claims and coordination patterns in large corpora of policy advice, such as parliamentary submissions and consultation responses.
+- **Professional standards** — *Guiding question:* What professional norms and institutional arrangements encourage integrity-preserving use of AI in policy advice? *Output(s):* comparative field-experimental evidence on the drivers of integrity in lobbying and policy advice; model professional guidelines for responsible AI-assisted advocacy.
+- **Making advisory integrity publicly checkable** — *Guiding question:* How can policymakers and citizens verify the integrity of a piece of policy advice? *Output(s):* a prototype certification toolkit and public verification interface that makes the provenance and evidentiary basis of policy advice transparent and auditable.
+
+**Budget (preliminary estimates):**
+
+| Item | FTE | Estimated cost (€) |
+|---|---|---|
+| Lead (0.2 FTE, 2 years) | 0.2 | 48,000 |
+| Postdoctoral researcher (1.0 FTE, 2 years) | 1.0 | 150,000 |
+| Certification toolkit (development) | — | 12,000 |
+| Public verification API (development & hosting) | — | 10,000 |
+| Overhead (25%) | — | 55,000 |
+| **Total (estimated, incl. overhead)** |  | **€275,000** |
+
+## WP6: Executive Traceability
+
+**Objectives:** To determine, through policy and text analysis of executive outputs and the information that preceded them, how traceably and transparently the executive turns circulating information into action, and how AI is reshaping that traceability.
+
+**Lead:** Sebok · **Co-lead(s):** Benoit, Maerz
+
+**Civil-society/policy-making organization to be involved:**
+
+**Impact:** gives researchers and oversight actors a method for detecting when executive action is accountable to its stated information basis versus when the chain from information to action is untraceable, a form of opacity existing indicators do not capture.
+
+**Tasks:**
+
+- **Identifying traceable information chains** — *Guiding question:* Can the information behind an executive output be recovered, and how often is there none at all? *Output(s):* case studies and a pipeline for tracing input–output pairs.
+- **Measuring justification and traceability** — *Guiding question:* Does the executive explain its decisions, or obscure them? *Output(s):* a validated justification/traceability classifier.
+- **Detecting AI's fingerprint** — *Guiding question:* Does AI involvement correlate with weaker justification? *Output(s):* a method for flagging AI-assisted executive action.
+- **Tracking responsiveness over time** — *Guiding question:* Is executive action becoming more or less traceable as AI use grows? *Output(s):* a longitudinal traceability measure.
+
+**Budget (preliminary estimates):**
+
+| Item | FTE | Estimated cost (€) |
+|---|---|---|
+| Lead (0.2 FTE, 2 years) | 0.2 | 48,000 |
+| Postdoctoral researcher (1.0 FTE, 2 years) | 1.0 | 150,000 |
+| LLM API/compute costs | — | 10,000 |
+| ... | ... | ... |
+| ... | ... | ... |
+| Overhead (25%) | — | *tbc* |
+| **Total (estimated)** |  | **€208,000** |
+
+## WP7: AI Governance
+
+**Objectives:** To determine whether existing AI governance regimes actually require the transparency, audit, and redress that informational accountability depends on, or whether they leave institutions free to evade scrutiny.
+
+**Lead:** Koenig · **Co-lead(s):** Pascal might be able to suggest someone from Europe who can also come to the workshop
+
+**Civil-society/policy-making organization to be involved:**
+
+**Impact:**
+
+**Tasks:**
+
+**Budget (preliminary estimates):**
+
+| Item | FTE | Estimated cost (€) |
+|---|---|---|
+| Lead (0.2 FTE, 2 years) | 0.2 | 48,000 |
+| Postdoctoral researcher (1.0 FTE, 2 years) | 1.0 | 150,000 |
+| ... | ... | ... |
+| ... | ... | ... |
+| Overhead (25%) | — | *tbc* |
+| **Total (estimated)** |  | **€206,000** |
+
+## WP8: Resilience Radar
+
+**Objectives:** To develop and validate expert-coded indicators of AI's effects on democratic resilience — spanning informational autonomy, integrity, and accountability — through inclusion in the V-Dem expert survey, and to combine these with the findings and indicators produced across WP2–WP7 into one shared, cross-national, longitudinal measurement panel.
+
+**Lead:** Wilson · **Co-lead(s):** Knutsen, Croissant
+
+**Civil-society/policy-making organization to be involved:**
+
+**Impact:** enables longitudinal and cross-national analyses with that panel, which will help identify where and when AI is undermining or strengthening democratic resilience early enough for policymakers and civil society to act.
+
+**Tasks:**
+
+-
+
+**Budget (preliminary estimates):**
+
+| Item | FTE | Estimated cost (€) |
+|---|---|---|
+| Lead (0.2 FTE, 1.5 years) | 0.2 | 36,000 |
+| Postdoctoral researcher (1.0 FTE, 1.5 years) | 1.0 | 112,500 |
+| ... | ... | ... |
+| ... | ... | ... |
+| Overhead (25%) | — | *tbc* |
+| **Total (estimated)** |  | **€148,500** |
+
+*You can add further budget items to the table above; update the total to match.*
+
+## WP9: Equitable AI Literacy
+
+**Objectives:** To identify which AI-literacy training formats actually close the gap in underserved communities' capacity to identify and contest AI-mediated content, rather than just reaching those already equipped to cope.
+
+**Lead:** Tactical Tech · **Co-lead(s):** Notley
+
+**Civil-society/policy-making organization to be involved:**
+
+**Impact:**
+
+**Tasks:**
+
+**Budget (preliminary estimates):**
+
+| Item | FTE | Estimated cost (€) |
+|---|---|---|
+| Lead (0.2 FTE, 2 years) | 0.2 | 48,000 |
+| Postdoctoral researcher (1.0 FTE, 2 years) | 1.0 | 150,000 |
+| ... | ... | ... |
+| ... | ... | ... |
+| Overhead (25%) | — | *tbc* |
+| **Total (estimated)** |  | **€198,000** |
+
+*You can add further budget items to the table above; update the total to match.*
+
+## WP10: Public Engagement & Dissemination
+
+**Objectives:** To ensure the diagnoses and tools produced across WP1–WP9 reach the citizens, policymakers, and civil-society actors who are actually exposed to AI's disruption of democratic resilience.
+
+**Lead:** Maerz · **Co-lead(s):** Sanhueza Petrarca, Project Manager (UoM)
+
+**Civil-society/policy-making organization to be involved:**
+
+**Impact:** closes the loop between diagnosis and use, so the project's findings change practice rather than sitting in academic outputs alone.
+
+**Tasks:**
+
+- **Building the public-facing tool** — *Guiding question:* How can nine WPs' worth of technical findings become one usable app for ordinary citizens? *Output(s):* the Resilience Companion app launch.
+- **Reaching policymakers and civil society** — *Guiding question:* What do policymakers and civil-society partners need from this project to actually act on it? *Output(s):* policymaker and civil-society workshops; the brief compendium.
+- **Closing out the project** — *Guiding question:* How is the full body of findings synthesized and reported to funders and partners? *Output(s):* the final report.
+
+**Budget (preliminary estimates):**
+
+| Item | FTE | Estimated cost (€) |
+|---|---|---|
+| Lead (0.2 FTE, 3 years) | 0.2 | 72,000 |
+| Project Manager (0.5 FTE, 3 years) | 0.5 | 105,000 |
+| Distribution & dissemination costs (3 years) | — | 60,000 |
+| Resilience Companion app (development) | — | 40,000 |
+| Overhead (25%) | — | 69,250 |
+| **Total (estimated, incl. overhead)** |  | **€346,250** |
+
+*You can add further budget items to the table above; update the total to match.*
+

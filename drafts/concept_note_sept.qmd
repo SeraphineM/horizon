@@ -1,0 +1,371 @@
+---
+title: "Democratic resilience in the age of AI (DEMRESAI)"
+subtitle: "Conceptual framework and the development of WPs for the Horizon Europe bid"
+author:
+  - Seraphine F. Maerz
+  - Max Groemping
+  - Constanza Sanhueza Petrarca
+date: 2026-09-25
+format:
+  pdf:
+    documentclass: article
+    fontsize: 11pt
+    geometry: margin=1in
+    linestretch: 1.1
+    number-sections: true
+    colorlinks: true
+    toc: false
+    keep-tex: false
+  docx:
+    reference-doc: templates/word-reference-wide.docx
+    number-sections: true
+    toc: false
+bibliography: literature/references.bib
+csl: templates/apa.csl
+---
+
+**Please note:** *This document is not yet the proposal itself. It serves to conceptualize the overarching theoretical framework on which we will develop the work packages, before we draft the actual proposal.^[Please do not further circulate this concept note.] The Horizon Europe two-stage application process requires a very specific structure for the first stage: the submission is blind (no names of researchers or institutions), strictly limited to 10 pages, and must strictly follow this structure: 1. Excellence — 1.1 Objectives and ambition, 1.2 Methodology; 2. Impact — 2.1 Project's pathways towards impact. This means the framework as well as the WPs and their objectives need to be woven into this structure, which is why we will focus on writing this up only once the framework and work packages are developed sufficiently.*
+
+**What we need from you now:**
+
+- *Please **critically assess** the theoretical framework for its clarity and pertinence and add any comments or suggestions you might have.*
+- *Please **check the role** we have assigned you (WP Lead, WP Co-lead) on the work package(s) in Section 2 and let us know if this works for you.*
+- *We also kindly ask you to **fill in the blank bullet points for your work package**:*
+  - *Impact (briefly)*
+  - *Tasks (draft only)*
+  - *Budget items for tasks and estimated costs (roughly)*
+  - *Which civil society organisation or policy-making institution we could still involve*
+
+  *Please note that there is only limited scope to add more researchers to our team, so suggestions should focus primarily on the substance of the tasks.*
+- *Nothing more is needed at this point. Thank you, your input is really appreciated!*
+
+*During the workshop, the consortium will split into work-package groups to develop each WP's own objectives, methodology, and pathways to impact in the detail the proposal requires.*
+
+# Theoretical framework: informational resilience of democracy
+
+The resilience of democracies worldwide is being tested like never before by mounting internal and external pressures, including inequality, declining trust, governance failures, climate change, and authoritarian aggression, all of which threaten core political actors, democratic institutions and practices. The rapid societal uptake of advanced artificial intelligence (AI) since the early 2020s has compounded some of these pressures while introducing new concerns about the risks of "runaway AI."
+
+Scholars have grappled with these twin developments by identifying the institutional and discursive conditions that underpin democratic resilience [@biddleetal2025; @boeseetal2021; @croissantlott2025; @dryzeketal2019; @ercanetal2025; @merkel2026], developing frameworks for understanding AI's effects on democracy [@altman2026; @garbemaerz2025; @notleyetal2026; @Schroeder2026; @summerfieldetal2025], and examining how AI might strengthen democratic governance and popular participation [@Margetts2024; @Noveck2026; @tessleretal2024; @konig2026]. Yet we still lack a systematic account of how AI affects democratic resilience and, consequently, of how policy can maximize its benefits while limiting its risks.
+
+To fill this gap, we propose a new model of informational resilience: it conceptualizes democratic resilience as a property of systems of information feedback, and identifies how AI can undermine or strengthen a system's capacity to sustain or restore its core democratic qualities under pressure. The overarching objective of this project is therefore to diagnose AI-driven erosion of democratic qualities and to develop, test and transfer the tools that counter it. We develop and pilot these tools in the EU and Australia — two consolidated democratic settings with contrasting regulatory environments — and extend the diagnosis to hybrid and backsliding cases in Southeast Asia and the Pacific, where AI's disruptive potential is least constrained. This design yields evidence and instruments that are robust across regulatory regimes rather than specific to one, and directly usable by EU institutions, national decision-makers and civil society organisations.
+
+We define democratic resilience as a political system's capacity to sustain or restore its core democratic qualities under pressure [@biddleetal2025; @boeseetal2021; @croissantlott2025; @luhrmann2021; @merkel2026], which depends on the system's capacity to gather and process information, make decisions, and respond adequately to citizens' needs. For a democracy to be informationally resilient, citizens must have autonomy to gather information, form opinions and act on their own judgments [@andersonpro2026; @dahl1989democracy], information circulating through the system must have integrity [@dahl1989democracy; @habermas1962strukturwandel], and institutions must remain accountable for how that information is turned into regulation and policy [@bovens2007analysing; @schedler1999conceptualizing]. All three are a pre-condition for resilience and must work equitably: when only the best-resourced can claim autonomy, integrity, or accountability, that inequality makes democratic backsliding more likely [@lührmannlindberg2019; @merkellührmann2021].
+
+AI disrupts this democratic information loop directly, reshaping how citizens form judgments and how democratic institutions are scrutinised [@Farrell2026; @jungherr2023; @Kreps2023; @wiewiuraetal2026]. Three forms of AI carry this disruption: (1) generative AI, which fabricates content; (2) ranking and recommendation systems, which shape what is seen; and (3) agentic AI, which increasingly executes rather than just informs decisions [@Schmid2026]. Each is dual use, in that the same capability that erodes a component by default can strengthen it by design [@Cavaliere2022; @koenigwenz2022; @Noveck2026; @Ovadya2023].
+
+![Easton's (1965) feedback loop, regrouped into the three informational components this project focuses on, with different forms of AI as disruption.](figures/fig_combined_loop.png){#fig-loop width=7in}
+
+@fig-loop illustrates how we conceptualize informational resilience of democracy through the lens of autonomy, integrity, and accountability, and how different forms of AI disrupt the loop.
+
+## Informational autonomy — citizens
+
+Informational autonomy refers to citizens' capacity to gather information, form opinions, and act based on their own judgments [@andersonpro2026; @dahl1989democracy]. Following @andersonpro2026 [p. 3], this informational autonomy has two dimensions: *authenticity*, the freedom to form beliefs, values and preferences that are genuinely one's own, arrived at through reflection rather than manipulation; and *agency*, the ability to act effectively on them in private and public life. Both dimensions are unequally distributed, varying systematically with education, gender, socioeconomic status, language, disability, age and digital access, so any investigation on informational autonomy must ask not only whether the overall capacity is strengthened or eroded, but for whom specifically.
+
+AI poses a risk to informational autonomy: the same generative AI systems that help citizens interpret information also help compose what they say, while ranking and recommendation systems shape what they encounter and whether their expressions are able to reach decision-makers, making it harder to tell where a citizen's reasoning ends and the system's contribution begins. This risk is distributional as well. Language models inherit the biases of their training data, over-representing dominant English-speaking, Western and male perspectives, and algorithmic selection may paradoxically exclude affected groups under a claim of "neutrality" — for example Pacific Islanders in deliberations on climate change [@Ohren2026, p. 7]. @andersonpro2026 call this tension the *autonomy paradox*: AI can make participation easier while weakening the independence of judgment, or support reflective judgment while constraining citizens' capacity to act on it.
+
+AI can also strengthen informational autonomy. It can reduce the cost of political learning, compliance and psychological burdens that hamper citizens' access to information and democratic institutions, and can act as a facilitator that summarizes arguments and surfaces paths to compromise within deliberation [@Croce2025, p. 54]. These burdens fall unevenly, and so do the gains from lifting them, potentially benefitting most those citizens least able to navigate complex administrative and informational systems. Evidence shows that conversational agents can widen who speaks as well as how many, improving perceived conversation quality and democratic reciprocity and raising participation among under-represented groups [@argyleetal2023], and AI-augmented representative deliberation has been proposed as a way to make participatory processes workable at scales previously out of reach [@Noveck2026; @Ovadya2023, pp. 163, 166] — but only where citizens retain control over the agenda, the information and the conclusions [@Ohren2026]. For informational resilience of democracy, then, the key question is not whether citizens use AI, but whether they remain the authors of the demands that enter the political system, and whether all citizens do so on equal terms.
+
+## Informational integrity — the shared environment
+
+Informational integrity is the extent to which the shared evidence base circulating through the democratic feedback loop is accurate, authentic, and pluralistic [@oecd2024factsnotfakes, p. 14]. Democracy requires citizens to understand how political institutions operate and to access evidence relevant to competing policy claims [@lewandowskyetal2023]. In the feedback-loop model, this requirement applies in both directions. On the input side, citizens need reliable information to form preferences, while institutions need information that accurately reflects social conditions and public demands. On the output side, citizens need reliable information about government decisions and performance to evaluate outcomes and revise their preferences. Informational integrity therefore depends on the conditions under which political information is produced, distributed, and amplified [@bennettlivingston2018; @freelonwells2020]. It is degraded when falsehoods, exclusion, or strategic manipulation distort this shared evidence base [@eckeretal2026; @humprechtetal2020].
+
+AI can weaken informational integrity on both sides of the democratic feedback loop. For citizens, generative models can produce persuasive propaganda at low cost [@goldsteinetal2024], while deepfakes increase uncertainty about genuine evidence and reduce trust even without direct deception [@Lundberg2025; @vaccarichadwick2020]. Generative AI may also amplify dominant narratives while marginalizing less represented voices, narrowing the evidence base entering the loop [@Kay2024]. For institutions, fluent but unverifiable outputs create "epistemic boundedness" in administrative judgment, the policymaking equivalent of the citizen autonomy paradox [@kimetal2026].
+
+Conversely, AI can also strengthen informational integrity, specifically by improving access to evidence and the processing of feedback. For example, evidence-based LLM dialogues can correct conspiracy beliefs or misinformation endorsement [@costelloetal2024], and synthesize diverse viewpoints into group statements that participants prefer to human-mediated alternatives, while better incorporating minority positions [@tessleretal2024]. Within government, human-in-the-loop LLM analysis can help officials process large volumes of policy documents and consultation material [@turobovcoyle2026], or systematically analyze citizen input at scales that are difficult to process manually [@bonorosselloetal2025].
+
+## Informational accountability — institutions
+
+Informational accountability concerns the information that circulates back from institutions once they act: institutions must make their decisions and the reasons behind them sufficiently visible and well explained for that information to reach those with the authority or capacity to check them, question, contest, and, where necessary, correct or sanction them. This runs on two components — an obligation to explain and justify decisions and actions, and the capacity of others to sanction or correct them when that justification fails [@bovens2007analysing; @Luhrmann2020; @schedler1999conceptualizing] — which the separation of legislative, executive, and judicial power, and the press and other actors that monitor them, are designed to guarantee [@schultz1998]. An institution that explains itself without ever facing consequences is not accountable, and neither is one that can be sanctioned but is never required to answer.
+
+AI can weaken informational accountability by making responsibility for public decisions harder to trace. As public administrations increasingly rely on AI-mediated information and decisions, it can become more difficult to determine who is responsible for a decision, on what information it was based, and how it can be challenged or corrected [@margettsdorobantu2019]. Hence, AI can widen power asymmetries between citizens and institutions [@Nasi2025], reshape institutional mechanisms through which accountability operates, such as elections [@jungherr2023; @summerfieldetal2025], and more broadly undermine democratic processes [@altman2026; @jackson2025realdangers; @Kreps2023], while also being deployed directly as a tool of authoritarian control [@feldstein2021; @garbemaerz2025]. Apart from that, the capacity to demand accountability is itself unevenly distributed. For instance, well-resourced organised interests can compel institutions to provide information, justify decisions, or correct wrongdoing far more effectively than small civil society groups. This makes the transparency and contestability of AI-mediated decisions particularly consequential for citizens who have the fewest resources with which to scrutinise them [@jungherr2023].
+
+The same capabilities that can weaken accountability can also be used to strengthen it. This requires designing AI as *democratic AI, meaning* systems developed around democratic requirements such as transparency, traceability, explanation, critical assessment, and opportunities for correction, rather than treating these as safeguards to be added after deployment [@busuioc2021; @Noveck2026]. Audit and transparency tools can make AI-mediated decisions traceable, while institutional arrangements can ensure that those decisions and their underlying reasons remain open for critical investigations [@beckmanetal2024; @Cavaliere2022; @wieringa2020]. AI can thus become not only an object of accountability but also an instrument for strengthening it, by reducing some of the informational and analytical costs of oversight and enabling citizens and civil-society organisations to evaluate and challenge public decisions [@Cavaliere2022; @koenigwenz2022]. Designed in this way, AI has the potential to narrow rather than widen existing asymmetries in the capacity to hold institutions to account.
+
+# Work packages
+
+![Work packages](figures/fig2_wp_derivation.png){#fig-wp width=7in}
+
+Rules for WP development:
+
+1. Symmetry: every work package diagnoses both how AI disrupts its topic as a risk factor and how that same disruption can be redirected as a benefit for citizens and democracy (impact!).
+2. Outreach: every work package delivers a policy-relevant product built for actual use, typically a public-facing digital tool, dashboard, or toolkit, alongside its academic output.
+3. Equity: WP9 is dedicated to the cross-group equity the call highlights, but every work package's own risk/benefit split is read across social groups, not just in aggregate. Gender is a particular priority.
+4. Public engagement: every work package includes a clear public engagement component — a way it reaches and involves citizens directly, not just policymakers, practitioners, or academic audiences.
+
+The overall budget for the project sits in the €2-3.7m range. Budget estimates below assume average fully-loaded EU/Australian institutional rates per FTE-year: Lead €120,000, postdoc €75,000. WP1 runs for the first six months only; WP2–WP7 and WP9 run for two years starting once WP1 concludes; WP8 runs for 1.5 years, starting six months after WP2-WP7 and WP9; WP10 runs for three years, starting alongside WP1 and continuing six months beyond WP2–WP9's conclusion to complete dissemination and overall project management. 
+
+## WP1: Framework
+
+**Objectives:** To encompass AI's risks to democratic resilience and its potential to strengthen it in one shared framework, overcoming fragmented, ad hoc assessments.
+
+**Lead:** Maerz · **Co-lead(s):** Sanhueza Petrarca, Groemping, Croissant
+
+**Impact:** gives every other WP a common framework, vocabulary and a public-facing tool to score a country's exposure to AI-driven democratic erosion.
+
+**Tasks:**
+
+- **Synthesizing the literature** — *Guiding question:* Which concepts from political science and AI research does an encompassing framework need to reconcile? *Output(s):* a literature synthesis spanning both fields.
+- **Building a shared coding scheme** — *Guiding question:* How should "risk" and "benefit" be operationalised consistently across all other WPs? *Output(s):* a shared coding scheme used project-wide.
+- **Selecting comparative cases** — *Guiding question:* Which cases in the EU, Australia, and Southeast Asia/Pacific give the fullest range of AI's disruptive power? *Output(s):* the project's comparative case selection.
+- **Building the diagnostic tool** — *Guiding question:* How can the framework be made usable outside academia? *Output(s):* the framework paper, policy briefs, and the Resilience Diagnostic web tool.
+
+**Budget (preliminary estimates):**
+
+| Item | FTE | Estimated cost (€) |
+|---|---|---|
+| Lead (0.2 FTE, 6 months) | 0.2 | 12,000 |
+| Resilience Diagnostic web tool (design & hosting) | — | 10,000 |
+| Overhead (25%) | — | 5,500 |
+| **Total (estimated, incl. overhead)** |  | **€27,500** |
+
+## WP2: Autonomy Paradox
+
+**Objectives:** To uncover the psychological mechanisms — such as source-trust heuristics, cognitive load, and persuasion susceptibility — through which exposure to AI-generated political content reshapes citizens' judgment and sense of agency, and to test whether AI-based tools can restore genuine autonomy rather than merely surface-level trust.
+
+**Lead:** Sanhueza Petrarca · **Co-lead(s):** Kolczynska, Jackman
+
+**Civil-society/policy-making organization to be involved:**
+
+**Impact:** delivers comparative evidence on how AI-generated content affects trust and which countermeasures work, measured across social groups so electoral commissions, parliaments and civic educators get interventions that reach the citizens who need them most.
+
+**Tasks:**
+
+- **Measuring trust erosion** — *Guiding question:* How much does exposure to AI-generated political content affect trust in institutions and democracy? *Output(s):* cross-national and panel survey data; the AI-Political Trust Index.
+- **Testing what restores trust** — *Guiding question:* Which transparency interventions restore trust and discernment, and which backfire? *Output(s):* a survey experiment comparing AI transparency labelling designs.
+- **Translating into institutional practice** — *Guiding question:* What can electoral commissions and civic educators do with these findings? *Output(s):* a decision-oriented brief and a practitioner workshop.
+- **Tracking trust over time** — *Guiding question:* How does trust move as AI content and countermeasures evolve? *Output(s):* a public trust-tracker dashboard.
+
+**Budget (preliminary estimates):**
+
+| Item | FTE | Estimated cost (€) |
+|---|---|---|
+| Lead (0.2 FTE, 2 years) | 0.2 | 48,000 |
+| Postdoctoral researcher (1.0 FTE, 2 years) | 1.0 | 150,000 |
+| Survey fieldwork | — | 60,000 |
+| Trust-tracker dashboard | — | 8,000 |
+| Practitioner workshop | — | 6,000 |
+| Overhead (25%) | — | 68,000 |
+| **Total (estimated, incl. overhead)** |  | **€340,000** |
+
+## WP3: Deliberative Democracy Pilot
+
+**Objectives:** To determine whether a structured AI moderator can help citizen assemblies find genuine common ground, or whether it merely manufactures the appearance of consensus.
+
+**Lead:** Curato · **Co-lead(s):** Webb
+
+**Civil-society/policy-making organization to be involved:**
+
+**Impact:**
+
+**Tasks:**
+
+-
+
+**Budget (preliminary estimates):**
+
+| Item | FTE | Estimated cost (€) |
+|---|---|---|
+| Lead (0.2 FTE, 2 years) | 0.2 | 48,000 |
+| Postdoctoral researcher (1.0 FTE, 2 years) | 1.0 | 150,000 |
+| ... | ... | ... |
+| ... | ... | ... |
+| Overhead (25%) | — | *tbc* |
+| **Total (estimated)** |  | **€198,000** |
+
+
+## WP4: Disinformation Monitoring
+
+**Objectives:** To turn the same generative capability that floods the public sphere with AI-made disinformation into a real-time detection signal for the institutions meant to correct it.
+
+**Lead:** Carson · **Co-lead(s):** Hovy, de Kock, fact-checking civil-society organisation (which?)
+
+**Civil-society/policy-making organization to be involved:**
+
+**Impact:**
+
+**Tasks:**
+
+-
+
+**Budget (preliminary estimates):**
+
+| Item | FTE | Estimated cost (€) |
+|---|---|---|
+| Lead (0.2 FTE, 2 years) | 0.2 | 48,000 |
+| Postdoctoral researcher (1.0 FTE, 2 years) | 1.0 | 150,000 |
+| ... | ... | ... |
+| ... | ... | ... |
+| Overhead (25%) | — | *tbc* |
+| **Total (estimated)** |  | **€198,000** |
+
+## WP5: Evidence integrity in policy advice
+
+**Objectives:** To safeguard the integrity of evidence entering public decision-making through policy advisory systems in the age of AI.
+
+**Lead:** Groemping · **Co-lead(s):** O'Brien
+
+**Civil-society/policy-making organization to be involved (tbc):** Australian Parliamentary Library; Australian Professional Government Relations Association (APGRA); Society of European Affairs Professionals (SEAP); European Public Affairs Consultancies' Association (EPACA)
+
+**Impact:** gives policymakers, policy professionals and citizens a shared, checkable standard for assessing the provenance, verifiability and authenticity of evidence used in policy advice.
+
+**Tasks:**
+
+- **Advisory integrity** — *Guiding question:* What constitutes information integrity in policy advisory systems in the age of generative AI? *Output(s):* a conceptual framework and operational standard for advisory integrity, covering provenance, evidentiary verifiability, representational authenticity and accountability.
+- **Measuring advisory integrity** — *Guiding question:* How can advisory integrity be measured systematically at scale? *Output(s):* a validated LLM-assisted tool for identifying and tagging provenance, evidentiary claims, citations, unsupported claims and coordination patterns in large corpora of policy advice, such as parliamentary submissions and consultation responses.
+- **Professional standards** — *Guiding question:* What professional norms and institutional arrangements encourage integrity-preserving use of AI in policy advice? *Output(s):* comparative field-experimental evidence on the drivers of integrity in lobbying and policy advice; model professional guidelines for responsible AI-assisted advocacy.
+- **Making advisory integrity publicly checkable** — *Guiding question:* How can policymakers and citizens verify the integrity of a piece of policy advice? *Output(s):* a prototype certification toolkit and public verification interface that makes the provenance and evidentiary basis of policy advice transparent and auditable.
+
+**Budget (preliminary estimates):**
+
+| Item | FTE | Estimated cost (€) |
+|---|---|---|
+| Lead (0.2 FTE, 2 years) | 0.2 | 48,000 |
+| Postdoctoral researcher (1.0 FTE, 2 years) | 1.0 | 150,000 |
+| Certification toolkit (development) | — | 12,000 |
+| Public verification API (development & hosting) | — | 10,000 |
+| Overhead (25%) | — | 55,000 |
+| **Total (estimated, incl. overhead)** |  | **€275,000** |
+
+## WP6: Executive Traceability
+
+**Objectives:** To determine, through policy and text analysis of executive outputs and the information that preceded them, how traceably and transparently the executive turns circulating information into action, and how AI is reshaping that traceability.
+
+**Lead:** Sebok · **Co-lead(s):** Benoit, Maerz
+
+**Civil-society/policy-making organization to be involved:**
+
+**Impact:** gives researchers and oversight actors a method for detecting when executive action is accountable to its stated information basis versus when the chain from information to action is untraceable, a form of opacity existing indicators do not capture.
+
+**Tasks:**
+
+- **Identifying traceable information chains** — *Guiding question:* Can the information behind an executive output be recovered, and how often is there none at all? *Output(s):* case studies and a pipeline for tracing input–output pairs.
+- **Measuring justification and traceability** — *Guiding question:* Does the executive explain its decisions, or obscure them? *Output(s):* a validated justification/traceability classifier.
+- **Detecting AI's fingerprint** — *Guiding question:* Does AI involvement correlate with weaker justification? *Output(s):* a method for flagging AI-assisted executive action.
+- **Tracking responsiveness over time** — *Guiding question:* Is executive action becoming more or less traceable as AI use grows? *Output(s):* a longitudinal traceability measure.
+
+**Budget (preliminary estimates):**
+
+| Item | FTE | Estimated cost (€) |
+|---|---|---|
+| Lead (0.2 FTE, 2 years) | 0.2 | 48,000 |
+| Postdoctoral researcher (1.0 FTE, 2 years) | 1.0 | 150,000 |
+| LLM API/compute costs | — | 10,000 |
+| ... | ... | ... |
+| ... | ... | ... |
+| Overhead (25%) | — | *tbc* |
+| **Total (estimated)** |  | **€208,000** |
+
+## WP7: AI Governance
+
+**Objectives:** To determine whether existing AI governance regimes actually require the transparency, audit, and redress that informational accountability depends on, or whether they leave institutions free to evade scrutiny.
+
+**Lead:** Koenig · **Co-lead(s):** Pascal might be able to suggest someone from Europe who can also come to the workshop
+
+**Civil-society/policy-making organization to be involved:**
+
+**Impact:**
+
+**Tasks:**
+
+**Budget (preliminary estimates):**
+
+| Item | FTE | Estimated cost (€) |
+|---|---|---|
+| Lead (0.2 FTE, 2 years) | 0.2 | 48,000 |
+| Postdoctoral researcher (1.0 FTE, 2 years) | 1.0 | 150,000 |
+| ... | ... | ... |
+| ... | ... | ... |
+| Overhead (25%) | — | *tbc* |
+| **Total (estimated)** |  | **€206,000** |
+
+## WP8: Resilience Radar
+
+**Objectives:** To develop and validate expert-coded indicators of AI's effects on democratic resilience — spanning informational autonomy, integrity, and accountability — through inclusion in the V-Dem expert survey, and to combine these with the findings and indicators produced across WP2–WP7 into one shared, cross-national, longitudinal measurement panel.
+
+**Lead:** Wilson · **Co-lead(s):** Knutsen, Croissant
+
+**Civil-society/policy-making organization to be involved:**
+
+**Impact:** enables longitudinal and cross-national analyses with that panel, which will help identify where and when AI is undermining or strengthening democratic resilience early enough for policymakers and civil society to act.
+
+**Tasks:**
+
+-
+
+**Budget (preliminary estimates):**
+
+| Item | FTE | Estimated cost (€) |
+|---|---|---|
+| Lead (0.2 FTE, 1.5 years) | 0.2 | 36,000 |
+| Postdoctoral researcher (1.0 FTE, 1.5 years) | 1.0 | 112,500 |
+| ... | ... | ... |
+| ... | ... | ... |
+| Overhead (25%) | — | *tbc* |
+| **Total (estimated)** |  | **€148,500** |
+
+*You can add further budget items to the table above; update the total to match.*
+
+## WP9: Equitable AI Literacy
+
+**Objectives:** To identify which AI-literacy training formats actually close the gap in underserved communities' capacity to identify and contest AI-mediated content, rather than just reaching those already equipped to cope.
+
+**Lead:** Tactical Tech · **Co-lead(s):** Notley
+
+**Civil-society/policy-making organization to be involved:**
+
+**Impact:**
+
+**Tasks:**
+
+**Budget (preliminary estimates):**
+
+| Item | FTE | Estimated cost (€) |
+|---|---|---|
+| Lead (0.2 FTE, 2 years) | 0.2 | 48,000 |
+| Postdoctoral researcher (1.0 FTE, 2 years) | 1.0 | 150,000 |
+| ... | ... | ... |
+| ... | ... | ... |
+| Overhead (25%) | — | *tbc* |
+| **Total (estimated)** |  | **€198,000** |
+
+*You can add further budget items to the table above; update the total to match.*
+
+## WP10: Public Engagement & Dissemination
+
+**Objectives:** To ensure the diagnoses and tools produced across WP1–WP9 reach the citizens, policymakers, and civil-society actors who are actually exposed to AI's disruption of democratic resilience.
+
+**Lead:** Maerz · **Co-lead(s):** Sanhueza Petrarca, Project Manager (UoM)
+
+**Civil-society/policy-making organization to be involved:**
+
+**Impact:** closes the loop between diagnosis and use, so the project's findings change practice rather than sitting in academic outputs alone.
+
+**Tasks:**
+
+- **Building the public-facing tool** — *Guiding question:* How can nine WPs' worth of technical findings become one usable app for ordinary citizens? *Output(s):* the Resilience Companion app launch.
+- **Reaching policymakers and civil society** — *Guiding question:* What do policymakers and civil-society partners need from this project to actually act on it? *Output(s):* policymaker and civil-society workshops; the brief compendium.
+- **Closing out the project** — *Guiding question:* How is the full body of findings synthesized and reported to funders and partners? *Output(s):* the final report.
+
+**Budget (preliminary estimates):**
+
+| Item | FTE | Estimated cost (€) |
+|---|---|---|
+| Lead (0.2 FTE, 3 years) | 0.2 | 72,000 |
+| Project Manager (0.5 FTE, 3 years) | 0.5 | 105,000 |
+| Distribution & dissemination costs (3 years) | — | 60,000 |
+| Resilience Companion app (development) | — | 40,000 |
+| Overhead (25%) | — | 69,250 |
+| **Total (estimated, incl. overhead)** |  | **€346,250** |
+
+*You can add further budget items to the table above; update the total to match.*
+
+# Midterm Review
+
+At the project's midpoint, an independent review will assess progress against the objectives and impact pathways set out above, jointly conducted by a democracy-practitioner organization and a civil-society organization, so the assessment reflects both those who would apply the project's outputs and those who hold AI-mediated institutions accountable to the public.
+
+- **Practitioner reviewer:** International IDEA (but they might come to the workshop, so might be involved as WP co-leads or task leads) or Inter-parliamentary Union (Alex Reid, cannot be at workshop but showed a lot of interest in the project)
+- **Civil-society reviewer:** AlgorithmWatch or who else?
+
+Both reviewers' commitment to this role should be secured, and named in the second-stage submission.
+
+## References

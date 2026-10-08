@@ -27,18 +27,18 @@
     <ellipse cx="1070" cy="660" rx="145" ry="54"/>
   </g>
 
-  <!-- connector arrows: each WP's home, drawn before Figure 1 so it appears to originate from its component -->
+  <!-- connector arrows: each WP feeds into its home component, drawn before Figure 1 so it appears to originate from the WP -->
   <g stroke="#999" stroke-width="1.4" fill="none">
-    <path d="M 370,-20 L 440,10" marker-end="url(#arrowWP)"/>
-    <path d="M 630,-20 L 560,10" marker-end="url(#arrowWP)"/>
-    <path d="M 230,205 L 5,205" marker-end="url(#arrowWP)"/>
-    <path d="M 770,205 L 995,205" marker-end="url(#arrowWP)"/>
-    <path d="M 230,335 L 230,285 L -65,285 L -65,335" marker-end="url(#arrowWP)"/>
-    <path d="M 770,335 L 770,285 L 1065,285 L 1065,335" marker-end="url(#arrowWP)"/>
-    <path d="M 230,465 L -5,465" marker-end="url(#arrowWP)"/>
-    <path d="M 770,465 L 1005,465" marker-end="url(#arrowWP)"/>
-    <path d="M 340,530 L 340,595 L -70,595 L -70,606" marker-end="url(#arrowWP)"/>
-    <path d="M 660,530 L 660,595 L 1070,595 L 1070,606" marker-end="url(#arrowWP)"/>
+    <path d="M 370,-20 L 440,10" marker-start="url(#arrowWP)"/>
+    <path d="M 630,-20 L 560,10" marker-start="url(#arrowWP)"/>
+    <path d="M 230,205 L 5,205" marker-start="url(#arrowWP)"/>
+    <path d="M 770,205 L 995,205" marker-start="url(#arrowWP)"/>
+    <path d="M 230,335 L 230,285 L -65,285 L -65,335" marker-start="url(#arrowWP)"/>
+    <path d="M 770,335 L 770,285 L 1065,285 L 1065,335" marker-start="url(#arrowWP)"/>
+    <path d="M 230,465 L -5,465" marker-start="url(#arrowWP)"/>
+    <path d="M 770,465 L 1005,465" marker-start="url(#arrowWP)"/>
+    <path d="M 500,575 L 500,595 L -70,595 L -70,606" marker-start="url(#arrowWP)"/>
+    <path d="M 500,575 L 500,595 L 1070,595 L 1070,606" marker-start="url(#arrowWP)"/>
   </g>
 
   <g fill="#444" font-size="30">
@@ -49,7 +49,7 @@
     <text x="630" y="-36" text-anchor="middle" font-size="24">Dissemination</text>
 
     <text x="-140" y="189" text-anchor="middle" font-weight="bold">WP2</text>
-    <text x="-140" y="225" text-anchor="middle" font-size="24">Citizen Trust</text>
+    <text x="-140" y="225" text-anchor="middle" font-size="24">Autonomy Paradox</text>
 
     <text x="1140" y="189" text-anchor="middle" font-weight="bold">WP3</text>
     <text x="1140" y="225" text-anchor="middle" font-size="24">Deliberative Democracy</text>

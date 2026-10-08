@@ -1,6 +1,6 @@
 ---
-title: "Democratic resilience in the age of AI"
-subtitle: "Concept Note"
+title: "Democratic resilience in the age of AI (DEMRESAI)"
+subtitle: "Conceptual framework and the development of WPs for the Horizon Europe bid"
 author:
   - Seraphine F. Maerz
   - Max Groemping
@@ -24,7 +24,22 @@ bibliography: literature/references.bib
 csl: templates/apa.csl
 ---
 
-**Please note:** *Do NOT circulate this concept note. This document is not yet the proposal itself. It serves to conceptualize the overarching theoretical framework on which we will develop the work packages, before we draft the actual proposal.*
+**Please note:** *This document is not yet the proposal itself. It serves to conceptualize the overarching theoretical framework on which we will develop the work packages, before we draft the actual proposal.^[Please do not further circulate this concept note.] The Horizon Europe two-stage application process requires a very specific structure for the first stage: the submission is blind (no names of researchers or institutions), strictly limited to 10 pages, and must strictly follow this structure: 1. Excellence — 1.1 Objectives and ambition, 1.2 Methodology; 2. Impact — 2.1 Project's pathways towards impact. This means the framework as well as the WPs and their objectives need to be woven into this structure, which is why we will focus on writing this up only once the framework and work packages are developed sufficiently.*
+
+**What we need from you now:**
+
+- *Please **critically assess** the theoretical framework for its clarity and pertinence and add any comments or suggestions you might have.*
+- *Please **check the role** we have assigned you (WP Lead, WP Co-lead) on the work package(s) in Section 2 and let us know if this works for you.*
+- *We also kindly ask you to **fill in the blank bullet points for your work package**:*
+  - *Impact (briefly)*
+  - *Tasks (draft only)*
+  - *Budget items for tasks and estimated costs (roughly)*
+  - *Which civil society organisation or policy-making institution we could still involve*
+
+  *Please note that there is only limited scope to add more researchers to our team, so suggestions should focus primarily on the substance of the tasks.*
+- *Nothing more is needed at this point. Thank you, your input is really appreciated!*
+
+*During the workshop, the consortium will split into work-package groups to develop each WP's own objectives, methodology, and pathways to impact in the detail the proposal requires.*
 
 # Theoretical framework: informational resilience of democracy
 
@@ -38,7 +53,7 @@ We define democratic resilience as a political system's capacity to sustain or r
 
 AI disrupts this democratic information loop directly, reshaping how citizens form judgments and how democratic institutions are scrutinised [@Farrell2026; @jungherr2023; @Kreps2023; @wiewiuraetal2026]. Three forms of AI carry this disruption: (1) generative AI, which fabricates content; (2) ranking and recommendation systems, which shape what is seen; and (3) agentic AI, which increasingly executes rather than just informs decisions [@Schmid2026]. Each is dual use, in that the same capability that erodes a component by default can strengthen it by design [@Cavaliere2022; @koenigwenz2022; @Noveck2026; @Ovadya2023].
 
-![Easton's (1965) feedback loop, regrouped into the three informational components this project focuses on, with different forms of AI as disruption.](figures/fig_combined_loop_alt.png){#fig-loop width=7in}
+![Easton's (1965) feedback loop, regrouped into the three informational components this project focuses on, with different forms of AI as disruption.](figures/fig_combined_loop.png){#fig-loop width=7in}
 
 @fig-loop illustrates how we conceptualize informational resilience of democracy through the lens of autonomy, integrity, and accountability, and how different forms of AI disrupt the loop.
 
@@ -66,8 +81,59 @@ AI can weaken informational accountability by making responsibility for public d
 
 The same capabilities that can weaken accountability can also be used to strengthen it. This requires designing AI as *democratic AI, meaning* systems developed around democratic requirements such as transparency, traceability, explanation, critical assessment, and opportunities for correction, rather than treating these as safeguards to be added after deployment [@busuioc2021; @Noveck2026]. Audit and transparency tools can make AI-mediated decisions traceable, while institutional arrangements can ensure that those decisions and their underlying reasons remain open for critical investigations [@beckmanetal2024; @Cavaliere2022; @wieringa2020]. AI can thus become not only an object of accountability but also an instrument for strengthening it, by reducing some of the informational and analytical costs of oversight and enabling citizens and civil-society organisations to evaluate and challenge public decisions [@Cavaliere2022; @koenigwenz2022]. Designed in this way, AI has the potential to narrow rather than widen existing asymmetries in the capacity to hold institutions to account.
 
-# Summary and research questions for the proposal
+# Work packages
 
-The framework opens up a set of research questions that could each become a work package. At its base is how AI-driven technologies, including deepfakes and automated content generation, can exacerbate or mitigate inequalities and discrimination in democratic life, and how this can be captured in one shared framework. On the information environment, we can ask how AI-generated and manipulated content shapes public opinion, political campaigns and media narratives, how AI-driven cyberviolence amplifies harm against women, children, minorities and LGBTIQ people, which groups are hit hardest and what prevents or mitigates it. We can also ask how inclusive, human-centric tools to detect and mitigate deepfakes, disinformation and cyberviolence can be built with industry partners, and how the concentration of data control and power asymmetries between AI providers, institutions and citizens shape epistemic rights and knowledge production. On citizens, the questions are how their own use of AI shapes their judgment, public trust and political participation, who comes to distrust democracy and why, and which media and AI literacy formats empower citizens, including young people and marginalised groups, to identify and critically assess disinformation and deepfakes. On institutions, we can ask whether AI-supported deliberation, tested in pilots, can include marginalised voices and feed into policy-making, and which policy frameworks, best practices and regulatory measures make AI responsible, trustworthy and transparent under the AI Act, including its use in policy and judicial decisions. Two cross-cutting questions remain: how higher-education institutions can build the capacity and industry collaboration for societally relevant, trustworthy AI research, and how the effects of AI on democracy and equality can be tracked with indicators across countries and over time.
+![Work packages](figures/fig2_wp_derivation.png){#fig-wp width=7in}
+
+*We are currently finalizing the personnel (leads, co-leads, and task leads) for each work package; only the objectives are outlined below.*
+
+## WP1: Framework
+
+**Objectives:** To encompass AI's risks to democratic resilience and its potential to strengthen it in one shared framework, overcoming fragmented, ad hoc assessments.
+
+## WP2: Autonomy Paradox
+
+**Objectives:** To uncover the psychological mechanisms — such as source-trust heuristics, cognitive load, and persuasion susceptibility — through which exposure to AI-generated political content reshapes citizens' judgment and sense of agency, and to test whether AI-based tools can restore genuine autonomy rather than merely surface-level trust.
+
+## WP3: Deliberative Democracy Pilot
+
+**Objectives:** To determine whether a structured AI moderator can help citizen assemblies find genuine common ground, or whether it merely manufactures the appearance of consensus.
+
+## WP4: Disinformation Monitoring
+
+**Objectives:** To turn the same generative capability that floods the public sphere with AI-made disinformation into a real-time detection signal for the institutions meant to correct it.
+
+## WP5: Evidence integrity in policy advice
+
+**Objectives:** To safeguard the integrity of evidence entering public decision-making through policy advisory systems in the age of AI.
+
+## WP6: Executive Traceability
+
+**Objectives:** To determine, through policy and text analysis of executive outputs and the information that preceded them, how traceably and transparently the executive turns circulating information into action, and how AI is reshaping that traceability.
+
+## WP7: AI Governance
+
+**Objectives:** To determine whether existing AI governance regimes actually require the transparency, audit, and redress that informational accountability depends on, or whether they leave institutions free to evade scrutiny.
+
+## WP8: Resilience Radar
+
+**Objectives:** To develop and validate expert-coded indicators of AI's effects on democratic resilience — spanning informational autonomy, integrity, and accountability — through inclusion in the V-Dem expert survey, and to combine these with the findings and indicators produced across WP2–WP7 into one shared, cross-national, longitudinal measurement panel.
+
+## WP9: Equitable AI Literacy
+
+**Objectives:** To identify which AI-literacy training formats actually close the gap in underserved communities' capacity to identify and contest AI-mediated content, rather than just reaching those already equipped to cope.
+
+## WP10: Public Engagement & Dissemination
+
+**Objectives:** To ensure the diagnoses and tools produced across WP1–WP9 reach the citizens, policymakers, and civil-society actors who are actually exposed to AI's disruption of democratic resilience.
+
+# Midterm Review
+
+At the project's midpoint, an independent review will assess progress against the objectives and impact pathways set out above, jointly conducted by a democracy-practitioner organization and a civil-society organization, so the assessment reflects both those who would apply the project's outputs and those who hold AI-mediated institutions accountable to the public.
+
+- **Practitioner reviewer:** International IDEA (but they might come to the workshop, so might be involved as WP co-leads or task leads) or Inter-parliamentary Union (Alex Reid, cannot be at workshop but showed a lot of interest in the project)
+- **Civil-society reviewer:** AlgorithmWatch or who else?
+
+Both reviewers' commitment to this role should be secured, and named in the second-stage submission.
 
 ## References
