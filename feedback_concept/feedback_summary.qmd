@@ -1,0 +1,152 @@
+---
+title: "Overview of feedback on the concept note and WP structure"
+---
+
+## Amabel Tan (UniMelb research office)
+
+- Sharpen the concept towards the 04 call language (harms of AI, equality, democratic and inclusive societies)
+- Keep two working versions, one per call
+- Language is already simpler and more direct
+- Be more direct about the value to Europe: what Australia lets Europe test that it cannot do alone
+- Decide Australia's strongest lead proposition, for example a different regulatory, enforcement and victim-centred environment
+- Australia as test bed: comparable democracy, fast-moving regulation, social media minimum age law, abhorrent violent material act (2019), deepfake sexual material act (2024), eSafety Commissioner, truth in political advertising law
+- Possible angle: the Australian language and information environment allows cleaner effects (do not overclaim)
+- Use the regional V-Dem node
+- Full proposal needs call alignment, state of the art and existing EU projects, existing assets, and a pathway to impact with measurable indicators
+- Risk: the package looks too Australian for work meant to inform European policy
+- Clarify what Australian leadership means in practice (coordination or leading most of the work)
+- Consider fewer, clearly differentiated Australian WPs, more European leadership on testing, validation and translation, and visible reciprocity
+- Check these points with partners or a Horizon specialist
+
+## Trish (UniMelb research office)
+
+- 04 is a lump sum call, funding is paid when WPs are completed
+- Split WPs into shorter periods so partners are paid earlier (EU slide deck attached)
+- Admin WP (in 12 month periods) must be separate from the dissemination WP
+- Admin led by UoM, dissemination by a European organisation
+- UoM costing tool does not fit the Horizon budget structure, being discussed internally
+- Still to decide who is a beneficiary and who is involved otherwise
+- Bounce Amabel's questions off the European collaborators
+
+## Cat (UniMelb research office, comments on the concept note)
+
+- Clarify what the EU AI strategy and AI Act say and whether they move in the same direction as Australia
+- The benefit must be for the EU, "directly usable by the EU" sounds like an add-on for Australia
+- Put the call keywords on the first page: AI-generated content and deepfakes, disinformation, cyberviolence, equality and discrimination, vulnerable populations, young people, participation and trust, policy and regulatory responses, interventions and best practices, detection and mitigation tools, ethical AI, recommendations for policymakers
+- Democracy and inequality section feels left over from the other call, add cyberviolence and deepfakes
+- The deepfake paragraph links well to the call
+- Add call words to the positive angle (regulated, policed, best practice guidelines)
+- Replace "we can ask how" with practical language (we will work with policymakers and industry partners)
+- Lay out the pathway to impact, not only questions
+- Explain "captured in one shared framework" in real-world terms and say what benefit it adds
+
+## Carl-Henrik Knutsen (comments on the concept note)
+
+- Separate internal threats (authoritarian aggression, government failures) from more distant ones (climate change)
+- Why only institutional and discursive conditions of resilience
+- Define democratic resilience early (Merkel, Bianchi, Cheeseman et al.)
+- Say more precisely what we lack beyond a systematic account (theory and empirical knowledge)
+- Separate showing erosion from showing that AI causes it
+- Is informational resilience all of democratic resilience or one component
+- Mark causal assumptions as separate from the concept
+- Add the ability to reduce pressure or prevent threats as a dimension of resilience
+- Spend more space on general mechanisms by which AI reduces informational autonomy before the distributional point
+- Make the link to voting and holding politicians accountable explicit
+- Credible alternative information sources for voters and vertical accountability should be mentioned
+- Hint earlier at how regulation and policy decide whether positive or negative effects dominate
+- Regulatory comparison can show which tools work in which context
+- Likes Figure 1 and suggests reusing it to show project structure and WPs
+- Framework is broad and consistent enough to cover the research questions
+
+## Aurel Croissant
+
+- Main concern is breadth and weak connections between the research agendas
+- Supports 04 as main option only if the focus shifts to unequal harms, cyberviolence, discrimination and interventions
+- The concept currently fits 09 more directly
+- Practical test for 04: can we assemble expertise on cyberviolence, technical interventions, affected groups and European implementation, if not a focused 09 may be stronger
+- Do not keep both calls open for long with the same WPs
+- Budget is 3.5 to 4 million per project for 04 and 2 to 3.7 million for 09, eleven WPs, several regions, tools, pilots and a monitoring tool is ambitious
+- 09 needs a public body with a policy role and a civil society organisation as beneficiaries or affiliated entities, an advisory board does not count, first stage is blind
+- Framework: do not present resilience as a property of information feedback, study how informational conditions enable or block democratic safeguards
+- Separate pressures, capacities, mechanisms and outcomes
+- Give political actors and their incentives more space
+- Address tensions between the dimensions (moderation versus minority speech, transparency versus exposure, summaries versus disagreement)
+- Figure categories should not be a strict division of functions
+- For 04 give harms and affected people their own place (sexualised deepfakes, sextortion, harassment) and cover young people, psychological consequences, support and remedy
+- WP table shows coverage more than an integrated design, ask what each WP receives and gives
+- WP1: agreed protocol by month 3 or 4, European partners involved in building it
+- WP2: split electoral manipulation and sexualised cyberviolence, partners with access to affected groups
+- WP3: specify tools, users and pathway, assess false positives and unequal error rates
+- WP4: scope too loose, power asymmetries also affect autonomy and accountability
+- WP5: too large, link to exposure, harm, self-censorship, participation and protective measures
+- WP6: success should include behaviour, practical protection and lasting effects
+- WP7: least clear link to 04, keep only if it addresses a problem found elsewhere, fits 09 better
+- WP8: move to implementation, complaints and remedies, clarify split with WP4
+- WP9: needs commitments on resources, datasets, training and industry collaboration
+- WP10: may promise too much, start indicators early, a country index alone will not show AI effects
+- WP11: clear responsibilities needed, dissemination does not show use
+- Most WPs run months 6 to 30, organise work around a few shared empirical settings
+- Political economy adds something but needs a precise role, suggested question is how power asymmetries shape harms and the ability to get protection and remedy
+- The Acemoglu paper needs a bridge to deepfakes and platform power
+- Ask what distinct task Andrew and Evgeny bring, task leads may fit better than several co-leads
+- Consortium has 11 Australian lead or co-lead roles, 7 at Melbourne, and call-specific roles are open
+- Fill functional gaps first (gendered and sexualised violence, affected communities and youth, technical implementation, European legal practice, hosts for interventions)
+- Recruit South and East partners for expertise, balance alone does not fill a gap
+- Look at budgets, staff time and decision rights, not only counts of roles
+- Clarify the attribution of International IDEA
+- Confirm Australia's association and funding arrangements, consider European coordination
+- Southeast Asia and Pacific extension needs a sharper rationale, favour European core cases, Australia as focused comparison, a few extra cases, local expertise
+- State testable expectations and separate AI-specific effects from existing problems
+- Radar: separate exposure, harms, protective capacities and responses
+- Unpack trust (democracy, government, media, AI)
+- Name a user for each main output and reuse previous EU projects, no generic deepfake detector
+- Suggested contact: Carlos Castillo (Pompeu Fabra, FINDHR project)
+- His roles: substantive WP1 task on resilience and comparative design, WP4 lead if refocused as "AI, political power and democratic safeguards", WP8 and WP10 contributions
+- Not well placed to lead data concentration, platform economics, epistemic rights or technical auditing
+- December workshop: settle the call, shared empirical problems, missing competences and resources
+- Add colleagues who have coordinated Horizon projects
+
+## Marta Kolczynska
+
+- Likes the structure, the three components organise the WPs well
+- Agrees to focus on 04 for now
+- WP5 also connects to O3 (awareness and media literacy)
+- WP5 could include public opinion on regulatory approaches (expectations side of trust)
+- WP5 and WP6 are similar, WP5 should diagnose and WP6 should design and test interventions
+- People at the University of Warsaw might fill gaps, asks if she can share the documents with them
+
+## Filippo Trevisan
+
+- Likes the framework
+- Cross-cutting theme: uneven digital and AI competences within and between countries (including disabled people)
+- Use the EU DigComp 3.0 framework in WP2, WP5 and WP6
+- Wesleyan Media Project method for tracking AI-generated campaign ads (2026 US midterms) is useful for WP2
+- Interested in how AI affects participation of under-represented groups and non-traditional evidence such as life experience
+- Colleagues in Austria and Portugal run a Horizon project on government responsiveness to marginalised citizens
+- His university has links to the Italian Ministry of Education research institute and its school network, useful for data collection and pilots (especially WP6)
+- Wants to work on WP2, also interested in WP5, WP6 and WP7
+- Suggests Ariadne Vromen (Glasgow) for listening governments and alternative policy evidence
+- Suggests Sónia Pedro Sebastião (Lisbon) for WP6 and Southern Europe
+- Seraphine's note: possible survey on sexualised cyberviolence among young people through Italian schools
+
+## Brendan Churchill
+
+- Interested in WP6 and would like to broaden it
+- Overarching question: how can AI and media literacy interventions reduce social inequalities in capacity to evaluate information, respond to AI harms and exercise democratic agency
+- Study how socioeconomic status, gender and age shape the capacity to identify, challenge and respond to AI harms
+- Co-design inclusive interventions with a partner and evaluate them
+- Offers to flesh it out or adapt it
+
+## Steven Wilson
+
+- Suggested partners for the yellow gaps: Kuras Institute (Kyiv), V-Dem Regional Center of the Caucasus (works on AI and disinformation surveys in Georgia), Iara Teixeira (Intersectionality Lab) for gender-based work
+- Likes applying the autonomy, integrity and accountability framework to AI
+- Add the dictator's information problem: AI lets dictators pollute the information sphere and improve their own information resilience, resilience varies by actor
+- Research question section needs the most work, too broad, narrow to specific things to test
+
+## Pascal Koenig and Kristina Weißmüller
+
+- Listed call quotes they want incorporated (misuse, malicious versus unintended effects, interdisciplinary expertise, best practices and regulation, AI in policy and judicial decisions)
+- Rewrote the informational accountability section (1.3) with new references
+- New text covers bias, opacity and algorithmic discrimination in government AI, limited transparency, AI in policy and judicial decisions, organisations using algorithms to sway opinion, best practices and regulation for ethical AI in government, AI literacy, and AI designed to strengthen accountability
+- Note: the pasted link is the 09 page, but the quotes come from the 04 text

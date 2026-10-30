@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>V-Dem launch poster</title>
+<style>
+  @page { size: 297mm 420mm; margin: 0; }
+  :root{
+    --mag:#aa004f; --mag-dark:#7d0039; --ink:#26222a; --grey:#6c6670; --soft:#f6f1f3; --line:#e4dbe0; --warm:#ece6ea;
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html,body{ width:297mm; height:420mm; }
+  body{
+    font-family:"Avenir Next","Helvetica Neue",Arial,sans-serif; color:var(--ink);
+    -webkit-print-color-adjust:exact; print-color-adjust:exact; background:#fff;
+  }
+  .page{ position:relative; width:297mm; height:420mm; overflow:hidden; display:flex; flex-direction:column; }
+  /* header */
+  .head{ padding:10mm 16mm 3mm 16mm; display:flex; justify-content:space-between; align-items:flex-start; }
+  .head img{ width:78mm; display:block; }
+  .tag{ text-align:right; font-size:4.6mm; letter-spacing:.35em; text-transform:uppercase; color:var(--mag); font-weight:700; line-height:1.5; padding-top:3mm; }
+  .tag span{ display:block; color:var(--grey); font-weight:500; letter-spacing:.2em; font-size:3.6mm; }
+  .hero{ padding:0 16mm 5mm 16mm; }
+  .hero h1{ font-size:14.5mm; line-height:1.04; font-weight:800; letter-spacing:-.01em; color:var(--ink); }
+  .hero h1 em{ font-style:normal; color:var(--mag); }
+  .hero p{ margin-top:2.5mm; font-size:4.8mm; line-height:1.35; color:var(--grey); max-width:230mm; }
+  /* event band */
+  .band{ background:var(--mag); color:#fff; padding:4mm 16mm; display:grid; grid-template-columns:1fr 1fr; gap:14mm; align-items:center; }
+  .band .k{ font-size:3.3mm; letter-spacing:.22em; text-transform:uppercase; opacity:.8; font-weight:600; }
+  .band .v{ font-size:5.6mm; font-weight:700; line-height:1.2; margin-top:1.2mm; }
+  .band .s{ font-size:3.7mm; opacity:.92; margin-top:1mm; font-weight:500; }
+  .band .after{ font-size:4.4mm; font-weight:500; opacity:.95; align-self:end; }
+  /* body */
+  .body{ padding:5.5mm 16mm 5mm 16mm; flex:1; display:flex; flex-direction:column; gap:4.2mm; }
+  h2{ font-size:3.8mm; letter-spacing:.28em; text-transform:uppercase; color:var(--mag); font-weight:800; margin-bottom:3mm; display:flex; align-items:center; gap:4mm; }
+  h2::after{ content:""; flex:1; height:.5mm; background:var(--line); }
+  .stats{ display:grid; grid-template-columns:repeat(4,1fr); gap:5mm; margin-bottom:3.5mm; }
+  .stat{ background:var(--soft); border-radius:3mm; padding:3mm 5mm 2.5mm 5mm; border-top:1.4mm solid var(--mag); }
+  .stat b{ display:block; font-size:9mm; line-height:1; font-weight:800; color:var(--ink); }
+  .stat span{ display:block; margin-top:1.5mm; font-size:3.6mm; line-height:1.3; color:var(--grey); font-weight:500; }
+  p.t{ font-size:4.1mm; line-height:1.42; color:var(--ink); }
+  p.t + p.t{ margin-top:3mm; }
+  .two{ display:grid; grid-template-columns:1fr 1fr; gap:10mm; }
+  .opps{ list-style:none; display:grid; gap:2.2mm; }
+  .opps li{ display:grid; grid-template-columns:7mm 1fr; gap:3mm; font-size:4mm; line-height:1.3; align-items:start; }
+  .opps li i{ font-style:normal; width:7mm; height:7mm; border-radius:50%; background:var(--mag); color:#fff; font-weight:700; font-size:4mm; display:flex; align-items:center; justify-content:center; }
+  .chips{ display:flex; flex-wrap:wrap; gap:2mm; margin-top:3mm; }
+  .chip{ font-size:3.3mm; padding:1.2mm 3mm; border-radius:6mm; background:var(--warm); color:var(--ink); font-weight:600; }
+  /* panel */
+  .panel{ display:grid; grid-template-columns:repeat(4,1fr); gap:5mm; }
+  .card{ border:.4mm solid var(--line); border-radius:3mm; padding:4mm 4.5mm 4mm 4.5mm; display:flex; flex-direction:column; background:#fff; }
+  .avatar{ overflow:hidden; width:18mm; height:18mm; border-radius:50%; background:linear-gradient(135deg,var(--mag),var(--mag-dark)); color:#fff; font-weight:800; font-size:5.4mm; display:flex; align-items:center; justify-content:center; margin-bottom:2.5mm; letter-spacing:.02em; }
+  .avatar img{ width:100%; height:100%; object-fit:cover; object-position:center 15%; display:block; }
+  .avatar.ph{ background:var(--warm); color:var(--grey); }
+  .avrow{ display:flex; align-items:center; gap:3mm; margin-bottom:2.5mm; }
+  .avrow .avatar{ margin-bottom:0; }
+  .card h3{ font-size:4.8mm; line-height:1.15; font-weight:800; }
+  .card .role{ font-size:3.4mm; line-height:1.25; color:var(--grey); margin-top:1mm; font-weight:600; min-height:13mm; }
+  .card .lbl{ font-size:2.8mm; letter-spacing:.18em; text-transform:uppercase; color:var(--mag); font-weight:800; margin-top:2mm; }
+  .card .txt{ font-size:3.6mm; line-height:1.3; margin-top:.8mm; }
+  .chair{ margin-top:3mm; font-size:3.7mm; color:var(--grey); }
+  .chair b{ color:var(--ink); }
+  .joint{ margin-top:4mm; background:var(--soft); border-left:1.4mm solid var(--mag); border-radius:2mm; padding:4mm 5mm; font-size:4mm; line-height:1.4; }
+  .joint b{ display:block; font-size:3mm; letter-spacing:.2em; text-transform:uppercase; color:var(--mag); margin-bottom:1mm; }
+  .chairs{ display:grid; grid-template-columns:1fr 1fr; gap:5mm; margin-top:3.5mm; }
+  .chcard{ display:flex; align-items:center; gap:4mm; background:var(--soft); border-radius:3mm; padding:3mm 4.5mm; border-left:1.4mm solid var(--mag); }
+  .chav{ width:16mm; height:16mm; margin:0; flex:none; }
+  .chcard h3{ font-size:4.8mm; font-weight:800; line-height:1.15; }
+  .lbl2{ font-size:2.8mm; letter-spacing:.2em; text-transform:uppercase; color:var(--mag); font-weight:800; margin-bottom:.8mm; }
+  .role2{ font-size:3.5mm; color:var(--grey); font-weight:600; margin-top:.8mm; line-height:1.25; }
+  .tbc{ background:#fff3b0; padding:0 1mm; border-radius:1mm; }
+  /* footer */
+  .foot{ margin-top:auto; background:var(--ink); color:#fff; padding:4mm 16mm; display:grid; grid-template-columns:1fr auto; gap:12mm; align-items:center; }
+  .foot .k{ font-size:3.3mm; letter-spacing:.24em; text-transform:uppercase; opacity:.75; font-weight:600; }
+  .foot .big{ font-size:7mm; font-weight:800; line-height:1.1; margin-top:1.5mm; }
+  .foot .big span{ color:#ff7fb0; }
+  .foot .link{ margin-top:2mm; font-size:4.2mm; font-weight:600; }
+  .qr{ width:23mm; height:23mm; border:.6mm dashed rgba(255,255,255,.6); border-radius:2mm; display:flex; align-items:center; justify-content:center; text-align:center; font-size:3.2mm; line-height:1.3; opacity:.9; padding:3mm; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="head">
+    <img src="vdem_logo_tagline.svg" alt="V-Dem, Varieties of Democracy, Global Standards, Local Knowledge">
+    <div class="tag">Public launch<span>All welcome</span></div>
+  </div>
+
+  <div class="hero">
+    <h1>Launching <em>V-Dem</em> in Australia and New Zealand</h1>
+    <p>Comparative democracy research for our region and the world: how democracies change, how they are measured, and what we can learn by comparing them.</p>
+  </div>
+
+  <div class="band">
+    <div><div class="k">When</div><div class="v">Wednesday 9 December 2026</div><div class="s">4:00 to 5:30 pm, followed by a reception</div></div>
+    <div><div class="k">Where</div><div class="v">Old Arts Hall</div><div class="s">Old Arts Building, University of Melbourne</div></div>
+    
+  </div>
+
+  <div class="body">
+
+    <section>
+      <h2>What V-Dem does</h2>
+      <div class="stats">
+        <div class="stat"><b>600+</b><span>indicators of democracy, updated every year</span></div>
+        <div class="stat"><b>4,200+</b><span>country experts rate the state of democracy</span></div>
+        <div class="stat"><b>1789</b><span>to today, for all countries of the world</span></div>
+        <div class="stat"><b>5</b><span>principles: electoral, liberal, participatory, deliberative, egalitarian</span></div>
+      </div>
+      <p class="t">Varieties of Democracy (V-Dem) goes beyond asking whether a country holds elections. Its data measure many dimensions of democracy and autocracy, so that countries can be compared with the same yardstick over more than two centuries. The V-Dem Institute at the University of Gothenburg leads the project, and the annual Democracy Report shows where democracy is advancing and where it is under pressure.</p>
+    </section>
+
+    <section class="two">
+      <div>
+        <h2>Why it matters here</h2>
+        <p class="t">V-Dem works through nine regional centres, from the Balkans and the Caucasus to Latin America and Southern Africa. This launch brings Australia and New Zealand into the network. Our region combines long-established democracies, very different political systems among our neighbours in the Asia-Pacific, and close ties with Europe, an ideal setting for comparative research.</p>
+        <div class="joint"><b>A joint centre</b>The V-Dem Regional Centre for Australia and New Zealand is run jointly by the Australian National University and the University of Melbourne.</div>
+        
+      </div>
+      <div>
+        <h2>What it opens up</h2>
+        <ul class="opps">
+          <li><i>1</i><span>Compare Australia and New Zealand with democracies and autocracies worldwide, using the same measures</span></li>
+          <li><i>2</i><span>A regional network of country experts and researchers</span></li>
+          <li><i>3</i><span>Data training, workshops and visiting scholars for students and early-career researchers</span></li>
+          <li><i>4</i><span>Joint research and funding, including EU and Australia projects on AI and democratic resilience</span></li>
+          <li><i>5</i><span>Evidence for policymakers, journalists and civil society</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>The panel</h2>
+      <div class="panel">
+        <div class="card">
+          <div class="avatar"><img src="photos/wilson.jpg" alt="Steven Wilson"></div>
+          <h3>Steven Wilson</h3>
+          <div class="role">Director, V-Dem Institute, University of Gothenburg</div>
+          <div class="lbl">Expertise</div>
+          <div class="txt">Comparative democratization, how the internet and social media shape authoritarian rule, cyber-security</div>
+          <div class="lbl">Regional focus</div>
+          <div class="txt">The post-Soviet world</div>
+        </div>
+        <div class="card">
+          <div class="avatar"><img src="photos/knutsen.jpg" alt="Carl-Henrik Knutsen"></div>
+          <h3>Carl-Henrik Knutsen</h3>
+          <div class="role">Professor of Political Science, University of Oslo, co-Principal Investigator of V-Dem</div>
+          <div class="lbl">Expertise</div>
+          <div class="txt">Democracy and autocracy, regime change, political and economic development</div>
+          <div class="lbl">Regional focus</div>
+          <div class="txt">Global and historical comparison</div>
+        </div>
+        <div class="card">
+          <div class="avatar"><img src="photos/carson.jpg" alt="Andrea Carson"></div>
+          <h3>Andrea Carson</h3>
+          <div class="role">Professor of Political Communication, University of Melbourne</div>
+          <div class="lbl">Expertise</div>
+          <div class="txt">Media and democracy, investigative journalism, misinformation and fact-checking, politics and gender</div>
+          <div class="lbl">Regional focus</div>
+          <div class="txt">Australia</div>
+        </div>
+        <div class="card">
+          <div class="avatar"><img src="photos/strating.jpg" alt="Bec Strating"></div>
+          <h3>Bec Strating</h3>
+          <div class="role">Professor of International Relations and Director, Centre for Global Security, La Trobe University</div>
+          <div class="lbl">Expertise</div>
+          <div class="txt">International relations, Australian foreign and defence policy, maritime security</div>
+          <div class="lbl">Regional focus</div>
+          <div class="txt">Indo-Pacific, Southeast Asia and Timor-Leste</div>
+        </div>
+      </div>
+      <div class="chairs">
+        <div class="chcard"><div class="avatar chav"><img src="photos/sanhueza.jpg" alt="Constanza Sanhueza Petrarca"></div><div><div class="lbl2">Chair</div><h3>Constanza Sanhueza Petrarca</h3><div class="role2">Senior Lecturer, Australian National University<br>Director, V-Dem Regional Centre Australia and New Zealand</div></div></div>
+        <div class="chcard"><div class="avatar chav"><img src="photos/maerz_new.png" alt="Seraphine Maerz" style="object-position:center 22%; transform:scale(1.15); transform-origin:50% 40%"></div><div><div class="lbl2">Chair</div><h3>Seraphine Maerz</h3><div class="role2">Senior Lecturer, University of Melbourne<br>Director, V-Dem Regional Centre Australia and New Zealand</div></div></div>
+      </div>
+    </section>
+
+  </div>
+
+  <div class="foot">
+    <div>
+      <div class="k">Register</div>
+      <div class="big">Reserve your place on <span>Eventbrite</span></div>
+      <div class="link"><span class="tbc" style="color:var(--ink)">Eventbrite link tbc</span></div>
+    </div>
+    <div class="qr">QR code to follow</div>
+  </div>
+
+</div>
+</body>
+</html>
